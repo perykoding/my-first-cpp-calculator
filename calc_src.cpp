@@ -3,7 +3,7 @@ int main()
 {
     std::string a, b, o;
     system("clear");
-    std::cout << "Input number from 0-63" << std::endl;
+    std::cout << "Input number from 0-50" << std::endl;
     std::cout << std::endl << "First number     : ";
     std::cin >> a;
     std::cout << "Operator (+,-,*) : ";
@@ -61,19 +61,6 @@ int main()
     if(a=="48" && o=="+" && b=="0"){std::cout << std::endl << "Answer           : 48" << std::endl;}
     if(a=="49" && o=="+" && b=="0"){std::cout << std::endl << "Answer           : 49" << std::endl;}
     if(a=="50" && o=="+" && b=="0"){std::cout << std::endl << "Answer           : 50" << std::endl;}
-    if(a=="51" && o=="+" && b=="0"){std::cout << std::endl << "Answer           : 51" << std::endl;}
-    if(a=="52" && o=="+" && b=="0"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="53" && o=="+" && b=="0"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="54" && o=="+" && b=="0"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="55" && o=="+" && b=="0"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="56" && o=="+" && b=="0"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="57" && o=="+" && b=="0"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="58" && o=="+" && b=="0"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="59" && o=="+" && b=="0"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="60" && o=="+" && b=="0"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="61" && o=="+" && b=="0"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="62" && o=="+" && b=="0"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="63" && o=="+" && b=="0"){std::cout << std::endl << "Answer           : 63" << std::endl;}
     if(a=="0" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 1" << std::endl;}
     if(a=="1" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 2" << std::endl;}
     if(a=="2" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 3" << std::endl;}
@@ -125,19 +112,6 @@ int main()
     if(a=="48" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 49" << std::endl;}
     if(a=="49" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 50" << std::endl;}
     if(a=="50" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 51" << std::endl;}
-    if(a=="51" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="52" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="53" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="54" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="55" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="56" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="57" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="58" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="59" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="60" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="61" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="62" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="63" && o=="+" && b=="1"){std::cout << std::endl << "Answer           : 64" << std::endl;}
     if(a=="0" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 2" << std::endl;}
     if(a=="1" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 3" << std::endl;}
     if(a=="2" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 4" << std::endl;}
@@ -189,19 +163,6 @@ int main()
     if(a=="48" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 50" << std::endl;}
     if(a=="49" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 51" << std::endl;}
     if(a=="50" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="51" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="52" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="53" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="54" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="55" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="56" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="57" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="58" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="59" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="60" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="61" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="62" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="63" && o=="+" && b=="2"){std::cout << std::endl << "Answer           : 65" << std::endl;}
     if(a=="0" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 3" << std::endl;}
     if(a=="1" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 4" << std::endl;}
     if(a=="2" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 5" << std::endl;}
@@ -253,19 +214,6 @@ int main()
     if(a=="48" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 51" << std::endl;}
     if(a=="49" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 52" << std::endl;}
     if(a=="50" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="51" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="52" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="53" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="54" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="55" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="56" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="57" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="58" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="59" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="60" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="61" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="62" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="63" && o=="+" && b=="3"){std::cout << std::endl << "Answer           : 66" << std::endl;}
     if(a=="0" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 4" << std::endl;}
     if(a=="1" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 5" << std::endl;}
     if(a=="2" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 6" << std::endl;}
@@ -317,19 +265,6 @@ int main()
     if(a=="48" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 52" << std::endl;}
     if(a=="49" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 53" << std::endl;}
     if(a=="50" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="51" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="52" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="53" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="54" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="55" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="56" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="57" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="58" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="59" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="60" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="61" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="62" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="63" && o=="+" && b=="4"){std::cout << std::endl << "Answer           : 67" << std::endl;}
     if(a=="0" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 5" << std::endl;}
     if(a=="1" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 6" << std::endl;}
     if(a=="2" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 7" << std::endl;}
@@ -381,19 +316,6 @@ int main()
     if(a=="48" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 53" << std::endl;}
     if(a=="49" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 54" << std::endl;}
     if(a=="50" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="51" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="52" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="53" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="54" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="55" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="56" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="57" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="58" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="59" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="60" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="61" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="62" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="63" && o=="+" && b=="5"){std::cout << std::endl << "Answer           : 68" << std::endl;}
     if(a=="0" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 6" << std::endl;}
     if(a=="1" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 7" << std::endl;}
     if(a=="2" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 8" << std::endl;}
@@ -445,19 +367,6 @@ int main()
     if(a=="48" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 54" << std::endl;}
     if(a=="49" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 55" << std::endl;}
     if(a=="50" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="51" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="52" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="53" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="54" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="55" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="56" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="57" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="58" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="59" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="60" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="61" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="62" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="63" && o=="+" && b=="6"){std::cout << std::endl << "Answer           : 69" << std::endl;}
     if(a=="0" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 7" << std::endl;}
     if(a=="1" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 8" << std::endl;}
     if(a=="2" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 9" << std::endl;}
@@ -509,19 +418,6 @@ int main()
     if(a=="48" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 55" << std::endl;}
     if(a=="49" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 56" << std::endl;}
     if(a=="50" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="51" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="52" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="53" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="54" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="55" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="56" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="57" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="58" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="59" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="60" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="61" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="62" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="63" && o=="+" && b=="7"){std::cout << std::endl << "Answer           : 70" << std::endl;}
     if(a=="0" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 8" << std::endl;}
     if(a=="1" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 9" << std::endl;}
     if(a=="2" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 10" << std::endl;}
@@ -573,19 +469,6 @@ int main()
     if(a=="48" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 56" << std::endl;}
     if(a=="49" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 57" << std::endl;}
     if(a=="50" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="51" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="52" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="53" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="54" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="55" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="56" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="57" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="58" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="59" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="60" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="61" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="62" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="63" && o=="+" && b=="8"){std::cout << std::endl << "Answer           : 71" << std::endl;}
     if(a=="0" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 9" << std::endl;}
     if(a=="1" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 10" << std::endl;}
     if(a=="2" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 11" << std::endl;}
@@ -637,19 +520,6 @@ int main()
     if(a=="48" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 57" << std::endl;}
     if(a=="49" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 58" << std::endl;}
     if(a=="50" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="51" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="52" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="53" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="54" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="55" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="56" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="57" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="58" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="59" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="60" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="61" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="62" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="63" && o=="+" && b=="9"){std::cout << std::endl << "Answer           : 72" << std::endl;}
     if(a=="0" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 10" << std::endl;}
     if(a=="1" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 11" << std::endl;}
     if(a=="2" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 12" << std::endl;}
@@ -701,19 +571,6 @@ int main()
     if(a=="48" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 58" << std::endl;}
     if(a=="49" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 59" << std::endl;}
     if(a=="50" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="51" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="52" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="53" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="54" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="55" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="56" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="57" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="58" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="59" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="60" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="61" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="62" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="63" && o=="+" && b=="10"){std::cout << std::endl << "Answer           : 73" << std::endl;}
     if(a=="0" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 11" << std::endl;}
     if(a=="1" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 12" << std::endl;}
     if(a=="2" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 13" << std::endl;}
@@ -765,19 +622,6 @@ int main()
     if(a=="48" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 59" << std::endl;}
     if(a=="49" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 60" << std::endl;}
     if(a=="50" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="51" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="52" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="53" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="54" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="55" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="56" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="57" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="58" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="59" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="60" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="61" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="62" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="63" && o=="+" && b=="11"){std::cout << std::endl << "Answer           : 74" << std::endl;}
     if(a=="0" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 12" << std::endl;}
     if(a=="1" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 13" << std::endl;}
     if(a=="2" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 14" << std::endl;}
@@ -829,19 +673,6 @@ int main()
     if(a=="48" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 60" << std::endl;}
     if(a=="49" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 61" << std::endl;}
     if(a=="50" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="51" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="52" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="53" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="54" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="55" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="56" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="57" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="58" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="59" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="60" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="61" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="62" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="63" && o=="+" && b=="12"){std::cout << std::endl << "Answer           : 75" << std::endl;}
     if(a=="0" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 13" << std::endl;}
     if(a=="1" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 14" << std::endl;}
     if(a=="2" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 15" << std::endl;}
@@ -893,19 +724,6 @@ int main()
     if(a=="48" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 61" << std::endl;}
     if(a=="49" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 62" << std::endl;}
     if(a=="50" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="51" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="52" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="53" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="54" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="55" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="56" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="57" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="58" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="59" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="60" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="61" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="62" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="63" && o=="+" && b=="13"){std::cout << std::endl << "Answer           : 76" << std::endl;}
     if(a=="0" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 14" << std::endl;}
     if(a=="1" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 15" << std::endl;}
     if(a=="2" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 16" << std::endl;}
@@ -957,19 +775,6 @@ int main()
     if(a=="48" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 62" << std::endl;}
     if(a=="49" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 63" << std::endl;}
     if(a=="50" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="51" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="52" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="53" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="54" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="55" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="56" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="57" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="58" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="59" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="60" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="61" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="62" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="63" && o=="+" && b=="14"){std::cout << std::endl << "Answer           : 77" << std::endl;}
     if(a=="0" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 15" << std::endl;}
     if(a=="1" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 16" << std::endl;}
     if(a=="2" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 17" << std::endl;}
@@ -1021,19 +826,6 @@ int main()
     if(a=="48" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 63" << std::endl;}
     if(a=="49" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 64" << std::endl;}
     if(a=="50" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="51" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="52" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="53" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="54" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="55" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="56" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="57" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="58" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="59" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="60" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="61" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="62" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="63" && o=="+" && b=="15"){std::cout << std::endl << "Answer           : 78" << std::endl;}
     if(a=="0" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 16" << std::endl;}
     if(a=="1" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 17" << std::endl;}
     if(a=="2" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 18" << std::endl;}
@@ -1085,19 +877,6 @@ int main()
     if(a=="48" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 64" << std::endl;}
     if(a=="49" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 65" << std::endl;}
     if(a=="50" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="51" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="52" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="53" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="54" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="55" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="56" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="57" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="58" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="59" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="60" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="61" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="62" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="63" && o=="+" && b=="16"){std::cout << std::endl << "Answer           : 79" << std::endl;}
     if(a=="0" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 17" << std::endl;}
     if(a=="1" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 18" << std::endl;}
     if(a=="2" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 19" << std::endl;}
@@ -1149,19 +928,6 @@ int main()
     if(a=="48" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 65" << std::endl;}
     if(a=="49" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 66" << std::endl;}
     if(a=="50" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="51" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="52" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="53" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="54" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="55" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="56" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="57" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="58" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="59" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="60" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="61" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="62" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="63" && o=="+" && b=="17"){std::cout << std::endl << "Answer           : 80" << std::endl;}
     if(a=="0" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 18" << std::endl;}
     if(a=="1" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 19" << std::endl;}
     if(a=="2" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 20" << std::endl;}
@@ -1213,19 +979,6 @@ int main()
     if(a=="48" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 66" << std::endl;}
     if(a=="49" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 67" << std::endl;}
     if(a=="50" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="51" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="52" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="53" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="54" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="55" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="56" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="57" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="58" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="59" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="60" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="61" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="62" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="63" && o=="+" && b=="18"){std::cout << std::endl << "Answer           : 81" << std::endl;}
     if(a=="0" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 19" << std::endl;}
     if(a=="1" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 20" << std::endl;}
     if(a=="2" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 21" << std::endl;}
@@ -1277,19 +1030,6 @@ int main()
     if(a=="48" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 67" << std::endl;}
     if(a=="49" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 68" << std::endl;}
     if(a=="50" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="51" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="52" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="53" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="54" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="55" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="56" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="57" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="58" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="59" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="60" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="61" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="62" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="63" && o=="+" && b=="19"){std::cout << std::endl << "Answer           : 82" << std::endl;}
     if(a=="0" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 20" << std::endl;}
     if(a=="1" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 21" << std::endl;}
     if(a=="2" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 22" << std::endl;}
@@ -1341,19 +1081,6 @@ int main()
     if(a=="48" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 68" << std::endl;}
     if(a=="49" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 69" << std::endl;}
     if(a=="50" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="51" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="52" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="53" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="54" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="55" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="56" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="57" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="58" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="59" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="60" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="61" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="62" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="63" && o=="+" && b=="20"){std::cout << std::endl << "Answer           : 83" << std::endl;}
     if(a=="0" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 21" << std::endl;}
     if(a=="1" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 22" << std::endl;}
     if(a=="2" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 23" << std::endl;}
@@ -1405,19 +1132,6 @@ int main()
     if(a=="48" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 69" << std::endl;}
     if(a=="49" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 70" << std::endl;}
     if(a=="50" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="51" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="52" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="53" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="54" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="55" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="56" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="57" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="58" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="59" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="60" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="61" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="62" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="63" && o=="+" && b=="21"){std::cout << std::endl << "Answer           : 84" << std::endl;}
     if(a=="0" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 22" << std::endl;}
     if(a=="1" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 23" << std::endl;}
     if(a=="2" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 24" << std::endl;}
@@ -1469,19 +1183,6 @@ int main()
     if(a=="48" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 70" << std::endl;}
     if(a=="49" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 71" << std::endl;}
     if(a=="50" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="51" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="52" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="53" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="54" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="55" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="56" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="57" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="58" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="59" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="60" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="61" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="62" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="63" && o=="+" && b=="22"){std::cout << std::endl << "Answer           : 85" << std::endl;}
     if(a=="0" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 23" << std::endl;}
     if(a=="1" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 24" << std::endl;}
     if(a=="2" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 25" << std::endl;}
@@ -1533,19 +1234,6 @@ int main()
     if(a=="48" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 71" << std::endl;}
     if(a=="49" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 72" << std::endl;}
     if(a=="50" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="51" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="52" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="53" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="54" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="55" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="56" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="57" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="58" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="59" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="60" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="61" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="62" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="63" && o=="+" && b=="23"){std::cout << std::endl << "Answer           : 86" << std::endl;}
     if(a=="0" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 24" << std::endl;}
     if(a=="1" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 25" << std::endl;}
     if(a=="2" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 26" << std::endl;}
@@ -1597,19 +1285,6 @@ int main()
     if(a=="48" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 72" << std::endl;}
     if(a=="49" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 73" << std::endl;}
     if(a=="50" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="51" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="52" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="53" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="54" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="55" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="56" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="57" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="58" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="59" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="60" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="61" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="62" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="63" && o=="+" && b=="24"){std::cout << std::endl << "Answer           : 87" << std::endl;}
     if(a=="0" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 25" << std::endl;}
     if(a=="1" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 26" << std::endl;}
     if(a=="2" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 27" << std::endl;}
@@ -1661,19 +1336,6 @@ int main()
     if(a=="48" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 73" << std::endl;}
     if(a=="49" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 74" << std::endl;}
     if(a=="50" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="51" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="52" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="53" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="54" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="55" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="56" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="57" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="58" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="59" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="60" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="61" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="62" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="63" && o=="+" && b=="25"){std::cout << std::endl << "Answer           : 88" << std::endl;}
     if(a=="0" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 26" << std::endl;}
     if(a=="1" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 27" << std::endl;}
     if(a=="2" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 28" << std::endl;}
@@ -1725,19 +1387,6 @@ int main()
     if(a=="48" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 74" << std::endl;}
     if(a=="49" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 75" << std::endl;}
     if(a=="50" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="51" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="52" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="53" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="54" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="55" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="56" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="57" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="58" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="59" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="60" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="61" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="62" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="63" && o=="+" && b=="26"){std::cout << std::endl << "Answer           : 89" << std::endl;}
     if(a=="0" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 27" << std::endl;}
     if(a=="1" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 28" << std::endl;}
     if(a=="2" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 29" << std::endl;}
@@ -1789,19 +1438,6 @@ int main()
     if(a=="48" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 75" << std::endl;}
     if(a=="49" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 76" << std::endl;}
     if(a=="50" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="51" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="52" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="53" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="54" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="55" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="56" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="57" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="58" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="59" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="60" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="61" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="62" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="63" && o=="+" && b=="27"){std::cout << std::endl << "Answer           : 90" << std::endl;}
     if(a=="0" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 28" << std::endl;}
     if(a=="1" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 29" << std::endl;}
     if(a=="2" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 30" << std::endl;}
@@ -1853,19 +1489,6 @@ int main()
     if(a=="48" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 76" << std::endl;}
     if(a=="49" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 77" << std::endl;}
     if(a=="50" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="51" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="52" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="53" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="54" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="55" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="56" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="57" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="58" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="59" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="60" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="61" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="62" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="63" && o=="+" && b=="28"){std::cout << std::endl << "Answer           : 91" << std::endl;}
     if(a=="0" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 29" << std::endl;}
     if(a=="1" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 30" << std::endl;}
     if(a=="2" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 31" << std::endl;}
@@ -1917,19 +1540,6 @@ int main()
     if(a=="48" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 77" << std::endl;}
     if(a=="49" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 78" << std::endl;}
     if(a=="50" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="51" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="52" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="53" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="54" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="55" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="56" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="57" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="58" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="59" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="60" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="61" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="62" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="63" && o=="+" && b=="29"){std::cout << std::endl << "Answer           : 92" << std::endl;}
     if(a=="0" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 30" << std::endl;}
     if(a=="1" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 31" << std::endl;}
     if(a=="2" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 32" << std::endl;}
@@ -1981,19 +1591,6 @@ int main()
     if(a=="48" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 78" << std::endl;}
     if(a=="49" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 79" << std::endl;}
     if(a=="50" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="51" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="52" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="53" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="54" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="55" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="56" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="57" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="58" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="59" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="60" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="61" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="62" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="63" && o=="+" && b=="30"){std::cout << std::endl << "Answer           : 93" << std::endl;}
     if(a=="0" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 31" << std::endl;}
     if(a=="1" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 32" << std::endl;}
     if(a=="2" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 33" << std::endl;}
@@ -2045,19 +1642,6 @@ int main()
     if(a=="48" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 79" << std::endl;}
     if(a=="49" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 80" << std::endl;}
     if(a=="50" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="51" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="52" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="53" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="54" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="55" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="56" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="57" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="58" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="59" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="60" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="61" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="62" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="63" && o=="+" && b=="31"){std::cout << std::endl << "Answer           : 94" << std::endl;}
     if(a=="0" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 32" << std::endl;}
     if(a=="1" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 33" << std::endl;}
     if(a=="2" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 34" << std::endl;}
@@ -2109,19 +1693,6 @@ int main()
     if(a=="48" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 80" << std::endl;}
     if(a=="49" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 81" << std::endl;}
     if(a=="50" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="51" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="52" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="53" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="54" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="55" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="56" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="57" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="58" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="59" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="60" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="61" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="62" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="63" && o=="+" && b=="32"){std::cout << std::endl << "Answer           : 95" << std::endl;}
     if(a=="0" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 33" << std::endl;}
     if(a=="1" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 34" << std::endl;}
     if(a=="2" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 35" << std::endl;}
@@ -2173,19 +1744,6 @@ int main()
     if(a=="48" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 81" << std::endl;}
     if(a=="49" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 82" << std::endl;}
     if(a=="50" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="51" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="52" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="53" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="54" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="55" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="56" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="57" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="58" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="59" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="60" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="61" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="62" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="63" && o=="+" && b=="33"){std::cout << std::endl << "Answer           : 96" << std::endl;}
     if(a=="0" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 34" << std::endl;}
     if(a=="1" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 35" << std::endl;}
     if(a=="2" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 36" << std::endl;}
@@ -2237,19 +1795,6 @@ int main()
     if(a=="48" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 82" << std::endl;}
     if(a=="49" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 83" << std::endl;}
     if(a=="50" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="51" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="52" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="53" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="54" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="55" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="56" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="57" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="58" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="59" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="60" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="61" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="62" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="63" && o=="+" && b=="34"){std::cout << std::endl << "Answer           : 97" << std::endl;}
     if(a=="0" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 35" << std::endl;}
     if(a=="1" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 36" << std::endl;}
     if(a=="2" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 37" << std::endl;}
@@ -2301,19 +1846,6 @@ int main()
     if(a=="48" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 83" << std::endl;}
     if(a=="49" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 84" << std::endl;}
     if(a=="50" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="51" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="52" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="53" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="54" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="55" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="56" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="57" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="58" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="59" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="60" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="61" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="62" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="63" && o=="+" && b=="35"){std::cout << std::endl << "Answer           : 98" << std::endl;}
     if(a=="0" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 36" << std::endl;}
     if(a=="1" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 37" << std::endl;}
     if(a=="2" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 38" << std::endl;}
@@ -2365,19 +1897,6 @@ int main()
     if(a=="48" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 84" << std::endl;}
     if(a=="49" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 85" << std::endl;}
     if(a=="50" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="51" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="52" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="53" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="54" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="55" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="56" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="57" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="58" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="59" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="60" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="61" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="62" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="63" && o=="+" && b=="36"){std::cout << std::endl << "Answer           : 99" << std::endl;}
     if(a=="0" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 37" << std::endl;}
     if(a=="1" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 38" << std::endl;}
     if(a=="2" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 39" << std::endl;}
@@ -2429,19 +1948,6 @@ int main()
     if(a=="48" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 85" << std::endl;}
     if(a=="49" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 86" << std::endl;}
     if(a=="50" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="51" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="52" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="53" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="54" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="55" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="56" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="57" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="58" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="59" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="60" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="61" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="62" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="63" && o=="+" && b=="37"){std::cout << std::endl << "Answer           : 100" << std::endl;}
     if(a=="0" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 38" << std::endl;}
     if(a=="1" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 39" << std::endl;}
     if(a=="2" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 40" << std::endl;}
@@ -2493,19 +1999,6 @@ int main()
     if(a=="48" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 86" << std::endl;}
     if(a=="49" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 87" << std::endl;}
     if(a=="50" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="51" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="52" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="53" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="54" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="55" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="56" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="57" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="58" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="59" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="60" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="61" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="62" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="63" && o=="+" && b=="38"){std::cout << std::endl << "Answer           : 101" << std::endl;}
     if(a=="0" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 39" << std::endl;}
     if(a=="1" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 40" << std::endl;}
     if(a=="2" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 41" << std::endl;}
@@ -2557,19 +2050,6 @@ int main()
     if(a=="48" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 87" << std::endl;}
     if(a=="49" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 88" << std::endl;}
     if(a=="50" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="51" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="52" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="53" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="54" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="55" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="56" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="57" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="58" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="59" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="60" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="61" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="62" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="63" && o=="+" && b=="39"){std::cout << std::endl << "Answer           : 102" << std::endl;}
     if(a=="0" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 40" << std::endl;}
     if(a=="1" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 41" << std::endl;}
     if(a=="2" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 42" << std::endl;}
@@ -2621,19 +2101,6 @@ int main()
     if(a=="48" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 88" << std::endl;}
     if(a=="49" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 89" << std::endl;}
     if(a=="50" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="51" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="52" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="53" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="54" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="55" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="56" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="57" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="58" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="59" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="60" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="61" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="62" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="63" && o=="+" && b=="40"){std::cout << std::endl << "Answer           : 103" << std::endl;}
     if(a=="0" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 41" << std::endl;}
     if(a=="1" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 42" << std::endl;}
     if(a=="2" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 43" << std::endl;}
@@ -2685,19 +2152,6 @@ int main()
     if(a=="48" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 89" << std::endl;}
     if(a=="49" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 90" << std::endl;}
     if(a=="50" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="51" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="52" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="53" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="54" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="55" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="56" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="57" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="58" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="59" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="60" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="61" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="62" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="63" && o=="+" && b=="41"){std::cout << std::endl << "Answer           : 104" << std::endl;}
     if(a=="0" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 42" << std::endl;}
     if(a=="1" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 43" << std::endl;}
     if(a=="2" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 44" << std::endl;}
@@ -2749,19 +2203,6 @@ int main()
     if(a=="48" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 90" << std::endl;}
     if(a=="49" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 91" << std::endl;}
     if(a=="50" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="51" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="52" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="53" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="54" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="55" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="56" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="57" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="58" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="59" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="60" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="61" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="62" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="63" && o=="+" && b=="42"){std::cout << std::endl << "Answer           : 105" << std::endl;}
     if(a=="0" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 43" << std::endl;}
     if(a=="1" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 44" << std::endl;}
     if(a=="2" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 45" << std::endl;}
@@ -2813,19 +2254,6 @@ int main()
     if(a=="48" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 91" << std::endl;}
     if(a=="49" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 92" << std::endl;}
     if(a=="50" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="51" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="52" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="53" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="54" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="55" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="56" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="57" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="58" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="59" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="60" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="61" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="62" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="63" && o=="+" && b=="43"){std::cout << std::endl << "Answer           : 106" << std::endl;}
     if(a=="0" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 44" << std::endl;}
     if(a=="1" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 45" << std::endl;}
     if(a=="2" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 46" << std::endl;}
@@ -2877,19 +2305,6 @@ int main()
     if(a=="48" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 92" << std::endl;}
     if(a=="49" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 93" << std::endl;}
     if(a=="50" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="51" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="52" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="53" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="54" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="55" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="56" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="57" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="58" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="59" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="60" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="61" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="62" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="63" && o=="+" && b=="44"){std::cout << std::endl << "Answer           : 107" << std::endl;}
     if(a=="0" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 45" << std::endl;}
     if(a=="1" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 46" << std::endl;}
     if(a=="2" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 47" << std::endl;}
@@ -2941,19 +2356,6 @@ int main()
     if(a=="48" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 93" << std::endl;}
     if(a=="49" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 94" << std::endl;}
     if(a=="50" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="51" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="52" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="53" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="54" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="55" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="56" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="57" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="58" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="59" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="60" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="61" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="62" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="63" && o=="+" && b=="45"){std::cout << std::endl << "Answer           : 108" << std::endl;}
     if(a=="0" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 46" << std::endl;}
     if(a=="1" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 47" << std::endl;}
     if(a=="2" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 48" << std::endl;}
@@ -3005,19 +2407,6 @@ int main()
     if(a=="48" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 94" << std::endl;}
     if(a=="49" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 95" << std::endl;}
     if(a=="50" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="51" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="52" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="53" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="54" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="55" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="56" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="57" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="58" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="59" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="60" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="61" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="62" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="63" && o=="+" && b=="46"){std::cout << std::endl << "Answer           : 109" << std::endl;}
     if(a=="0" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 47" << std::endl;}
     if(a=="1" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 48" << std::endl;}
     if(a=="2" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 49" << std::endl;}
@@ -3069,19 +2458,6 @@ int main()
     if(a=="48" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 95" << std::endl;}
     if(a=="49" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 96" << std::endl;}
     if(a=="50" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="51" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="52" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="53" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="54" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="55" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="56" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="57" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="58" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="59" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="60" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="61" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="62" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 109" << std::endl;}
-    if(a=="63" && o=="+" && b=="47"){std::cout << std::endl << "Answer           : 110" << std::endl;}
     if(a=="0" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 48" << std::endl;}
     if(a=="1" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 49" << std::endl;}
     if(a=="2" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 50" << std::endl;}
@@ -3133,19 +2509,6 @@ int main()
     if(a=="48" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 96" << std::endl;}
     if(a=="49" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 97" << std::endl;}
     if(a=="50" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="51" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="52" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="53" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="54" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="55" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="56" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="57" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="58" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="59" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="60" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="61" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 109" << std::endl;}
-    if(a=="62" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="63" && o=="+" && b=="48"){std::cout << std::endl << "Answer           : 111" << std::endl;}
     if(a=="0" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 49" << std::endl;}
     if(a=="1" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 50" << std::endl;}
     if(a=="2" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 51" << std::endl;}
@@ -3197,19 +2560,6 @@ int main()
     if(a=="48" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 97" << std::endl;}
     if(a=="49" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 98" << std::endl;}
     if(a=="50" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="51" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="52" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="53" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="54" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="55" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="56" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="57" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="58" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="59" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="60" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 109" << std::endl;}
-    if(a=="61" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="62" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 111" << std::endl;}
-    if(a=="63" && o=="+" && b=="49"){std::cout << std::endl << "Answer           : 112" << std::endl;}
     if(a=="0" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 50" << std::endl;}
     if(a=="1" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 51" << std::endl;}
     if(a=="2" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 52" << std::endl;}
@@ -3261,851 +2611,6 @@ int main()
     if(a=="48" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 98" << std::endl;}
     if(a=="49" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 99" << std::endl;}
     if(a=="50" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="51" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="52" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="53" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="54" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="55" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="56" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="57" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="58" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="59" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 109" << std::endl;}
-    if(a=="60" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="61" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 111" << std::endl;}
-    if(a=="62" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 112" << std::endl;}
-    if(a=="63" && o=="+" && b=="50"){std::cout << std::endl << "Answer           : 113" << std::endl;}
-    if(a=="0" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 51" << std::endl;}
-    if(a=="1" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="2" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="3" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="4" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="5" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="6" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="7" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="8" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="9" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="10" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="11" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="12" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="13" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="14" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="15" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="16" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="17" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="18" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="19" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="20" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="21" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="22" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="23" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="24" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="25" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="26" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="27" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="28" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="29" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="30" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="31" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="32" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="33" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="34" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="35" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="36" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="37" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="38" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="39" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="40" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="41" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="42" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="43" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="44" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="45" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="46" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="47" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="48" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="49" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="50" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="51" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="52" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="53" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="54" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="55" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="56" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="57" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="58" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 109" << std::endl;}
-    if(a=="59" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="60" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 111" << std::endl;}
-    if(a=="61" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 112" << std::endl;}
-    if(a=="62" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 113" << std::endl;}
-    if(a=="63" && o=="+" && b=="51"){std::cout << std::endl << "Answer           : 114" << std::endl;}
-    if(a=="0" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="1" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="2" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="3" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="4" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="5" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="6" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="7" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="8" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="9" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="10" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="11" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="12" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="13" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="14" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="15" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="16" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="17" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="18" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="19" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="20" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="21" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="22" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="23" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="24" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="25" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="26" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="27" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="28" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="29" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="30" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="31" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="32" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="33" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="34" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="35" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="36" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="37" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="38" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="39" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="40" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="41" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="42" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="43" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="44" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="45" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="46" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="47" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="48" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="49" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="50" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="51" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="52" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="53" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="54" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="55" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="56" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="57" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 109" << std::endl;}
-    if(a=="58" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="59" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 111" << std::endl;}
-    if(a=="60" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 112" << std::endl;}
-    if(a=="61" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 113" << std::endl;}
-    if(a=="62" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 114" << std::endl;}
-    if(a=="63" && o=="+" && b=="52"){std::cout << std::endl << "Answer           : 115" << std::endl;}
-    if(a=="0" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="1" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="2" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="3" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="4" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="5" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="6" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="7" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="8" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="9" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="10" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="11" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="12" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="13" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="14" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="15" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="16" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="17" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="18" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="19" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="20" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="21" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="22" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="23" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="24" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="25" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="26" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="27" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="28" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="29" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="30" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="31" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="32" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="33" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="34" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="35" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="36" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="37" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="38" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="39" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="40" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="41" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="42" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="43" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="44" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="45" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="46" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="47" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="48" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="49" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="50" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="51" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="52" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="53" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="54" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="55" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="56" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 109" << std::endl;}
-    if(a=="57" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="58" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 111" << std::endl;}
-    if(a=="59" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 112" << std::endl;}
-    if(a=="60" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 113" << std::endl;}
-    if(a=="61" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 114" << std::endl;}
-    if(a=="62" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 115" << std::endl;}
-    if(a=="63" && o=="+" && b=="53"){std::cout << std::endl << "Answer           : 116" << std::endl;}
-    if(a=="0" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="1" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="2" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="3" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="4" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="5" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="6" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="7" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="8" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="9" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="10" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="11" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="12" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="13" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="14" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="15" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="16" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="17" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="18" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="19" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="20" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="21" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="22" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="23" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="24" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="25" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="26" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="27" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="28" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="29" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="30" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="31" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="32" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="33" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="34" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="35" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="36" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="37" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="38" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="39" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="40" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="41" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="42" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="43" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="44" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="45" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="46" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="47" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="48" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="49" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="50" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="51" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="52" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="53" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="54" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="55" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 109" << std::endl;}
-    if(a=="56" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="57" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 111" << std::endl;}
-    if(a=="58" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 112" << std::endl;}
-    if(a=="59" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 113" << std::endl;}
-    if(a=="60" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 114" << std::endl;}
-    if(a=="61" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 115" << std::endl;}
-    if(a=="62" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 116" << std::endl;}
-    if(a=="63" && o=="+" && b=="54"){std::cout << std::endl << "Answer           : 117" << std::endl;}
-    if(a=="0" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="1" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="2" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="3" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="4" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="5" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="6" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="7" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="8" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="9" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="10" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="11" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="12" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="13" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="14" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="15" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="16" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="17" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="18" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="19" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="20" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="21" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="22" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="23" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="24" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="25" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="26" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="27" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="28" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="29" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="30" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="31" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="32" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="33" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="34" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="35" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="36" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="37" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="38" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="39" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="40" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="41" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="42" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="43" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="44" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="45" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="46" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="47" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="48" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="49" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="50" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="51" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="52" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="53" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="54" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 109" << std::endl;}
-    if(a=="55" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="56" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 111" << std::endl;}
-    if(a=="57" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 112" << std::endl;}
-    if(a=="58" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 113" << std::endl;}
-    if(a=="59" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 114" << std::endl;}
-    if(a=="60" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 115" << std::endl;}
-    if(a=="61" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 116" << std::endl;}
-    if(a=="62" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 117" << std::endl;}
-    if(a=="63" && o=="+" && b=="55"){std::cout << std::endl << "Answer           : 118" << std::endl;}
-    if(a=="0" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="1" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="2" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="3" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="4" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="5" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="6" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="7" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="8" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="9" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="10" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="11" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="12" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="13" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="14" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="15" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="16" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="17" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="18" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="19" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="20" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="21" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="22" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="23" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="24" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="25" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="26" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="27" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="28" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="29" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="30" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="31" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="32" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="33" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="34" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="35" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="36" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="37" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="38" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="39" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="40" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="41" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="42" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="43" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="44" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="45" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="46" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="47" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="48" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="49" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="50" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="51" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="52" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="53" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 109" << std::endl;}
-    if(a=="54" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="55" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 111" << std::endl;}
-    if(a=="56" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 112" << std::endl;}
-    if(a=="57" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 113" << std::endl;}
-    if(a=="58" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 114" << std::endl;}
-    if(a=="59" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 115" << std::endl;}
-    if(a=="60" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 116" << std::endl;}
-    if(a=="61" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 117" << std::endl;}
-    if(a=="62" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 118" << std::endl;}
-    if(a=="63" && o=="+" && b=="56"){std::cout << std::endl << "Answer           : 119" << std::endl;}
-    if(a=="0" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="1" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="2" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="3" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="4" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="5" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="6" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="7" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="8" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="9" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="10" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="11" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="12" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="13" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="14" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="15" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="16" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="17" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="18" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="19" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="20" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="21" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="22" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="23" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="24" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="25" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="26" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="27" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="28" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="29" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="30" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="31" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="32" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="33" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="34" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="35" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="36" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="37" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="38" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="39" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="40" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="41" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="42" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="43" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="44" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="45" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="46" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="47" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="48" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="49" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="50" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="51" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="52" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 109" << std::endl;}
-    if(a=="53" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="54" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 111" << std::endl;}
-    if(a=="55" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 112" << std::endl;}
-    if(a=="56" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 113" << std::endl;}
-    if(a=="57" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 114" << std::endl;}
-    if(a=="58" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 115" << std::endl;}
-    if(a=="59" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 116" << std::endl;}
-    if(a=="60" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 117" << std::endl;}
-    if(a=="61" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 118" << std::endl;}
-    if(a=="62" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 119" << std::endl;}
-    if(a=="63" && o=="+" && b=="57"){std::cout << std::endl << "Answer           : 120" << std::endl;}
-    if(a=="0" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="1" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="2" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="3" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="4" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="5" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="6" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="7" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="8" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="9" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="10" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="11" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="12" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="13" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="14" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="15" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="16" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="17" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="18" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="19" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="20" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="21" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="22" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="23" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="24" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="25" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="26" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="27" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="28" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="29" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="30" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="31" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="32" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="33" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="34" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="35" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="36" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="37" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="38" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="39" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="40" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="41" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="42" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="43" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="44" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="45" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="46" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="47" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="48" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="49" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="50" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="51" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 109" << std::endl;}
-    if(a=="52" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="53" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 111" << std::endl;}
-    if(a=="54" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 112" << std::endl;}
-    if(a=="55" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 113" << std::endl;}
-    if(a=="56" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 114" << std::endl;}
-    if(a=="57" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 115" << std::endl;}
-    if(a=="58" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 116" << std::endl;}
-    if(a=="59" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 117" << std::endl;}
-    if(a=="60" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 118" << std::endl;}
-    if(a=="61" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 119" << std::endl;}
-    if(a=="62" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 120" << std::endl;}
-    if(a=="63" && o=="+" && b=="58"){std::cout << std::endl << "Answer           : 121" << std::endl;}
-    if(a=="0" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="1" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="2" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="3" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="4" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="5" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="6" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="7" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="8" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="9" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="10" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="11" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="12" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="13" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="14" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="15" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="16" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="17" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="18" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="19" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="20" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="21" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="22" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="23" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="24" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="25" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="26" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="27" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="28" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="29" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="30" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="31" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="32" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="33" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="34" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="35" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="36" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="37" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="38" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="39" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="40" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="41" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="42" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="43" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="44" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="45" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="46" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="47" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="48" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="49" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="50" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 109" << std::endl;}
-    if(a=="51" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="52" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 111" << std::endl;}
-    if(a=="53" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 112" << std::endl;}
-    if(a=="54" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 113" << std::endl;}
-    if(a=="55" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 114" << std::endl;}
-    if(a=="56" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 115" << std::endl;}
-    if(a=="57" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 116" << std::endl;}
-    if(a=="58" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 117" << std::endl;}
-    if(a=="59" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 118" << std::endl;}
-    if(a=="60" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 119" << std::endl;}
-    if(a=="61" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 120" << std::endl;}
-    if(a=="62" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 121" << std::endl;}
-    if(a=="63" && o=="+" && b=="59"){std::cout << std::endl << "Answer           : 122" << std::endl;}
-    if(a=="0" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="1" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="2" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="3" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="4" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="5" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="6" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="7" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="8" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="9" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="10" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="11" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="12" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="13" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="14" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="15" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="16" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="17" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="18" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="19" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="20" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="21" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="22" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="23" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="24" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="25" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="26" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="27" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="28" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="29" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="30" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="31" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="32" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="33" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="34" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="35" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="36" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="37" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="38" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="39" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="40" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="41" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="42" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="43" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="44" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="45" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="46" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="47" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="48" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="49" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 109" << std::endl;}
-    if(a=="50" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="51" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 111" << std::endl;}
-    if(a=="52" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 112" << std::endl;}
-    if(a=="53" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 113" << std::endl;}
-    if(a=="54" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 114" << std::endl;}
-    if(a=="55" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 115" << std::endl;}
-    if(a=="56" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 116" << std::endl;}
-    if(a=="57" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 117" << std::endl;}
-    if(a=="58" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 118" << std::endl;}
-    if(a=="59" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 119" << std::endl;}
-    if(a=="60" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 120" << std::endl;}
-    if(a=="61" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 121" << std::endl;}
-    if(a=="62" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 122" << std::endl;}
-    if(a=="63" && o=="+" && b=="60"){std::cout << std::endl << "Answer           : 123" << std::endl;}
-    if(a=="0" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="1" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="2" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="3" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="4" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="5" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="6" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="7" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="8" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="9" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="10" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="11" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="12" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="13" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="14" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="15" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="16" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="17" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="18" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="19" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="20" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="21" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="22" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="23" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="24" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="25" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="26" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="27" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="28" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="29" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="30" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="31" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="32" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="33" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="34" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="35" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="36" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="37" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="38" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="39" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="40" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="41" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="42" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="43" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="44" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="45" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="46" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="47" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="48" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 109" << std::endl;}
-    if(a=="49" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="50" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 111" << std::endl;}
-    if(a=="51" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 112" << std::endl;}
-    if(a=="52" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 113" << std::endl;}
-    if(a=="53" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 114" << std::endl;}
-    if(a=="54" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 115" << std::endl;}
-    if(a=="55" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 116" << std::endl;}
-    if(a=="56" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 117" << std::endl;}
-    if(a=="57" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 118" << std::endl;}
-    if(a=="58" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 119" << std::endl;}
-    if(a=="59" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 120" << std::endl;}
-    if(a=="60" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 121" << std::endl;}
-    if(a=="61" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 122" << std::endl;}
-    if(a=="62" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 123" << std::endl;}
-    if(a=="63" && o=="+" && b=="61"){std::cout << std::endl << "Answer           : 124" << std::endl;}
-    if(a=="0" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="1" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="2" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="3" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="4" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="5" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="6" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="7" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="8" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="9" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="10" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="11" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="12" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="13" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="14" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="15" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="16" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="17" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="18" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="19" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="20" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="21" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="22" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="23" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="24" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="25" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="26" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="27" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="28" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="29" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="30" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="31" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="32" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="33" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="34" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="35" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="36" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="37" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="38" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="39" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="40" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="41" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="42" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="43" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="44" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="45" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="46" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="47" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 109" << std::endl;}
-    if(a=="48" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="49" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 111" << std::endl;}
-    if(a=="50" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 112" << std::endl;}
-    if(a=="51" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 113" << std::endl;}
-    if(a=="52" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 114" << std::endl;}
-    if(a=="53" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 115" << std::endl;}
-    if(a=="54" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 116" << std::endl;}
-    if(a=="55" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 117" << std::endl;}
-    if(a=="56" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 118" << std::endl;}
-    if(a=="57" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 119" << std::endl;}
-    if(a=="58" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 120" << std::endl;}
-    if(a=="59" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 121" << std::endl;}
-    if(a=="60" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 122" << std::endl;}
-    if(a=="61" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 123" << std::endl;}
-    if(a=="62" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 124" << std::endl;}
-    if(a=="63" && o=="+" && b=="62"){std::cout << std::endl << "Answer           : 125" << std::endl;}
-    if(a=="0" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="1" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 64" << std::endl;}
-    if(a=="2" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 65" << std::endl;}
-    if(a=="3" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 66" << std::endl;}
-    if(a=="4" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 67" << std::endl;}
-    if(a=="5" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 68" << std::endl;}
-    if(a=="6" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 69" << std::endl;}
-    if(a=="7" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 70" << std::endl;}
-    if(a=="8" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 71" << std::endl;}
-    if(a=="9" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 72" << std::endl;}
-    if(a=="10" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 73" << std::endl;}
-    if(a=="11" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 74" << std::endl;}
-    if(a=="12" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 75" << std::endl;}
-    if(a=="13" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 76" << std::endl;}
-    if(a=="14" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 77" << std::endl;}
-    if(a=="15" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 78" << std::endl;}
-    if(a=="16" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 79" << std::endl;}
-    if(a=="17" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 80" << std::endl;}
-    if(a=="18" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 81" << std::endl;}
-    if(a=="19" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 82" << std::endl;}
-    if(a=="20" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 83" << std::endl;}
-    if(a=="21" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 84" << std::endl;}
-    if(a=="22" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 85" << std::endl;}
-    if(a=="23" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 86" << std::endl;}
-    if(a=="24" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 87" << std::endl;}
-    if(a=="25" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 88" << std::endl;}
-    if(a=="26" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 89" << std::endl;}
-    if(a=="27" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 90" << std::endl;}
-    if(a=="28" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 91" << std::endl;}
-    if(a=="29" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 92" << std::endl;}
-    if(a=="30" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 93" << std::endl;}
-    if(a=="31" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 94" << std::endl;}
-    if(a=="32" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 95" << std::endl;}
-    if(a=="33" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 96" << std::endl;}
-    if(a=="34" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 97" << std::endl;}
-    if(a=="35" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 98" << std::endl;}
-    if(a=="36" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 99" << std::endl;}
-    if(a=="37" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="38" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 101" << std::endl;}
-    if(a=="39" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="40" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 103" << std::endl;}
-    if(a=="41" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="42" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 105" << std::endl;}
-    if(a=="43" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="44" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 107" << std::endl;}
-    if(a=="45" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="46" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 109" << std::endl;}
-    if(a=="47" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="48" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 111" << std::endl;}
-    if(a=="49" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 112" << std::endl;}
-    if(a=="50" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 113" << std::endl;}
-    if(a=="51" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 114" << std::endl;}
-    if(a=="52" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 115" << std::endl;}
-    if(a=="53" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 116" << std::endl;}
-    if(a=="54" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 117" << std::endl;}
-    if(a=="55" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 118" << std::endl;}
-    if(a=="56" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 119" << std::endl;}
-    if(a=="57" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 120" << std::endl;}
-    if(a=="58" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 121" << std::endl;}
-    if(a=="59" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 122" << std::endl;}
-    if(a=="60" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 123" << std::endl;}
-    if(a=="61" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 124" << std::endl;}
-    if(a=="62" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 125" << std::endl;}
-    if(a=="63" && o=="+" && b=="63"){std::cout << std::endl << "Answer           : 126" << std::endl;}
     if(a=="0" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 1" << std::endl;}
     if(a=="2" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 2" << std::endl;}
@@ -4157,19 +2662,6 @@ int main()
     if(a=="48" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 48" << std::endl;}
     if(a=="49" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 49" << std::endl;}
     if(a=="50" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 50" << std::endl;}
-    if(a=="51" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 51" << std::endl;}
-    if(a=="52" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="53" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="54" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="55" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="56" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="57" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="58" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="59" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="60" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="61" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="62" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="63" && o=="-" && b=="0"){std::cout << std::endl << "Answer           : 63" << std::endl;}
     if(a=="0" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : -1" << std::endl;}
     if(a=="1" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="2" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 1" << std::endl;}
@@ -4221,19 +2713,6 @@ int main()
     if(a=="48" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 47" << std::endl;}
     if(a=="49" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 48" << std::endl;}
     if(a=="50" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 49" << std::endl;}
-    if(a=="51" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 50" << std::endl;}
-    if(a=="52" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 51" << std::endl;}
-    if(a=="53" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="54" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="55" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="56" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="57" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="58" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="59" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="60" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="61" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="62" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="63" && o=="-" && b=="1"){std::cout << std::endl << "Answer           : 62" << std::endl;}
     if(a=="0" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : -2" << std::endl;}
     if(a=="1" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : -1" << std::endl;}
     if(a=="2" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : 0" << std::endl;}
@@ -4285,19 +2764,6 @@ int main()
     if(a=="48" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : 46" << std::endl;}
     if(a=="49" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : 47" << std::endl;}
     if(a=="50" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : 48" << std::endl;}
-    if(a=="51" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : 49" << std::endl;}
-    if(a=="52" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : 50" << std::endl;}
-    if(a=="53" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : 51" << std::endl;}
-    if(a=="54" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="55" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="56" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="57" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="58" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="59" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="60" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="61" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="62" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="63" && o=="-" && b=="2"){std::cout << std::endl << "Answer           : 61" << std::endl;}
     if(a=="0" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : -3" << std::endl;}
     if(a=="1" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : -2" << std::endl;}
     if(a=="2" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : -1" << std::endl;}
@@ -4349,19 +2815,6 @@ int main()
     if(a=="48" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : 45" << std::endl;}
     if(a=="49" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : 46" << std::endl;}
     if(a=="50" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : 47" << std::endl;}
-    if(a=="51" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : 48" << std::endl;}
-    if(a=="52" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : 49" << std::endl;}
-    if(a=="53" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : 50" << std::endl;}
-    if(a=="54" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : 51" << std::endl;}
-    if(a=="55" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="56" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="57" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="58" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="59" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="60" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="61" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="62" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="63" && o=="-" && b=="3"){std::cout << std::endl << "Answer           : 60" << std::endl;}
     if(a=="0" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : -4" << std::endl;}
     if(a=="1" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : -3" << std::endl;}
     if(a=="2" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : -2" << std::endl;}
@@ -4413,19 +2866,6 @@ int main()
     if(a=="48" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : 44" << std::endl;}
     if(a=="49" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : 45" << std::endl;}
     if(a=="50" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : 46" << std::endl;}
-    if(a=="51" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : 47" << std::endl;}
-    if(a=="52" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : 48" << std::endl;}
-    if(a=="53" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : 49" << std::endl;}
-    if(a=="54" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : 50" << std::endl;}
-    if(a=="55" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : 51" << std::endl;}
-    if(a=="56" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="57" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="58" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="59" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="60" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="61" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="62" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="63" && o=="-" && b=="4"){std::cout << std::endl << "Answer           : 59" << std::endl;}
     if(a=="0" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : -5" << std::endl;}
     if(a=="1" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : -4" << std::endl;}
     if(a=="2" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : -3" << std::endl;}
@@ -4477,19 +2917,6 @@ int main()
     if(a=="48" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : 43" << std::endl;}
     if(a=="49" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : 44" << std::endl;}
     if(a=="50" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : 45" << std::endl;}
-    if(a=="51" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : 46" << std::endl;}
-    if(a=="52" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : 47" << std::endl;}
-    if(a=="53" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : 48" << std::endl;}
-    if(a=="54" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : 49" << std::endl;}
-    if(a=="55" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : 50" << std::endl;}
-    if(a=="56" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : 51" << std::endl;}
-    if(a=="57" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="58" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="59" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="60" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="61" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="62" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="63" && o=="-" && b=="5"){std::cout << std::endl << "Answer           : 58" << std::endl;}
     if(a=="0" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : -6" << std::endl;}
     if(a=="1" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : -5" << std::endl;}
     if(a=="2" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : -4" << std::endl;}
@@ -4541,19 +2968,6 @@ int main()
     if(a=="48" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : 42" << std::endl;}
     if(a=="49" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : 43" << std::endl;}
     if(a=="50" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : 44" << std::endl;}
-    if(a=="51" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : 45" << std::endl;}
-    if(a=="52" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : 46" << std::endl;}
-    if(a=="53" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : 47" << std::endl;}
-    if(a=="54" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : 48" << std::endl;}
-    if(a=="55" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : 49" << std::endl;}
-    if(a=="56" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : 50" << std::endl;}
-    if(a=="57" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : 51" << std::endl;}
-    if(a=="58" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="59" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="60" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="61" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="62" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="63" && o=="-" && b=="6"){std::cout << std::endl << "Answer           : 57" << std::endl;}
     if(a=="0" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : -7" << std::endl;}
     if(a=="1" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : -6" << std::endl;}
     if(a=="2" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : -5" << std::endl;}
@@ -4605,19 +3019,6 @@ int main()
     if(a=="48" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : 41" << std::endl;}
     if(a=="49" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : 42" << std::endl;}
     if(a=="50" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : 43" << std::endl;}
-    if(a=="51" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : 44" << std::endl;}
-    if(a=="52" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : 45" << std::endl;}
-    if(a=="53" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : 46" << std::endl;}
-    if(a=="54" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : 47" << std::endl;}
-    if(a=="55" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : 48" << std::endl;}
-    if(a=="56" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : 49" << std::endl;}
-    if(a=="57" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : 50" << std::endl;}
-    if(a=="58" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : 51" << std::endl;}
-    if(a=="59" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="60" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="61" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="62" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="63" && o=="-" && b=="7"){std::cout << std::endl << "Answer           : 56" << std::endl;}
     if(a=="0" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : -8" << std::endl;}
     if(a=="1" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : -7" << std::endl;}
     if(a=="2" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : -6" << std::endl;}
@@ -4669,19 +3070,6 @@ int main()
     if(a=="48" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : 40" << std::endl;}
     if(a=="49" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : 41" << std::endl;}
     if(a=="50" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : 42" << std::endl;}
-    if(a=="51" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : 43" << std::endl;}
-    if(a=="52" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : 44" << std::endl;}
-    if(a=="53" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : 45" << std::endl;}
-    if(a=="54" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : 46" << std::endl;}
-    if(a=="55" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : 47" << std::endl;}
-    if(a=="56" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : 48" << std::endl;}
-    if(a=="57" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : 49" << std::endl;}
-    if(a=="58" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : 50" << std::endl;}
-    if(a=="59" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : 51" << std::endl;}
-    if(a=="60" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="61" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="62" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="63" && o=="-" && b=="8"){std::cout << std::endl << "Answer           : 55" << std::endl;}
     if(a=="0" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : -9" << std::endl;}
     if(a=="1" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : -8" << std::endl;}
     if(a=="2" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : -7" << std::endl;}
@@ -4733,19 +3121,6 @@ int main()
     if(a=="48" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : 39" << std::endl;}
     if(a=="49" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : 40" << std::endl;}
     if(a=="50" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : 41" << std::endl;}
-    if(a=="51" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : 42" << std::endl;}
-    if(a=="52" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : 43" << std::endl;}
-    if(a=="53" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : 44" << std::endl;}
-    if(a=="54" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : 45" << std::endl;}
-    if(a=="55" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : 46" << std::endl;}
-    if(a=="56" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : 47" << std::endl;}
-    if(a=="57" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : 48" << std::endl;}
-    if(a=="58" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : 49" << std::endl;}
-    if(a=="59" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : 50" << std::endl;}
-    if(a=="60" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : 51" << std::endl;}
-    if(a=="61" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="62" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="63" && o=="-" && b=="9"){std::cout << std::endl << "Answer           : 54" << std::endl;}
     if(a=="0" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : -10" << std::endl;}
     if(a=="1" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : -9" << std::endl;}
     if(a=="2" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : -8" << std::endl;}
@@ -4797,19 +3172,6 @@ int main()
     if(a=="48" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : 38" << std::endl;}
     if(a=="49" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : 39" << std::endl;}
     if(a=="50" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : 40" << std::endl;}
-    if(a=="51" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : 41" << std::endl;}
-    if(a=="52" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : 42" << std::endl;}
-    if(a=="53" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : 43" << std::endl;}
-    if(a=="54" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : 44" << std::endl;}
-    if(a=="55" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : 45" << std::endl;}
-    if(a=="56" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : 46" << std::endl;}
-    if(a=="57" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : 47" << std::endl;}
-    if(a=="58" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : 48" << std::endl;}
-    if(a=="59" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : 49" << std::endl;}
-    if(a=="60" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : 50" << std::endl;}
-    if(a=="61" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : 51" << std::endl;}
-    if(a=="62" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="63" && o=="-" && b=="10"){std::cout << std::endl << "Answer           : 53" << std::endl;}
     if(a=="0" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : -11" << std::endl;}
     if(a=="1" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : -10" << std::endl;}
     if(a=="2" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : -9" << std::endl;}
@@ -4861,19 +3223,6 @@ int main()
     if(a=="48" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : 37" << std::endl;}
     if(a=="49" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : 38" << std::endl;}
     if(a=="50" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : 39" << std::endl;}
-    if(a=="51" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : 40" << std::endl;}
-    if(a=="52" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : 41" << std::endl;}
-    if(a=="53" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : 42" << std::endl;}
-    if(a=="54" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : 43" << std::endl;}
-    if(a=="55" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : 44" << std::endl;}
-    if(a=="56" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : 45" << std::endl;}
-    if(a=="57" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : 46" << std::endl;}
-    if(a=="58" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : 47" << std::endl;}
-    if(a=="59" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : 48" << std::endl;}
-    if(a=="60" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : 49" << std::endl;}
-    if(a=="61" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : 50" << std::endl;}
-    if(a=="62" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : 51" << std::endl;}
-    if(a=="63" && o=="-" && b=="11"){std::cout << std::endl << "Answer           : 52" << std::endl;}
     if(a=="0" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : -12" << std::endl;}
     if(a=="1" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : -11" << std::endl;}
     if(a=="2" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : -10" << std::endl;}
@@ -4925,19 +3274,6 @@ int main()
     if(a=="48" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : 36" << std::endl;}
     if(a=="49" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : 37" << std::endl;}
     if(a=="50" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : 38" << std::endl;}
-    if(a=="51" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : 39" << std::endl;}
-    if(a=="52" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : 40" << std::endl;}
-    if(a=="53" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : 41" << std::endl;}
-    if(a=="54" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : 42" << std::endl;}
-    if(a=="55" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : 43" << std::endl;}
-    if(a=="56" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : 44" << std::endl;}
-    if(a=="57" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : 45" << std::endl;}
-    if(a=="58" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : 46" << std::endl;}
-    if(a=="59" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : 47" << std::endl;}
-    if(a=="60" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : 48" << std::endl;}
-    if(a=="61" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : 49" << std::endl;}
-    if(a=="62" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : 50" << std::endl;}
-    if(a=="63" && o=="-" && b=="12"){std::cout << std::endl << "Answer           : 51" << std::endl;}
     if(a=="0" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : -13" << std::endl;}
     if(a=="1" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : -12" << std::endl;}
     if(a=="2" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : -11" << std::endl;}
@@ -4989,19 +3325,6 @@ int main()
     if(a=="48" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : 35" << std::endl;}
     if(a=="49" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : 36" << std::endl;}
     if(a=="50" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : 37" << std::endl;}
-    if(a=="51" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : 38" << std::endl;}
-    if(a=="52" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : 39" << std::endl;}
-    if(a=="53" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : 40" << std::endl;}
-    if(a=="54" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : 41" << std::endl;}
-    if(a=="55" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : 42" << std::endl;}
-    if(a=="56" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : 43" << std::endl;}
-    if(a=="57" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : 44" << std::endl;}
-    if(a=="58" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : 45" << std::endl;}
-    if(a=="59" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : 46" << std::endl;}
-    if(a=="60" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : 47" << std::endl;}
-    if(a=="61" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : 48" << std::endl;}
-    if(a=="62" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : 49" << std::endl;}
-    if(a=="63" && o=="-" && b=="13"){std::cout << std::endl << "Answer           : 50" << std::endl;}
     if(a=="0" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : -14" << std::endl;}
     if(a=="1" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : -13" << std::endl;}
     if(a=="2" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : -12" << std::endl;}
@@ -5053,19 +3376,6 @@ int main()
     if(a=="48" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : 34" << std::endl;}
     if(a=="49" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : 35" << std::endl;}
     if(a=="50" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : 36" << std::endl;}
-    if(a=="51" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : 37" << std::endl;}
-    if(a=="52" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : 38" << std::endl;}
-    if(a=="53" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : 39" << std::endl;}
-    if(a=="54" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : 40" << std::endl;}
-    if(a=="55" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : 41" << std::endl;}
-    if(a=="56" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : 42" << std::endl;}
-    if(a=="57" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : 43" << std::endl;}
-    if(a=="58" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : 44" << std::endl;}
-    if(a=="59" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : 45" << std::endl;}
-    if(a=="60" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : 46" << std::endl;}
-    if(a=="61" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : 47" << std::endl;}
-    if(a=="62" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : 48" << std::endl;}
-    if(a=="63" && o=="-" && b=="14"){std::cout << std::endl << "Answer           : 49" << std::endl;}
     if(a=="0" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : -15" << std::endl;}
     if(a=="1" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : -14" << std::endl;}
     if(a=="2" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : -13" << std::endl;}
@@ -5117,19 +3427,6 @@ int main()
     if(a=="48" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : 33" << std::endl;}
     if(a=="49" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : 34" << std::endl;}
     if(a=="50" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : 35" << std::endl;}
-    if(a=="51" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : 36" << std::endl;}
-    if(a=="52" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : 37" << std::endl;}
-    if(a=="53" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : 38" << std::endl;}
-    if(a=="54" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : 39" << std::endl;}
-    if(a=="55" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : 40" << std::endl;}
-    if(a=="56" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : 41" << std::endl;}
-    if(a=="57" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : 42" << std::endl;}
-    if(a=="58" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : 43" << std::endl;}
-    if(a=="59" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : 44" << std::endl;}
-    if(a=="60" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : 45" << std::endl;}
-    if(a=="61" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : 46" << std::endl;}
-    if(a=="62" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : 47" << std::endl;}
-    if(a=="63" && o=="-" && b=="15"){std::cout << std::endl << "Answer           : 48" << std::endl;}
     if(a=="0" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : -16" << std::endl;}
     if(a=="1" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : -15" << std::endl;}
     if(a=="2" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : -14" << std::endl;}
@@ -5181,19 +3478,6 @@ int main()
     if(a=="48" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : 32" << std::endl;}
     if(a=="49" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : 33" << std::endl;}
     if(a=="50" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : 34" << std::endl;}
-    if(a=="51" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : 35" << std::endl;}
-    if(a=="52" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : 36" << std::endl;}
-    if(a=="53" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : 37" << std::endl;}
-    if(a=="54" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : 38" << std::endl;}
-    if(a=="55" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : 39" << std::endl;}
-    if(a=="56" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : 40" << std::endl;}
-    if(a=="57" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : 41" << std::endl;}
-    if(a=="58" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : 42" << std::endl;}
-    if(a=="59" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : 43" << std::endl;}
-    if(a=="60" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : 44" << std::endl;}
-    if(a=="61" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : 45" << std::endl;}
-    if(a=="62" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : 46" << std::endl;}
-    if(a=="63" && o=="-" && b=="16"){std::cout << std::endl << "Answer           : 47" << std::endl;}
     if(a=="0" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : -17" << std::endl;}
     if(a=="1" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : -16" << std::endl;}
     if(a=="2" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : -15" << std::endl;}
@@ -5245,19 +3529,6 @@ int main()
     if(a=="48" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : 31" << std::endl;}
     if(a=="49" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : 32" << std::endl;}
     if(a=="50" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : 33" << std::endl;}
-    if(a=="51" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : 34" << std::endl;}
-    if(a=="52" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : 35" << std::endl;}
-    if(a=="53" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : 36" << std::endl;}
-    if(a=="54" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : 37" << std::endl;}
-    if(a=="55" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : 38" << std::endl;}
-    if(a=="56" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : 39" << std::endl;}
-    if(a=="57" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : 40" << std::endl;}
-    if(a=="58" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : 41" << std::endl;}
-    if(a=="59" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : 42" << std::endl;}
-    if(a=="60" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : 43" << std::endl;}
-    if(a=="61" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : 44" << std::endl;}
-    if(a=="62" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : 45" << std::endl;}
-    if(a=="63" && o=="-" && b=="17"){std::cout << std::endl << "Answer           : 46" << std::endl;}
     if(a=="0" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : -18" << std::endl;}
     if(a=="1" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : -17" << std::endl;}
     if(a=="2" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : -16" << std::endl;}
@@ -5309,19 +3580,6 @@ int main()
     if(a=="48" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : 30" << std::endl;}
     if(a=="49" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : 31" << std::endl;}
     if(a=="50" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : 32" << std::endl;}
-    if(a=="51" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : 33" << std::endl;}
-    if(a=="52" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : 34" << std::endl;}
-    if(a=="53" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : 35" << std::endl;}
-    if(a=="54" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : 36" << std::endl;}
-    if(a=="55" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : 37" << std::endl;}
-    if(a=="56" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : 38" << std::endl;}
-    if(a=="57" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : 39" << std::endl;}
-    if(a=="58" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : 40" << std::endl;}
-    if(a=="59" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : 41" << std::endl;}
-    if(a=="60" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : 42" << std::endl;}
-    if(a=="61" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : 43" << std::endl;}
-    if(a=="62" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : 44" << std::endl;}
-    if(a=="63" && o=="-" && b=="18"){std::cout << std::endl << "Answer           : 45" << std::endl;}
     if(a=="0" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : -19" << std::endl;}
     if(a=="1" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : -18" << std::endl;}
     if(a=="2" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : -17" << std::endl;}
@@ -5373,19 +3631,6 @@ int main()
     if(a=="48" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : 29" << std::endl;}
     if(a=="49" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : 30" << std::endl;}
     if(a=="50" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : 31" << std::endl;}
-    if(a=="51" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : 32" << std::endl;}
-    if(a=="52" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : 33" << std::endl;}
-    if(a=="53" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : 34" << std::endl;}
-    if(a=="54" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : 35" << std::endl;}
-    if(a=="55" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : 36" << std::endl;}
-    if(a=="56" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : 37" << std::endl;}
-    if(a=="57" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : 38" << std::endl;}
-    if(a=="58" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : 39" << std::endl;}
-    if(a=="59" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : 40" << std::endl;}
-    if(a=="60" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : 41" << std::endl;}
-    if(a=="61" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : 42" << std::endl;}
-    if(a=="62" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : 43" << std::endl;}
-    if(a=="63" && o=="-" && b=="19"){std::cout << std::endl << "Answer           : 44" << std::endl;}
     if(a=="0" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : -20" << std::endl;}
     if(a=="1" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : -19" << std::endl;}
     if(a=="2" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : -18" << std::endl;}
@@ -5437,19 +3682,6 @@ int main()
     if(a=="48" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : 28" << std::endl;}
     if(a=="49" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : 29" << std::endl;}
     if(a=="50" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : 30" << std::endl;}
-    if(a=="51" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : 31" << std::endl;}
-    if(a=="52" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : 32" << std::endl;}
-    if(a=="53" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : 33" << std::endl;}
-    if(a=="54" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : 34" << std::endl;}
-    if(a=="55" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : 35" << std::endl;}
-    if(a=="56" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : 36" << std::endl;}
-    if(a=="57" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : 37" << std::endl;}
-    if(a=="58" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : 38" << std::endl;}
-    if(a=="59" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : 39" << std::endl;}
-    if(a=="60" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : 40" << std::endl;}
-    if(a=="61" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : 41" << std::endl;}
-    if(a=="62" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : 42" << std::endl;}
-    if(a=="63" && o=="-" && b=="20"){std::cout << std::endl << "Answer           : 43" << std::endl;}
     if(a=="0" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : -21" << std::endl;}
     if(a=="1" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : -20" << std::endl;}
     if(a=="2" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : -19" << std::endl;}
@@ -5501,19 +3733,6 @@ int main()
     if(a=="48" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : 27" << std::endl;}
     if(a=="49" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : 28" << std::endl;}
     if(a=="50" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : 29" << std::endl;}
-    if(a=="51" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : 30" << std::endl;}
-    if(a=="52" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : 31" << std::endl;}
-    if(a=="53" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : 32" << std::endl;}
-    if(a=="54" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : 33" << std::endl;}
-    if(a=="55" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : 34" << std::endl;}
-    if(a=="56" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : 35" << std::endl;}
-    if(a=="57" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : 36" << std::endl;}
-    if(a=="58" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : 37" << std::endl;}
-    if(a=="59" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : 38" << std::endl;}
-    if(a=="60" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : 39" << std::endl;}
-    if(a=="61" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : 40" << std::endl;}
-    if(a=="62" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : 41" << std::endl;}
-    if(a=="63" && o=="-" && b=="21"){std::cout << std::endl << "Answer           : 42" << std::endl;}
     if(a=="0" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : -22" << std::endl;}
     if(a=="1" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : -21" << std::endl;}
     if(a=="2" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : -20" << std::endl;}
@@ -5565,19 +3784,6 @@ int main()
     if(a=="48" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : 26" << std::endl;}
     if(a=="49" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : 27" << std::endl;}
     if(a=="50" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : 28" << std::endl;}
-    if(a=="51" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : 29" << std::endl;}
-    if(a=="52" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : 30" << std::endl;}
-    if(a=="53" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : 31" << std::endl;}
-    if(a=="54" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : 32" << std::endl;}
-    if(a=="55" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : 33" << std::endl;}
-    if(a=="56" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : 34" << std::endl;}
-    if(a=="57" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : 35" << std::endl;}
-    if(a=="58" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : 36" << std::endl;}
-    if(a=="59" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : 37" << std::endl;}
-    if(a=="60" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : 38" << std::endl;}
-    if(a=="61" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : 39" << std::endl;}
-    if(a=="62" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : 40" << std::endl;}
-    if(a=="63" && o=="-" && b=="22"){std::cout << std::endl << "Answer           : 41" << std::endl;}
     if(a=="0" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : -23" << std::endl;}
     if(a=="1" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : -22" << std::endl;}
     if(a=="2" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : -21" << std::endl;}
@@ -5629,19 +3835,6 @@ int main()
     if(a=="48" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : 25" << std::endl;}
     if(a=="49" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : 26" << std::endl;}
     if(a=="50" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : 27" << std::endl;}
-    if(a=="51" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : 28" << std::endl;}
-    if(a=="52" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : 29" << std::endl;}
-    if(a=="53" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : 30" << std::endl;}
-    if(a=="54" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : 31" << std::endl;}
-    if(a=="55" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : 32" << std::endl;}
-    if(a=="56" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : 33" << std::endl;}
-    if(a=="57" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : 34" << std::endl;}
-    if(a=="58" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : 35" << std::endl;}
-    if(a=="59" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : 36" << std::endl;}
-    if(a=="60" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : 37" << std::endl;}
-    if(a=="61" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : 38" << std::endl;}
-    if(a=="62" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : 39" << std::endl;}
-    if(a=="63" && o=="-" && b=="23"){std::cout << std::endl << "Answer           : 40" << std::endl;}
     if(a=="0" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : -24" << std::endl;}
     if(a=="1" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : -23" << std::endl;}
     if(a=="2" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : -22" << std::endl;}
@@ -5693,19 +3886,6 @@ int main()
     if(a=="48" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : 24" << std::endl;}
     if(a=="49" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : 25" << std::endl;}
     if(a=="50" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : 26" << std::endl;}
-    if(a=="51" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : 27" << std::endl;}
-    if(a=="52" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : 28" << std::endl;}
-    if(a=="53" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : 29" << std::endl;}
-    if(a=="54" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : 30" << std::endl;}
-    if(a=="55" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : 31" << std::endl;}
-    if(a=="56" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : 32" << std::endl;}
-    if(a=="57" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : 33" << std::endl;}
-    if(a=="58" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : 34" << std::endl;}
-    if(a=="59" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : 35" << std::endl;}
-    if(a=="60" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : 36" << std::endl;}
-    if(a=="61" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : 37" << std::endl;}
-    if(a=="62" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : 38" << std::endl;}
-    if(a=="63" && o=="-" && b=="24"){std::cout << std::endl << "Answer           : 39" << std::endl;}
     if(a=="0" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : -25" << std::endl;}
     if(a=="1" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : -24" << std::endl;}
     if(a=="2" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : -23" << std::endl;}
@@ -5757,19 +3937,6 @@ int main()
     if(a=="48" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : 23" << std::endl;}
     if(a=="49" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : 24" << std::endl;}
     if(a=="50" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : 25" << std::endl;}
-    if(a=="51" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : 26" << std::endl;}
-    if(a=="52" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : 27" << std::endl;}
-    if(a=="53" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : 28" << std::endl;}
-    if(a=="54" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : 29" << std::endl;}
-    if(a=="55" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : 30" << std::endl;}
-    if(a=="56" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : 31" << std::endl;}
-    if(a=="57" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : 32" << std::endl;}
-    if(a=="58" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : 33" << std::endl;}
-    if(a=="59" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : 34" << std::endl;}
-    if(a=="60" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : 35" << std::endl;}
-    if(a=="61" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : 36" << std::endl;}
-    if(a=="62" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : 37" << std::endl;}
-    if(a=="63" && o=="-" && b=="25"){std::cout << std::endl << "Answer           : 38" << std::endl;}
     if(a=="0" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : -26" << std::endl;}
     if(a=="1" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : -25" << std::endl;}
     if(a=="2" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : -24" << std::endl;}
@@ -5821,19 +3988,6 @@ int main()
     if(a=="48" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : 22" << std::endl;}
     if(a=="49" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : 23" << std::endl;}
     if(a=="50" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : 24" << std::endl;}
-    if(a=="51" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : 25" << std::endl;}
-    if(a=="52" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : 26" << std::endl;}
-    if(a=="53" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : 27" << std::endl;}
-    if(a=="54" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : 28" << std::endl;}
-    if(a=="55" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : 29" << std::endl;}
-    if(a=="56" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : 30" << std::endl;}
-    if(a=="57" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : 31" << std::endl;}
-    if(a=="58" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : 32" << std::endl;}
-    if(a=="59" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : 33" << std::endl;}
-    if(a=="60" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : 34" << std::endl;}
-    if(a=="61" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : 35" << std::endl;}
-    if(a=="62" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : 36" << std::endl;}
-    if(a=="63" && o=="-" && b=="26"){std::cout << std::endl << "Answer           : 37" << std::endl;}
     if(a=="0" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : -27" << std::endl;}
     if(a=="1" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : -26" << std::endl;}
     if(a=="2" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : -25" << std::endl;}
@@ -5885,19 +4039,6 @@ int main()
     if(a=="48" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : 21" << std::endl;}
     if(a=="49" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : 22" << std::endl;}
     if(a=="50" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : 23" << std::endl;}
-    if(a=="51" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : 24" << std::endl;}
-    if(a=="52" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : 25" << std::endl;}
-    if(a=="53" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : 26" << std::endl;}
-    if(a=="54" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : 27" << std::endl;}
-    if(a=="55" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : 28" << std::endl;}
-    if(a=="56" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : 29" << std::endl;}
-    if(a=="57" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : 30" << std::endl;}
-    if(a=="58" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : 31" << std::endl;}
-    if(a=="59" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : 32" << std::endl;}
-    if(a=="60" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : 33" << std::endl;}
-    if(a=="61" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : 34" << std::endl;}
-    if(a=="62" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : 35" << std::endl;}
-    if(a=="63" && o=="-" && b=="27"){std::cout << std::endl << "Answer           : 36" << std::endl;}
     if(a=="0" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : -28" << std::endl;}
     if(a=="1" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : -27" << std::endl;}
     if(a=="2" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : -26" << std::endl;}
@@ -5949,19 +4090,6 @@ int main()
     if(a=="48" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : 20" << std::endl;}
     if(a=="49" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : 21" << std::endl;}
     if(a=="50" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : 22" << std::endl;}
-    if(a=="51" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : 23" << std::endl;}
-    if(a=="52" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : 24" << std::endl;}
-    if(a=="53" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : 25" << std::endl;}
-    if(a=="54" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : 26" << std::endl;}
-    if(a=="55" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : 27" << std::endl;}
-    if(a=="56" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : 28" << std::endl;}
-    if(a=="57" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : 29" << std::endl;}
-    if(a=="58" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : 30" << std::endl;}
-    if(a=="59" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : 31" << std::endl;}
-    if(a=="60" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : 32" << std::endl;}
-    if(a=="61" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : 33" << std::endl;}
-    if(a=="62" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : 34" << std::endl;}
-    if(a=="63" && o=="-" && b=="28"){std::cout << std::endl << "Answer           : 35" << std::endl;}
     if(a=="0" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : -29" << std::endl;}
     if(a=="1" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : -28" << std::endl;}
     if(a=="2" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : -27" << std::endl;}
@@ -6013,19 +4141,6 @@ int main()
     if(a=="48" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : 19" << std::endl;}
     if(a=="49" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : 20" << std::endl;}
     if(a=="50" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : 21" << std::endl;}
-    if(a=="51" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : 22" << std::endl;}
-    if(a=="52" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : 23" << std::endl;}
-    if(a=="53" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : 24" << std::endl;}
-    if(a=="54" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : 25" << std::endl;}
-    if(a=="55" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : 26" << std::endl;}
-    if(a=="56" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : 27" << std::endl;}
-    if(a=="57" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : 28" << std::endl;}
-    if(a=="58" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : 29" << std::endl;}
-    if(a=="59" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : 30" << std::endl;}
-    if(a=="60" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : 31" << std::endl;}
-    if(a=="61" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : 32" << std::endl;}
-    if(a=="62" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : 33" << std::endl;}
-    if(a=="63" && o=="-" && b=="29"){std::cout << std::endl << "Answer           : 34" << std::endl;}
     if(a=="0" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : -30" << std::endl;}
     if(a=="1" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : -29" << std::endl;}
     if(a=="2" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : -28" << std::endl;}
@@ -6077,19 +4192,6 @@ int main()
     if(a=="48" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : 18" << std::endl;}
     if(a=="49" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : 19" << std::endl;}
     if(a=="50" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : 20" << std::endl;}
-    if(a=="51" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : 21" << std::endl;}
-    if(a=="52" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : 22" << std::endl;}
-    if(a=="53" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : 23" << std::endl;}
-    if(a=="54" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : 24" << std::endl;}
-    if(a=="55" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : 25" << std::endl;}
-    if(a=="56" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : 26" << std::endl;}
-    if(a=="57" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : 27" << std::endl;}
-    if(a=="58" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : 28" << std::endl;}
-    if(a=="59" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : 29" << std::endl;}
-    if(a=="60" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : 30" << std::endl;}
-    if(a=="61" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : 31" << std::endl;}
-    if(a=="62" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : 32" << std::endl;}
-    if(a=="63" && o=="-" && b=="30"){std::cout << std::endl << "Answer           : 33" << std::endl;}
     if(a=="0" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : -31" << std::endl;}
     if(a=="1" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : -30" << std::endl;}
     if(a=="2" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : -29" << std::endl;}
@@ -6141,19 +4243,6 @@ int main()
     if(a=="48" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : 17" << std::endl;}
     if(a=="49" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : 18" << std::endl;}
     if(a=="50" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : 19" << std::endl;}
-    if(a=="51" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : 20" << std::endl;}
-    if(a=="52" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : 21" << std::endl;}
-    if(a=="53" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : 22" << std::endl;}
-    if(a=="54" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : 23" << std::endl;}
-    if(a=="55" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : 24" << std::endl;}
-    if(a=="56" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : 25" << std::endl;}
-    if(a=="57" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : 26" << std::endl;}
-    if(a=="58" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : 27" << std::endl;}
-    if(a=="59" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : 28" << std::endl;}
-    if(a=="60" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : 29" << std::endl;}
-    if(a=="61" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : 30" << std::endl;}
-    if(a=="62" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : 31" << std::endl;}
-    if(a=="63" && o=="-" && b=="31"){std::cout << std::endl << "Answer           : 32" << std::endl;}
     if(a=="0" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : -32" << std::endl;}
     if(a=="1" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : -31" << std::endl;}
     if(a=="2" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : -30" << std::endl;}
@@ -6205,19 +4294,6 @@ int main()
     if(a=="48" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : 16" << std::endl;}
     if(a=="49" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : 17" << std::endl;}
     if(a=="50" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : 18" << std::endl;}
-    if(a=="51" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : 19" << std::endl;}
-    if(a=="52" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : 20" << std::endl;}
-    if(a=="53" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : 21" << std::endl;}
-    if(a=="54" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : 22" << std::endl;}
-    if(a=="55" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : 23" << std::endl;}
-    if(a=="56" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : 24" << std::endl;}
-    if(a=="57" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : 25" << std::endl;}
-    if(a=="58" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : 26" << std::endl;}
-    if(a=="59" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : 27" << std::endl;}
-    if(a=="60" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : 28" << std::endl;}
-    if(a=="61" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : 29" << std::endl;}
-    if(a=="62" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : 30" << std::endl;}
-    if(a=="63" && o=="-" && b=="32"){std::cout << std::endl << "Answer           : 31" << std::endl;}
     if(a=="0" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : -33" << std::endl;}
     if(a=="1" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : -32" << std::endl;}
     if(a=="2" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : -31" << std::endl;}
@@ -6269,19 +4345,6 @@ int main()
     if(a=="48" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : 15" << std::endl;}
     if(a=="49" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : 16" << std::endl;}
     if(a=="50" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : 17" << std::endl;}
-    if(a=="51" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : 18" << std::endl;}
-    if(a=="52" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : 19" << std::endl;}
-    if(a=="53" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : 20" << std::endl;}
-    if(a=="54" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : 21" << std::endl;}
-    if(a=="55" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : 22" << std::endl;}
-    if(a=="56" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : 23" << std::endl;}
-    if(a=="57" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : 24" << std::endl;}
-    if(a=="58" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : 25" << std::endl;}
-    if(a=="59" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : 26" << std::endl;}
-    if(a=="60" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : 27" << std::endl;}
-    if(a=="61" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : 28" << std::endl;}
-    if(a=="62" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : 29" << std::endl;}
-    if(a=="63" && o=="-" && b=="33"){std::cout << std::endl << "Answer           : 30" << std::endl;}
     if(a=="0" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : -34" << std::endl;}
     if(a=="1" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : -33" << std::endl;}
     if(a=="2" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : -32" << std::endl;}
@@ -6333,19 +4396,6 @@ int main()
     if(a=="48" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : 14" << std::endl;}
     if(a=="49" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : 15" << std::endl;}
     if(a=="50" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : 16" << std::endl;}
-    if(a=="51" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : 17" << std::endl;}
-    if(a=="52" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : 18" << std::endl;}
-    if(a=="53" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : 19" << std::endl;}
-    if(a=="54" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : 20" << std::endl;}
-    if(a=="55" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : 21" << std::endl;}
-    if(a=="56" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : 22" << std::endl;}
-    if(a=="57" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : 23" << std::endl;}
-    if(a=="58" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : 24" << std::endl;}
-    if(a=="59" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : 25" << std::endl;}
-    if(a=="60" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : 26" << std::endl;}
-    if(a=="61" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : 27" << std::endl;}
-    if(a=="62" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : 28" << std::endl;}
-    if(a=="63" && o=="-" && b=="34"){std::cout << std::endl << "Answer           : 29" << std::endl;}
     if(a=="0" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : -35" << std::endl;}
     if(a=="1" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : -34" << std::endl;}
     if(a=="2" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : -33" << std::endl;}
@@ -6397,19 +4447,6 @@ int main()
     if(a=="48" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : 13" << std::endl;}
     if(a=="49" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : 14" << std::endl;}
     if(a=="50" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : 15" << std::endl;}
-    if(a=="51" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : 16" << std::endl;}
-    if(a=="52" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : 17" << std::endl;}
-    if(a=="53" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : 18" << std::endl;}
-    if(a=="54" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : 19" << std::endl;}
-    if(a=="55" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : 20" << std::endl;}
-    if(a=="56" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : 21" << std::endl;}
-    if(a=="57" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : 22" << std::endl;}
-    if(a=="58" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : 23" << std::endl;}
-    if(a=="59" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : 24" << std::endl;}
-    if(a=="60" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : 25" << std::endl;}
-    if(a=="61" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : 26" << std::endl;}
-    if(a=="62" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : 27" << std::endl;}
-    if(a=="63" && o=="-" && b=="35"){std::cout << std::endl << "Answer           : 28" << std::endl;}
     if(a=="0" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : -36" << std::endl;}
     if(a=="1" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : -35" << std::endl;}
     if(a=="2" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : -34" << std::endl;}
@@ -6461,19 +4498,6 @@ int main()
     if(a=="48" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : 12" << std::endl;}
     if(a=="49" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : 13" << std::endl;}
     if(a=="50" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : 14" << std::endl;}
-    if(a=="51" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : 15" << std::endl;}
-    if(a=="52" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : 16" << std::endl;}
-    if(a=="53" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : 17" << std::endl;}
-    if(a=="54" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : 18" << std::endl;}
-    if(a=="55" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : 19" << std::endl;}
-    if(a=="56" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : 20" << std::endl;}
-    if(a=="57" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : 21" << std::endl;}
-    if(a=="58" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : 22" << std::endl;}
-    if(a=="59" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : 23" << std::endl;}
-    if(a=="60" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : 24" << std::endl;}
-    if(a=="61" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : 25" << std::endl;}
-    if(a=="62" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : 26" << std::endl;}
-    if(a=="63" && o=="-" && b=="36"){std::cout << std::endl << "Answer           : 27" << std::endl;}
     if(a=="0" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : -37" << std::endl;}
     if(a=="1" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : -36" << std::endl;}
     if(a=="2" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : -35" << std::endl;}
@@ -6525,19 +4549,6 @@ int main()
     if(a=="48" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : 11" << std::endl;}
     if(a=="49" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : 12" << std::endl;}
     if(a=="50" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : 13" << std::endl;}
-    if(a=="51" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : 14" << std::endl;}
-    if(a=="52" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : 15" << std::endl;}
-    if(a=="53" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : 16" << std::endl;}
-    if(a=="54" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : 17" << std::endl;}
-    if(a=="55" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : 18" << std::endl;}
-    if(a=="56" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : 19" << std::endl;}
-    if(a=="57" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : 20" << std::endl;}
-    if(a=="58" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : 21" << std::endl;}
-    if(a=="59" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : 22" << std::endl;}
-    if(a=="60" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : 23" << std::endl;}
-    if(a=="61" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : 24" << std::endl;}
-    if(a=="62" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : 25" << std::endl;}
-    if(a=="63" && o=="-" && b=="37"){std::cout << std::endl << "Answer           : 26" << std::endl;}
     if(a=="0" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : -38" << std::endl;}
     if(a=="1" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : -37" << std::endl;}
     if(a=="2" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : -36" << std::endl;}
@@ -6589,19 +4600,6 @@ int main()
     if(a=="48" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : 10" << std::endl;}
     if(a=="49" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : 11" << std::endl;}
     if(a=="50" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : 12" << std::endl;}
-    if(a=="51" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : 13" << std::endl;}
-    if(a=="52" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : 14" << std::endl;}
-    if(a=="53" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : 15" << std::endl;}
-    if(a=="54" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : 16" << std::endl;}
-    if(a=="55" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : 17" << std::endl;}
-    if(a=="56" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : 18" << std::endl;}
-    if(a=="57" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : 19" << std::endl;}
-    if(a=="58" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : 20" << std::endl;}
-    if(a=="59" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : 21" << std::endl;}
-    if(a=="60" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : 22" << std::endl;}
-    if(a=="61" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : 23" << std::endl;}
-    if(a=="62" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : 24" << std::endl;}
-    if(a=="63" && o=="-" && b=="38"){std::cout << std::endl << "Answer           : 25" << std::endl;}
     if(a=="0" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : -39" << std::endl;}
     if(a=="1" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : -38" << std::endl;}
     if(a=="2" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : -37" << std::endl;}
@@ -6653,19 +4651,6 @@ int main()
     if(a=="48" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : 9" << std::endl;}
     if(a=="49" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : 10" << std::endl;}
     if(a=="50" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : 11" << std::endl;}
-    if(a=="51" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : 12" << std::endl;}
-    if(a=="52" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : 13" << std::endl;}
-    if(a=="53" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : 14" << std::endl;}
-    if(a=="54" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : 15" << std::endl;}
-    if(a=="55" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : 16" << std::endl;}
-    if(a=="56" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : 17" << std::endl;}
-    if(a=="57" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : 18" << std::endl;}
-    if(a=="58" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : 19" << std::endl;}
-    if(a=="59" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : 20" << std::endl;}
-    if(a=="60" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : 21" << std::endl;}
-    if(a=="61" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : 22" << std::endl;}
-    if(a=="62" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : 23" << std::endl;}
-    if(a=="63" && o=="-" && b=="39"){std::cout << std::endl << "Answer           : 24" << std::endl;}
     if(a=="0" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : -40" << std::endl;}
     if(a=="1" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : -39" << std::endl;}
     if(a=="2" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : -38" << std::endl;}
@@ -6717,19 +4702,6 @@ int main()
     if(a=="48" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : 8" << std::endl;}
     if(a=="49" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : 9" << std::endl;}
     if(a=="50" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : 10" << std::endl;}
-    if(a=="51" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : 11" << std::endl;}
-    if(a=="52" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : 12" << std::endl;}
-    if(a=="53" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : 13" << std::endl;}
-    if(a=="54" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : 14" << std::endl;}
-    if(a=="55" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : 15" << std::endl;}
-    if(a=="56" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : 16" << std::endl;}
-    if(a=="57" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : 17" << std::endl;}
-    if(a=="58" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : 18" << std::endl;}
-    if(a=="59" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : 19" << std::endl;}
-    if(a=="60" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : 20" << std::endl;}
-    if(a=="61" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : 21" << std::endl;}
-    if(a=="62" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : 22" << std::endl;}
-    if(a=="63" && o=="-" && b=="40"){std::cout << std::endl << "Answer           : 23" << std::endl;}
     if(a=="0" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : -41" << std::endl;}
     if(a=="1" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : -40" << std::endl;}
     if(a=="2" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : -39" << std::endl;}
@@ -6781,19 +4753,6 @@ int main()
     if(a=="48" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : 7" << std::endl;}
     if(a=="49" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : 8" << std::endl;}
     if(a=="50" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : 9" << std::endl;}
-    if(a=="51" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : 10" << std::endl;}
-    if(a=="52" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : 11" << std::endl;}
-    if(a=="53" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : 12" << std::endl;}
-    if(a=="54" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : 13" << std::endl;}
-    if(a=="55" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : 14" << std::endl;}
-    if(a=="56" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : 15" << std::endl;}
-    if(a=="57" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : 16" << std::endl;}
-    if(a=="58" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : 17" << std::endl;}
-    if(a=="59" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : 18" << std::endl;}
-    if(a=="60" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : 19" << std::endl;}
-    if(a=="61" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : 20" << std::endl;}
-    if(a=="62" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : 21" << std::endl;}
-    if(a=="63" && o=="-" && b=="41"){std::cout << std::endl << "Answer           : 22" << std::endl;}
     if(a=="0" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : -42" << std::endl;}
     if(a=="1" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : -41" << std::endl;}
     if(a=="2" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : -40" << std::endl;}
@@ -6845,19 +4804,6 @@ int main()
     if(a=="48" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : 6" << std::endl;}
     if(a=="49" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : 7" << std::endl;}
     if(a=="50" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : 8" << std::endl;}
-    if(a=="51" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : 9" << std::endl;}
-    if(a=="52" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : 10" << std::endl;}
-    if(a=="53" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : 11" << std::endl;}
-    if(a=="54" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : 12" << std::endl;}
-    if(a=="55" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : 13" << std::endl;}
-    if(a=="56" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : 14" << std::endl;}
-    if(a=="57" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : 15" << std::endl;}
-    if(a=="58" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : 16" << std::endl;}
-    if(a=="59" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : 17" << std::endl;}
-    if(a=="60" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : 18" << std::endl;}
-    if(a=="61" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : 19" << std::endl;}
-    if(a=="62" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : 20" << std::endl;}
-    if(a=="63" && o=="-" && b=="42"){std::cout << std::endl << "Answer           : 21" << std::endl;}
     if(a=="0" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : -43" << std::endl;}
     if(a=="1" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : -42" << std::endl;}
     if(a=="2" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : -41" << std::endl;}
@@ -6909,19 +4855,6 @@ int main()
     if(a=="48" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : 5" << std::endl;}
     if(a=="49" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : 6" << std::endl;}
     if(a=="50" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : 7" << std::endl;}
-    if(a=="51" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : 8" << std::endl;}
-    if(a=="52" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : 9" << std::endl;}
-    if(a=="53" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : 10" << std::endl;}
-    if(a=="54" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : 11" << std::endl;}
-    if(a=="55" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : 12" << std::endl;}
-    if(a=="56" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : 13" << std::endl;}
-    if(a=="57" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : 14" << std::endl;}
-    if(a=="58" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : 15" << std::endl;}
-    if(a=="59" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : 16" << std::endl;}
-    if(a=="60" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : 17" << std::endl;}
-    if(a=="61" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : 18" << std::endl;}
-    if(a=="62" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : 19" << std::endl;}
-    if(a=="63" && o=="-" && b=="43"){std::cout << std::endl << "Answer           : 20" << std::endl;}
     if(a=="0" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : -44" << std::endl;}
     if(a=="1" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : -43" << std::endl;}
     if(a=="2" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : -42" << std::endl;}
@@ -6973,19 +4906,6 @@ int main()
     if(a=="48" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : 4" << std::endl;}
     if(a=="49" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : 5" << std::endl;}
     if(a=="50" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : 6" << std::endl;}
-    if(a=="51" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : 7" << std::endl;}
-    if(a=="52" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : 8" << std::endl;}
-    if(a=="53" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : 9" << std::endl;}
-    if(a=="54" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : 10" << std::endl;}
-    if(a=="55" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : 11" << std::endl;}
-    if(a=="56" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : 12" << std::endl;}
-    if(a=="57" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : 13" << std::endl;}
-    if(a=="58" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : 14" << std::endl;}
-    if(a=="59" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : 15" << std::endl;}
-    if(a=="60" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : 16" << std::endl;}
-    if(a=="61" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : 17" << std::endl;}
-    if(a=="62" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : 18" << std::endl;}
-    if(a=="63" && o=="-" && b=="44"){std::cout << std::endl << "Answer           : 19" << std::endl;}
     if(a=="0" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : -45" << std::endl;}
     if(a=="1" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : -44" << std::endl;}
     if(a=="2" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : -43" << std::endl;}
@@ -7037,19 +4957,6 @@ int main()
     if(a=="48" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : 3" << std::endl;}
     if(a=="49" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : 4" << std::endl;}
     if(a=="50" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : 5" << std::endl;}
-    if(a=="51" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : 6" << std::endl;}
-    if(a=="52" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : 7" << std::endl;}
-    if(a=="53" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : 8" << std::endl;}
-    if(a=="54" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : 9" << std::endl;}
-    if(a=="55" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : 10" << std::endl;}
-    if(a=="56" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : 11" << std::endl;}
-    if(a=="57" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : 12" << std::endl;}
-    if(a=="58" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : 13" << std::endl;}
-    if(a=="59" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : 14" << std::endl;}
-    if(a=="60" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : 15" << std::endl;}
-    if(a=="61" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : 16" << std::endl;}
-    if(a=="62" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : 17" << std::endl;}
-    if(a=="63" && o=="-" && b=="45"){std::cout << std::endl << "Answer           : 18" << std::endl;}
     if(a=="0" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : -46" << std::endl;}
     if(a=="1" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : -45" << std::endl;}
     if(a=="2" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : -44" << std::endl;}
@@ -7101,19 +5008,6 @@ int main()
     if(a=="48" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : 2" << std::endl;}
     if(a=="49" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : 3" << std::endl;}
     if(a=="50" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : 4" << std::endl;}
-    if(a=="51" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : 5" << std::endl;}
-    if(a=="52" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : 6" << std::endl;}
-    if(a=="53" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : 7" << std::endl;}
-    if(a=="54" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : 8" << std::endl;}
-    if(a=="55" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : 9" << std::endl;}
-    if(a=="56" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : 10" << std::endl;}
-    if(a=="57" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : 11" << std::endl;}
-    if(a=="58" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : 12" << std::endl;}
-    if(a=="59" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : 13" << std::endl;}
-    if(a=="60" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : 14" << std::endl;}
-    if(a=="61" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : 15" << std::endl;}
-    if(a=="62" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : 16" << std::endl;}
-    if(a=="63" && o=="-" && b=="46"){std::cout << std::endl << "Answer           : 17" << std::endl;}
     if(a=="0" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : -47" << std::endl;}
     if(a=="1" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : -46" << std::endl;}
     if(a=="2" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : -45" << std::endl;}
@@ -7165,19 +5059,6 @@ int main()
     if(a=="48" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : 1" << std::endl;}
     if(a=="49" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : 2" << std::endl;}
     if(a=="50" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : 3" << std::endl;}
-    if(a=="51" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : 4" << std::endl;}
-    if(a=="52" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : 5" << std::endl;}
-    if(a=="53" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : 6" << std::endl;}
-    if(a=="54" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : 7" << std::endl;}
-    if(a=="55" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : 8" << std::endl;}
-    if(a=="56" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : 9" << std::endl;}
-    if(a=="57" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : 10" << std::endl;}
-    if(a=="58" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : 11" << std::endl;}
-    if(a=="59" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : 12" << std::endl;}
-    if(a=="60" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : 13" << std::endl;}
-    if(a=="61" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : 14" << std::endl;}
-    if(a=="62" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : 15" << std::endl;}
-    if(a=="63" && o=="-" && b=="47"){std::cout << std::endl << "Answer           : 16" << std::endl;}
     if(a=="0" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : -48" << std::endl;}
     if(a=="1" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : -47" << std::endl;}
     if(a=="2" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : -46" << std::endl;}
@@ -7229,19 +5110,6 @@ int main()
     if(a=="48" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="49" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : 1" << std::endl;}
     if(a=="50" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : 2" << std::endl;}
-    if(a=="51" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : 3" << std::endl;}
-    if(a=="52" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : 4" << std::endl;}
-    if(a=="53" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : 5" << std::endl;}
-    if(a=="54" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : 6" << std::endl;}
-    if(a=="55" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : 7" << std::endl;}
-    if(a=="56" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : 8" << std::endl;}
-    if(a=="57" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : 9" << std::endl;}
-    if(a=="58" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : 10" << std::endl;}
-    if(a=="59" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : 11" << std::endl;}
-    if(a=="60" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : 12" << std::endl;}
-    if(a=="61" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : 13" << std::endl;}
-    if(a=="62" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : 14" << std::endl;}
-    if(a=="63" && o=="-" && b=="48"){std::cout << std::endl << "Answer           : 15" << std::endl;}
     if(a=="0" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : -49" << std::endl;}
     if(a=="1" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : -48" << std::endl;}
     if(a=="2" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : -47" << std::endl;}
@@ -7293,19 +5161,6 @@ int main()
     if(a=="48" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : -1" << std::endl;}
     if(a=="49" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="50" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : 1" << std::endl;}
-    if(a=="51" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : 2" << std::endl;}
-    if(a=="52" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : 3" << std::endl;}
-    if(a=="53" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : 4" << std::endl;}
-    if(a=="54" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : 5" << std::endl;}
-    if(a=="55" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : 6" << std::endl;}
-    if(a=="56" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : 7" << std::endl;}
-    if(a=="57" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : 8" << std::endl;}
-    if(a=="58" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : 9" << std::endl;}
-    if(a=="59" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : 10" << std::endl;}
-    if(a=="60" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : 11" << std::endl;}
-    if(a=="61" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : 12" << std::endl;}
-    if(a=="62" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : 13" << std::endl;}
-    if(a=="63" && o=="-" && b=="49"){std::cout << std::endl << "Answer           : 14" << std::endl;}
     if(a=="0" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : -50" << std::endl;}
     if(a=="1" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : -49" << std::endl;}
     if(a=="2" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : -48" << std::endl;}
@@ -7357,851 +5212,6 @@ int main()
     if(a=="48" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : -2" << std::endl;}
     if(a=="49" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : -1" << std::endl;}
     if(a=="50" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="51" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : 1" << std::endl;}
-    if(a=="52" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : 2" << std::endl;}
-    if(a=="53" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : 3" << std::endl;}
-    if(a=="54" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : 4" << std::endl;}
-    if(a=="55" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : 5" << std::endl;}
-    if(a=="56" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : 6" << std::endl;}
-    if(a=="57" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : 7" << std::endl;}
-    if(a=="58" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : 8" << std::endl;}
-    if(a=="59" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : 9" << std::endl;}
-    if(a=="60" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : 10" << std::endl;}
-    if(a=="61" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : 11" << std::endl;}
-    if(a=="62" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : 12" << std::endl;}
-    if(a=="63" && o=="-" && b=="50"){std::cout << std::endl << "Answer           : 13" << std::endl;}
-    if(a=="0" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -51" << std::endl;}
-    if(a=="1" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -50" << std::endl;}
-    if(a=="2" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -49" << std::endl;}
-    if(a=="3" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -48" << std::endl;}
-    if(a=="4" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -47" << std::endl;}
-    if(a=="5" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -46" << std::endl;}
-    if(a=="6" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -45" << std::endl;}
-    if(a=="7" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -44" << std::endl;}
-    if(a=="8" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -43" << std::endl;}
-    if(a=="9" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -42" << std::endl;}
-    if(a=="10" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -41" << std::endl;}
-    if(a=="11" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -40" << std::endl;}
-    if(a=="12" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -39" << std::endl;}
-    if(a=="13" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -38" << std::endl;}
-    if(a=="14" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -37" << std::endl;}
-    if(a=="15" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -36" << std::endl;}
-    if(a=="16" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -35" << std::endl;}
-    if(a=="17" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -34" << std::endl;}
-    if(a=="18" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -33" << std::endl;}
-    if(a=="19" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -32" << std::endl;}
-    if(a=="20" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -31" << std::endl;}
-    if(a=="21" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -30" << std::endl;}
-    if(a=="22" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -29" << std::endl;}
-    if(a=="23" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -28" << std::endl;}
-    if(a=="24" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -27" << std::endl;}
-    if(a=="25" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -26" << std::endl;}
-    if(a=="26" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -25" << std::endl;}
-    if(a=="27" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -24" << std::endl;}
-    if(a=="28" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -23" << std::endl;}
-    if(a=="29" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -22" << std::endl;}
-    if(a=="30" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -21" << std::endl;}
-    if(a=="31" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -20" << std::endl;}
-    if(a=="32" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -19" << std::endl;}
-    if(a=="33" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -18" << std::endl;}
-    if(a=="34" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -17" << std::endl;}
-    if(a=="35" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -16" << std::endl;}
-    if(a=="36" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -15" << std::endl;}
-    if(a=="37" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -14" << std::endl;}
-    if(a=="38" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -13" << std::endl;}
-    if(a=="39" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -12" << std::endl;}
-    if(a=="40" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -11" << std::endl;}
-    if(a=="41" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -10" << std::endl;}
-    if(a=="42" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -9" << std::endl;}
-    if(a=="43" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -8" << std::endl;}
-    if(a=="44" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -7" << std::endl;}
-    if(a=="45" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -6" << std::endl;}
-    if(a=="46" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -5" << std::endl;}
-    if(a=="47" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -4" << std::endl;}
-    if(a=="48" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -3" << std::endl;}
-    if(a=="49" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -2" << std::endl;}
-    if(a=="50" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : -1" << std::endl;}
-    if(a=="51" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="52" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : 1" << std::endl;}
-    if(a=="53" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : 2" << std::endl;}
-    if(a=="54" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : 3" << std::endl;}
-    if(a=="55" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : 4" << std::endl;}
-    if(a=="56" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : 5" << std::endl;}
-    if(a=="57" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : 6" << std::endl;}
-    if(a=="58" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : 7" << std::endl;}
-    if(a=="59" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : 8" << std::endl;}
-    if(a=="60" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : 9" << std::endl;}
-    if(a=="61" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : 10" << std::endl;}
-    if(a=="62" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : 11" << std::endl;}
-    if(a=="63" && o=="-" && b=="51"){std::cout << std::endl << "Answer           : 12" << std::endl;}
-    if(a=="0" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -52" << std::endl;}
-    if(a=="1" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -51" << std::endl;}
-    if(a=="2" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -50" << std::endl;}
-    if(a=="3" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -49" << std::endl;}
-    if(a=="4" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -48" << std::endl;}
-    if(a=="5" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -47" << std::endl;}
-    if(a=="6" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -46" << std::endl;}
-    if(a=="7" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -45" << std::endl;}
-    if(a=="8" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -44" << std::endl;}
-    if(a=="9" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -43" << std::endl;}
-    if(a=="10" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -42" << std::endl;}
-    if(a=="11" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -41" << std::endl;}
-    if(a=="12" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -40" << std::endl;}
-    if(a=="13" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -39" << std::endl;}
-    if(a=="14" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -38" << std::endl;}
-    if(a=="15" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -37" << std::endl;}
-    if(a=="16" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -36" << std::endl;}
-    if(a=="17" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -35" << std::endl;}
-    if(a=="18" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -34" << std::endl;}
-    if(a=="19" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -33" << std::endl;}
-    if(a=="20" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -32" << std::endl;}
-    if(a=="21" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -31" << std::endl;}
-    if(a=="22" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -30" << std::endl;}
-    if(a=="23" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -29" << std::endl;}
-    if(a=="24" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -28" << std::endl;}
-    if(a=="25" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -27" << std::endl;}
-    if(a=="26" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -26" << std::endl;}
-    if(a=="27" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -25" << std::endl;}
-    if(a=="28" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -24" << std::endl;}
-    if(a=="29" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -23" << std::endl;}
-    if(a=="30" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -22" << std::endl;}
-    if(a=="31" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -21" << std::endl;}
-    if(a=="32" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -20" << std::endl;}
-    if(a=="33" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -19" << std::endl;}
-    if(a=="34" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -18" << std::endl;}
-    if(a=="35" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -17" << std::endl;}
-    if(a=="36" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -16" << std::endl;}
-    if(a=="37" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -15" << std::endl;}
-    if(a=="38" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -14" << std::endl;}
-    if(a=="39" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -13" << std::endl;}
-    if(a=="40" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -12" << std::endl;}
-    if(a=="41" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -11" << std::endl;}
-    if(a=="42" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -10" << std::endl;}
-    if(a=="43" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -9" << std::endl;}
-    if(a=="44" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -8" << std::endl;}
-    if(a=="45" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -7" << std::endl;}
-    if(a=="46" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -6" << std::endl;}
-    if(a=="47" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -5" << std::endl;}
-    if(a=="48" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -4" << std::endl;}
-    if(a=="49" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -3" << std::endl;}
-    if(a=="50" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -2" << std::endl;}
-    if(a=="51" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : -1" << std::endl;}
-    if(a=="52" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="53" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : 1" << std::endl;}
-    if(a=="54" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : 2" << std::endl;}
-    if(a=="55" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : 3" << std::endl;}
-    if(a=="56" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : 4" << std::endl;}
-    if(a=="57" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : 5" << std::endl;}
-    if(a=="58" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : 6" << std::endl;}
-    if(a=="59" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : 7" << std::endl;}
-    if(a=="60" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : 8" << std::endl;}
-    if(a=="61" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : 9" << std::endl;}
-    if(a=="62" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : 10" << std::endl;}
-    if(a=="63" && o=="-" && b=="52"){std::cout << std::endl << "Answer           : 11" << std::endl;}
-    if(a=="0" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -53" << std::endl;}
-    if(a=="1" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -52" << std::endl;}
-    if(a=="2" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -51" << std::endl;}
-    if(a=="3" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -50" << std::endl;}
-    if(a=="4" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -49" << std::endl;}
-    if(a=="5" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -48" << std::endl;}
-    if(a=="6" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -47" << std::endl;}
-    if(a=="7" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -46" << std::endl;}
-    if(a=="8" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -45" << std::endl;}
-    if(a=="9" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -44" << std::endl;}
-    if(a=="10" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -43" << std::endl;}
-    if(a=="11" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -42" << std::endl;}
-    if(a=="12" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -41" << std::endl;}
-    if(a=="13" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -40" << std::endl;}
-    if(a=="14" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -39" << std::endl;}
-    if(a=="15" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -38" << std::endl;}
-    if(a=="16" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -37" << std::endl;}
-    if(a=="17" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -36" << std::endl;}
-    if(a=="18" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -35" << std::endl;}
-    if(a=="19" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -34" << std::endl;}
-    if(a=="20" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -33" << std::endl;}
-    if(a=="21" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -32" << std::endl;}
-    if(a=="22" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -31" << std::endl;}
-    if(a=="23" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -30" << std::endl;}
-    if(a=="24" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -29" << std::endl;}
-    if(a=="25" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -28" << std::endl;}
-    if(a=="26" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -27" << std::endl;}
-    if(a=="27" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -26" << std::endl;}
-    if(a=="28" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -25" << std::endl;}
-    if(a=="29" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -24" << std::endl;}
-    if(a=="30" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -23" << std::endl;}
-    if(a=="31" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -22" << std::endl;}
-    if(a=="32" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -21" << std::endl;}
-    if(a=="33" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -20" << std::endl;}
-    if(a=="34" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -19" << std::endl;}
-    if(a=="35" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -18" << std::endl;}
-    if(a=="36" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -17" << std::endl;}
-    if(a=="37" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -16" << std::endl;}
-    if(a=="38" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -15" << std::endl;}
-    if(a=="39" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -14" << std::endl;}
-    if(a=="40" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -13" << std::endl;}
-    if(a=="41" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -12" << std::endl;}
-    if(a=="42" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -11" << std::endl;}
-    if(a=="43" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -10" << std::endl;}
-    if(a=="44" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -9" << std::endl;}
-    if(a=="45" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -8" << std::endl;}
-    if(a=="46" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -7" << std::endl;}
-    if(a=="47" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -6" << std::endl;}
-    if(a=="48" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -5" << std::endl;}
-    if(a=="49" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -4" << std::endl;}
-    if(a=="50" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -3" << std::endl;}
-    if(a=="51" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -2" << std::endl;}
-    if(a=="52" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : -1" << std::endl;}
-    if(a=="53" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="54" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : 1" << std::endl;}
-    if(a=="55" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : 2" << std::endl;}
-    if(a=="56" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : 3" << std::endl;}
-    if(a=="57" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : 4" << std::endl;}
-    if(a=="58" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : 5" << std::endl;}
-    if(a=="59" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : 6" << std::endl;}
-    if(a=="60" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : 7" << std::endl;}
-    if(a=="61" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : 8" << std::endl;}
-    if(a=="62" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : 9" << std::endl;}
-    if(a=="63" && o=="-" && b=="53"){std::cout << std::endl << "Answer           : 10" << std::endl;}
-    if(a=="0" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -54" << std::endl;}
-    if(a=="1" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -53" << std::endl;}
-    if(a=="2" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -52" << std::endl;}
-    if(a=="3" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -51" << std::endl;}
-    if(a=="4" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -50" << std::endl;}
-    if(a=="5" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -49" << std::endl;}
-    if(a=="6" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -48" << std::endl;}
-    if(a=="7" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -47" << std::endl;}
-    if(a=="8" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -46" << std::endl;}
-    if(a=="9" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -45" << std::endl;}
-    if(a=="10" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -44" << std::endl;}
-    if(a=="11" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -43" << std::endl;}
-    if(a=="12" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -42" << std::endl;}
-    if(a=="13" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -41" << std::endl;}
-    if(a=="14" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -40" << std::endl;}
-    if(a=="15" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -39" << std::endl;}
-    if(a=="16" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -38" << std::endl;}
-    if(a=="17" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -37" << std::endl;}
-    if(a=="18" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -36" << std::endl;}
-    if(a=="19" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -35" << std::endl;}
-    if(a=="20" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -34" << std::endl;}
-    if(a=="21" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -33" << std::endl;}
-    if(a=="22" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -32" << std::endl;}
-    if(a=="23" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -31" << std::endl;}
-    if(a=="24" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -30" << std::endl;}
-    if(a=="25" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -29" << std::endl;}
-    if(a=="26" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -28" << std::endl;}
-    if(a=="27" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -27" << std::endl;}
-    if(a=="28" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -26" << std::endl;}
-    if(a=="29" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -25" << std::endl;}
-    if(a=="30" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -24" << std::endl;}
-    if(a=="31" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -23" << std::endl;}
-    if(a=="32" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -22" << std::endl;}
-    if(a=="33" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -21" << std::endl;}
-    if(a=="34" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -20" << std::endl;}
-    if(a=="35" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -19" << std::endl;}
-    if(a=="36" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -18" << std::endl;}
-    if(a=="37" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -17" << std::endl;}
-    if(a=="38" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -16" << std::endl;}
-    if(a=="39" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -15" << std::endl;}
-    if(a=="40" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -14" << std::endl;}
-    if(a=="41" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -13" << std::endl;}
-    if(a=="42" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -12" << std::endl;}
-    if(a=="43" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -11" << std::endl;}
-    if(a=="44" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -10" << std::endl;}
-    if(a=="45" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -9" << std::endl;}
-    if(a=="46" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -8" << std::endl;}
-    if(a=="47" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -7" << std::endl;}
-    if(a=="48" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -6" << std::endl;}
-    if(a=="49" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -5" << std::endl;}
-    if(a=="50" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -4" << std::endl;}
-    if(a=="51" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -3" << std::endl;}
-    if(a=="52" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -2" << std::endl;}
-    if(a=="53" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : -1" << std::endl;}
-    if(a=="54" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="55" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : 1" << std::endl;}
-    if(a=="56" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : 2" << std::endl;}
-    if(a=="57" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : 3" << std::endl;}
-    if(a=="58" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : 4" << std::endl;}
-    if(a=="59" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : 5" << std::endl;}
-    if(a=="60" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : 6" << std::endl;}
-    if(a=="61" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : 7" << std::endl;}
-    if(a=="62" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : 8" << std::endl;}
-    if(a=="63" && o=="-" && b=="54"){std::cout << std::endl << "Answer           : 9" << std::endl;}
-    if(a=="0" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -55" << std::endl;}
-    if(a=="1" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -54" << std::endl;}
-    if(a=="2" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -53" << std::endl;}
-    if(a=="3" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -52" << std::endl;}
-    if(a=="4" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -51" << std::endl;}
-    if(a=="5" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -50" << std::endl;}
-    if(a=="6" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -49" << std::endl;}
-    if(a=="7" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -48" << std::endl;}
-    if(a=="8" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -47" << std::endl;}
-    if(a=="9" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -46" << std::endl;}
-    if(a=="10" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -45" << std::endl;}
-    if(a=="11" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -44" << std::endl;}
-    if(a=="12" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -43" << std::endl;}
-    if(a=="13" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -42" << std::endl;}
-    if(a=="14" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -41" << std::endl;}
-    if(a=="15" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -40" << std::endl;}
-    if(a=="16" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -39" << std::endl;}
-    if(a=="17" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -38" << std::endl;}
-    if(a=="18" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -37" << std::endl;}
-    if(a=="19" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -36" << std::endl;}
-    if(a=="20" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -35" << std::endl;}
-    if(a=="21" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -34" << std::endl;}
-    if(a=="22" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -33" << std::endl;}
-    if(a=="23" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -32" << std::endl;}
-    if(a=="24" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -31" << std::endl;}
-    if(a=="25" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -30" << std::endl;}
-    if(a=="26" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -29" << std::endl;}
-    if(a=="27" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -28" << std::endl;}
-    if(a=="28" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -27" << std::endl;}
-    if(a=="29" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -26" << std::endl;}
-    if(a=="30" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -25" << std::endl;}
-    if(a=="31" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -24" << std::endl;}
-    if(a=="32" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -23" << std::endl;}
-    if(a=="33" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -22" << std::endl;}
-    if(a=="34" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -21" << std::endl;}
-    if(a=="35" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -20" << std::endl;}
-    if(a=="36" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -19" << std::endl;}
-    if(a=="37" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -18" << std::endl;}
-    if(a=="38" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -17" << std::endl;}
-    if(a=="39" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -16" << std::endl;}
-    if(a=="40" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -15" << std::endl;}
-    if(a=="41" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -14" << std::endl;}
-    if(a=="42" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -13" << std::endl;}
-    if(a=="43" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -12" << std::endl;}
-    if(a=="44" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -11" << std::endl;}
-    if(a=="45" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -10" << std::endl;}
-    if(a=="46" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -9" << std::endl;}
-    if(a=="47" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -8" << std::endl;}
-    if(a=="48" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -7" << std::endl;}
-    if(a=="49" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -6" << std::endl;}
-    if(a=="50" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -5" << std::endl;}
-    if(a=="51" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -4" << std::endl;}
-    if(a=="52" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -3" << std::endl;}
-    if(a=="53" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -2" << std::endl;}
-    if(a=="54" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : -1" << std::endl;}
-    if(a=="55" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="56" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : 1" << std::endl;}
-    if(a=="57" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : 2" << std::endl;}
-    if(a=="58" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : 3" << std::endl;}
-    if(a=="59" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : 4" << std::endl;}
-    if(a=="60" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : 5" << std::endl;}
-    if(a=="61" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : 6" << std::endl;}
-    if(a=="62" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : 7" << std::endl;}
-    if(a=="63" && o=="-" && b=="55"){std::cout << std::endl << "Answer           : 8" << std::endl;}
-    if(a=="0" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -56" << std::endl;}
-    if(a=="1" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -55" << std::endl;}
-    if(a=="2" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -54" << std::endl;}
-    if(a=="3" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -53" << std::endl;}
-    if(a=="4" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -52" << std::endl;}
-    if(a=="5" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -51" << std::endl;}
-    if(a=="6" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -50" << std::endl;}
-    if(a=="7" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -49" << std::endl;}
-    if(a=="8" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -48" << std::endl;}
-    if(a=="9" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -47" << std::endl;}
-    if(a=="10" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -46" << std::endl;}
-    if(a=="11" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -45" << std::endl;}
-    if(a=="12" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -44" << std::endl;}
-    if(a=="13" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -43" << std::endl;}
-    if(a=="14" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -42" << std::endl;}
-    if(a=="15" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -41" << std::endl;}
-    if(a=="16" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -40" << std::endl;}
-    if(a=="17" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -39" << std::endl;}
-    if(a=="18" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -38" << std::endl;}
-    if(a=="19" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -37" << std::endl;}
-    if(a=="20" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -36" << std::endl;}
-    if(a=="21" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -35" << std::endl;}
-    if(a=="22" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -34" << std::endl;}
-    if(a=="23" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -33" << std::endl;}
-    if(a=="24" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -32" << std::endl;}
-    if(a=="25" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -31" << std::endl;}
-    if(a=="26" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -30" << std::endl;}
-    if(a=="27" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -29" << std::endl;}
-    if(a=="28" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -28" << std::endl;}
-    if(a=="29" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -27" << std::endl;}
-    if(a=="30" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -26" << std::endl;}
-    if(a=="31" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -25" << std::endl;}
-    if(a=="32" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -24" << std::endl;}
-    if(a=="33" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -23" << std::endl;}
-    if(a=="34" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -22" << std::endl;}
-    if(a=="35" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -21" << std::endl;}
-    if(a=="36" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -20" << std::endl;}
-    if(a=="37" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -19" << std::endl;}
-    if(a=="38" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -18" << std::endl;}
-    if(a=="39" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -17" << std::endl;}
-    if(a=="40" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -16" << std::endl;}
-    if(a=="41" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -15" << std::endl;}
-    if(a=="42" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -14" << std::endl;}
-    if(a=="43" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -13" << std::endl;}
-    if(a=="44" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -12" << std::endl;}
-    if(a=="45" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -11" << std::endl;}
-    if(a=="46" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -10" << std::endl;}
-    if(a=="47" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -9" << std::endl;}
-    if(a=="48" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -8" << std::endl;}
-    if(a=="49" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -7" << std::endl;}
-    if(a=="50" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -6" << std::endl;}
-    if(a=="51" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -5" << std::endl;}
-    if(a=="52" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -4" << std::endl;}
-    if(a=="53" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -3" << std::endl;}
-    if(a=="54" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -2" << std::endl;}
-    if(a=="55" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : -1" << std::endl;}
-    if(a=="56" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="57" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : 1" << std::endl;}
-    if(a=="58" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : 2" << std::endl;}
-    if(a=="59" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : 3" << std::endl;}
-    if(a=="60" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : 4" << std::endl;}
-    if(a=="61" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : 5" << std::endl;}
-    if(a=="62" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : 6" << std::endl;}
-    if(a=="63" && o=="-" && b=="56"){std::cout << std::endl << "Answer           : 7" << std::endl;}
-    if(a=="0" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -57" << std::endl;}
-    if(a=="1" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -56" << std::endl;}
-    if(a=="2" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -55" << std::endl;}
-    if(a=="3" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -54" << std::endl;}
-    if(a=="4" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -53" << std::endl;}
-    if(a=="5" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -52" << std::endl;}
-    if(a=="6" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -51" << std::endl;}
-    if(a=="7" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -50" << std::endl;}
-    if(a=="8" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -49" << std::endl;}
-    if(a=="9" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -48" << std::endl;}
-    if(a=="10" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -47" << std::endl;}
-    if(a=="11" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -46" << std::endl;}
-    if(a=="12" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -45" << std::endl;}
-    if(a=="13" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -44" << std::endl;}
-    if(a=="14" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -43" << std::endl;}
-    if(a=="15" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -42" << std::endl;}
-    if(a=="16" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -41" << std::endl;}
-    if(a=="17" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -40" << std::endl;}
-    if(a=="18" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -39" << std::endl;}
-    if(a=="19" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -38" << std::endl;}
-    if(a=="20" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -37" << std::endl;}
-    if(a=="21" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -36" << std::endl;}
-    if(a=="22" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -35" << std::endl;}
-    if(a=="23" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -34" << std::endl;}
-    if(a=="24" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -33" << std::endl;}
-    if(a=="25" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -32" << std::endl;}
-    if(a=="26" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -31" << std::endl;}
-    if(a=="27" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -30" << std::endl;}
-    if(a=="28" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -29" << std::endl;}
-    if(a=="29" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -28" << std::endl;}
-    if(a=="30" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -27" << std::endl;}
-    if(a=="31" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -26" << std::endl;}
-    if(a=="32" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -25" << std::endl;}
-    if(a=="33" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -24" << std::endl;}
-    if(a=="34" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -23" << std::endl;}
-    if(a=="35" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -22" << std::endl;}
-    if(a=="36" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -21" << std::endl;}
-    if(a=="37" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -20" << std::endl;}
-    if(a=="38" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -19" << std::endl;}
-    if(a=="39" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -18" << std::endl;}
-    if(a=="40" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -17" << std::endl;}
-    if(a=="41" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -16" << std::endl;}
-    if(a=="42" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -15" << std::endl;}
-    if(a=="43" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -14" << std::endl;}
-    if(a=="44" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -13" << std::endl;}
-    if(a=="45" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -12" << std::endl;}
-    if(a=="46" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -11" << std::endl;}
-    if(a=="47" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -10" << std::endl;}
-    if(a=="48" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -9" << std::endl;}
-    if(a=="49" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -8" << std::endl;}
-    if(a=="50" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -7" << std::endl;}
-    if(a=="51" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -6" << std::endl;}
-    if(a=="52" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -5" << std::endl;}
-    if(a=="53" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -4" << std::endl;}
-    if(a=="54" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -3" << std::endl;}
-    if(a=="55" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -2" << std::endl;}
-    if(a=="56" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : -1" << std::endl;}
-    if(a=="57" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="58" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : 1" << std::endl;}
-    if(a=="59" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : 2" << std::endl;}
-    if(a=="60" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : 3" << std::endl;}
-    if(a=="61" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : 4" << std::endl;}
-    if(a=="62" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : 5" << std::endl;}
-    if(a=="63" && o=="-" && b=="57"){std::cout << std::endl << "Answer           : 6" << std::endl;}
-    if(a=="0" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -58" << std::endl;}
-    if(a=="1" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -57" << std::endl;}
-    if(a=="2" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -56" << std::endl;}
-    if(a=="3" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -55" << std::endl;}
-    if(a=="4" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -54" << std::endl;}
-    if(a=="5" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -53" << std::endl;}
-    if(a=="6" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -52" << std::endl;}
-    if(a=="7" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -51" << std::endl;}
-    if(a=="8" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -50" << std::endl;}
-    if(a=="9" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -49" << std::endl;}
-    if(a=="10" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -48" << std::endl;}
-    if(a=="11" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -47" << std::endl;}
-    if(a=="12" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -46" << std::endl;}
-    if(a=="13" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -45" << std::endl;}
-    if(a=="14" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -44" << std::endl;}
-    if(a=="15" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -43" << std::endl;}
-    if(a=="16" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -42" << std::endl;}
-    if(a=="17" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -41" << std::endl;}
-    if(a=="18" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -40" << std::endl;}
-    if(a=="19" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -39" << std::endl;}
-    if(a=="20" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -38" << std::endl;}
-    if(a=="21" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -37" << std::endl;}
-    if(a=="22" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -36" << std::endl;}
-    if(a=="23" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -35" << std::endl;}
-    if(a=="24" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -34" << std::endl;}
-    if(a=="25" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -33" << std::endl;}
-    if(a=="26" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -32" << std::endl;}
-    if(a=="27" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -31" << std::endl;}
-    if(a=="28" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -30" << std::endl;}
-    if(a=="29" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -29" << std::endl;}
-    if(a=="30" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -28" << std::endl;}
-    if(a=="31" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -27" << std::endl;}
-    if(a=="32" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -26" << std::endl;}
-    if(a=="33" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -25" << std::endl;}
-    if(a=="34" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -24" << std::endl;}
-    if(a=="35" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -23" << std::endl;}
-    if(a=="36" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -22" << std::endl;}
-    if(a=="37" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -21" << std::endl;}
-    if(a=="38" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -20" << std::endl;}
-    if(a=="39" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -19" << std::endl;}
-    if(a=="40" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -18" << std::endl;}
-    if(a=="41" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -17" << std::endl;}
-    if(a=="42" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -16" << std::endl;}
-    if(a=="43" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -15" << std::endl;}
-    if(a=="44" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -14" << std::endl;}
-    if(a=="45" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -13" << std::endl;}
-    if(a=="46" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -12" << std::endl;}
-    if(a=="47" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -11" << std::endl;}
-    if(a=="48" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -10" << std::endl;}
-    if(a=="49" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -9" << std::endl;}
-    if(a=="50" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -8" << std::endl;}
-    if(a=="51" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -7" << std::endl;}
-    if(a=="52" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -6" << std::endl;}
-    if(a=="53" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -5" << std::endl;}
-    if(a=="54" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -4" << std::endl;}
-    if(a=="55" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -3" << std::endl;}
-    if(a=="56" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -2" << std::endl;}
-    if(a=="57" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : -1" << std::endl;}
-    if(a=="58" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="59" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : 1" << std::endl;}
-    if(a=="60" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : 2" << std::endl;}
-    if(a=="61" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : 3" << std::endl;}
-    if(a=="62" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : 4" << std::endl;}
-    if(a=="63" && o=="-" && b=="58"){std::cout << std::endl << "Answer           : 5" << std::endl;}
-    if(a=="0" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -59" << std::endl;}
-    if(a=="1" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -58" << std::endl;}
-    if(a=="2" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -57" << std::endl;}
-    if(a=="3" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -56" << std::endl;}
-    if(a=="4" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -55" << std::endl;}
-    if(a=="5" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -54" << std::endl;}
-    if(a=="6" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -53" << std::endl;}
-    if(a=="7" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -52" << std::endl;}
-    if(a=="8" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -51" << std::endl;}
-    if(a=="9" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -50" << std::endl;}
-    if(a=="10" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -49" << std::endl;}
-    if(a=="11" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -48" << std::endl;}
-    if(a=="12" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -47" << std::endl;}
-    if(a=="13" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -46" << std::endl;}
-    if(a=="14" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -45" << std::endl;}
-    if(a=="15" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -44" << std::endl;}
-    if(a=="16" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -43" << std::endl;}
-    if(a=="17" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -42" << std::endl;}
-    if(a=="18" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -41" << std::endl;}
-    if(a=="19" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -40" << std::endl;}
-    if(a=="20" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -39" << std::endl;}
-    if(a=="21" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -38" << std::endl;}
-    if(a=="22" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -37" << std::endl;}
-    if(a=="23" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -36" << std::endl;}
-    if(a=="24" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -35" << std::endl;}
-    if(a=="25" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -34" << std::endl;}
-    if(a=="26" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -33" << std::endl;}
-    if(a=="27" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -32" << std::endl;}
-    if(a=="28" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -31" << std::endl;}
-    if(a=="29" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -30" << std::endl;}
-    if(a=="30" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -29" << std::endl;}
-    if(a=="31" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -28" << std::endl;}
-    if(a=="32" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -27" << std::endl;}
-    if(a=="33" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -26" << std::endl;}
-    if(a=="34" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -25" << std::endl;}
-    if(a=="35" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -24" << std::endl;}
-    if(a=="36" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -23" << std::endl;}
-    if(a=="37" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -22" << std::endl;}
-    if(a=="38" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -21" << std::endl;}
-    if(a=="39" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -20" << std::endl;}
-    if(a=="40" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -19" << std::endl;}
-    if(a=="41" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -18" << std::endl;}
-    if(a=="42" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -17" << std::endl;}
-    if(a=="43" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -16" << std::endl;}
-    if(a=="44" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -15" << std::endl;}
-    if(a=="45" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -14" << std::endl;}
-    if(a=="46" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -13" << std::endl;}
-    if(a=="47" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -12" << std::endl;}
-    if(a=="48" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -11" << std::endl;}
-    if(a=="49" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -10" << std::endl;}
-    if(a=="50" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -9" << std::endl;}
-    if(a=="51" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -8" << std::endl;}
-    if(a=="52" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -7" << std::endl;}
-    if(a=="53" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -6" << std::endl;}
-    if(a=="54" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -5" << std::endl;}
-    if(a=="55" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -4" << std::endl;}
-    if(a=="56" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -3" << std::endl;}
-    if(a=="57" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -2" << std::endl;}
-    if(a=="58" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : -1" << std::endl;}
-    if(a=="59" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="60" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : 1" << std::endl;}
-    if(a=="61" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : 2" << std::endl;}
-    if(a=="62" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : 3" << std::endl;}
-    if(a=="63" && o=="-" && b=="59"){std::cout << std::endl << "Answer           : 4" << std::endl;}
-    if(a=="0" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -60" << std::endl;}
-    if(a=="1" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -59" << std::endl;}
-    if(a=="2" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -58" << std::endl;}
-    if(a=="3" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -57" << std::endl;}
-    if(a=="4" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -56" << std::endl;}
-    if(a=="5" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -55" << std::endl;}
-    if(a=="6" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -54" << std::endl;}
-    if(a=="7" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -53" << std::endl;}
-    if(a=="8" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -52" << std::endl;}
-    if(a=="9" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -51" << std::endl;}
-    if(a=="10" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -50" << std::endl;}
-    if(a=="11" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -49" << std::endl;}
-    if(a=="12" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -48" << std::endl;}
-    if(a=="13" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -47" << std::endl;}
-    if(a=="14" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -46" << std::endl;}
-    if(a=="15" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -45" << std::endl;}
-    if(a=="16" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -44" << std::endl;}
-    if(a=="17" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -43" << std::endl;}
-    if(a=="18" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -42" << std::endl;}
-    if(a=="19" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -41" << std::endl;}
-    if(a=="20" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -40" << std::endl;}
-    if(a=="21" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -39" << std::endl;}
-    if(a=="22" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -38" << std::endl;}
-    if(a=="23" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -37" << std::endl;}
-    if(a=="24" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -36" << std::endl;}
-    if(a=="25" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -35" << std::endl;}
-    if(a=="26" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -34" << std::endl;}
-    if(a=="27" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -33" << std::endl;}
-    if(a=="28" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -32" << std::endl;}
-    if(a=="29" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -31" << std::endl;}
-    if(a=="30" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -30" << std::endl;}
-    if(a=="31" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -29" << std::endl;}
-    if(a=="32" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -28" << std::endl;}
-    if(a=="33" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -27" << std::endl;}
-    if(a=="34" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -26" << std::endl;}
-    if(a=="35" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -25" << std::endl;}
-    if(a=="36" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -24" << std::endl;}
-    if(a=="37" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -23" << std::endl;}
-    if(a=="38" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -22" << std::endl;}
-    if(a=="39" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -21" << std::endl;}
-    if(a=="40" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -20" << std::endl;}
-    if(a=="41" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -19" << std::endl;}
-    if(a=="42" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -18" << std::endl;}
-    if(a=="43" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -17" << std::endl;}
-    if(a=="44" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -16" << std::endl;}
-    if(a=="45" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -15" << std::endl;}
-    if(a=="46" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -14" << std::endl;}
-    if(a=="47" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -13" << std::endl;}
-    if(a=="48" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -12" << std::endl;}
-    if(a=="49" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -11" << std::endl;}
-    if(a=="50" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -10" << std::endl;}
-    if(a=="51" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -9" << std::endl;}
-    if(a=="52" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -8" << std::endl;}
-    if(a=="53" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -7" << std::endl;}
-    if(a=="54" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -6" << std::endl;}
-    if(a=="55" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -5" << std::endl;}
-    if(a=="56" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -4" << std::endl;}
-    if(a=="57" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -3" << std::endl;}
-    if(a=="58" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -2" << std::endl;}
-    if(a=="59" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : -1" << std::endl;}
-    if(a=="60" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="61" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : 1" << std::endl;}
-    if(a=="62" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : 2" << std::endl;}
-    if(a=="63" && o=="-" && b=="60"){std::cout << std::endl << "Answer           : 3" << std::endl;}
-    if(a=="0" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -61" << std::endl;}
-    if(a=="1" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -60" << std::endl;}
-    if(a=="2" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -59" << std::endl;}
-    if(a=="3" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -58" << std::endl;}
-    if(a=="4" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -57" << std::endl;}
-    if(a=="5" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -56" << std::endl;}
-    if(a=="6" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -55" << std::endl;}
-    if(a=="7" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -54" << std::endl;}
-    if(a=="8" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -53" << std::endl;}
-    if(a=="9" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -52" << std::endl;}
-    if(a=="10" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -51" << std::endl;}
-    if(a=="11" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -50" << std::endl;}
-    if(a=="12" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -49" << std::endl;}
-    if(a=="13" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -48" << std::endl;}
-    if(a=="14" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -47" << std::endl;}
-    if(a=="15" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -46" << std::endl;}
-    if(a=="16" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -45" << std::endl;}
-    if(a=="17" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -44" << std::endl;}
-    if(a=="18" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -43" << std::endl;}
-    if(a=="19" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -42" << std::endl;}
-    if(a=="20" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -41" << std::endl;}
-    if(a=="21" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -40" << std::endl;}
-    if(a=="22" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -39" << std::endl;}
-    if(a=="23" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -38" << std::endl;}
-    if(a=="24" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -37" << std::endl;}
-    if(a=="25" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -36" << std::endl;}
-    if(a=="26" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -35" << std::endl;}
-    if(a=="27" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -34" << std::endl;}
-    if(a=="28" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -33" << std::endl;}
-    if(a=="29" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -32" << std::endl;}
-    if(a=="30" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -31" << std::endl;}
-    if(a=="31" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -30" << std::endl;}
-    if(a=="32" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -29" << std::endl;}
-    if(a=="33" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -28" << std::endl;}
-    if(a=="34" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -27" << std::endl;}
-    if(a=="35" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -26" << std::endl;}
-    if(a=="36" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -25" << std::endl;}
-    if(a=="37" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -24" << std::endl;}
-    if(a=="38" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -23" << std::endl;}
-    if(a=="39" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -22" << std::endl;}
-    if(a=="40" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -21" << std::endl;}
-    if(a=="41" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -20" << std::endl;}
-    if(a=="42" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -19" << std::endl;}
-    if(a=="43" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -18" << std::endl;}
-    if(a=="44" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -17" << std::endl;}
-    if(a=="45" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -16" << std::endl;}
-    if(a=="46" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -15" << std::endl;}
-    if(a=="47" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -14" << std::endl;}
-    if(a=="48" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -13" << std::endl;}
-    if(a=="49" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -12" << std::endl;}
-    if(a=="50" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -11" << std::endl;}
-    if(a=="51" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -10" << std::endl;}
-    if(a=="52" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -9" << std::endl;}
-    if(a=="53" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -8" << std::endl;}
-    if(a=="54" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -7" << std::endl;}
-    if(a=="55" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -6" << std::endl;}
-    if(a=="56" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -5" << std::endl;}
-    if(a=="57" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -4" << std::endl;}
-    if(a=="58" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -3" << std::endl;}
-    if(a=="59" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -2" << std::endl;}
-    if(a=="60" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : -1" << std::endl;}
-    if(a=="61" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="62" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : 1" << std::endl;}
-    if(a=="63" && o=="-" && b=="61"){std::cout << std::endl << "Answer           : 2" << std::endl;}
-    if(a=="0" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -62" << std::endl;}
-    if(a=="1" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -61" << std::endl;}
-    if(a=="2" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -60" << std::endl;}
-    if(a=="3" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -59" << std::endl;}
-    if(a=="4" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -58" << std::endl;}
-    if(a=="5" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -57" << std::endl;}
-    if(a=="6" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -56" << std::endl;}
-    if(a=="7" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -55" << std::endl;}
-    if(a=="8" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -54" << std::endl;}
-    if(a=="9" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -53" << std::endl;}
-    if(a=="10" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -52" << std::endl;}
-    if(a=="11" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -51" << std::endl;}
-    if(a=="12" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -50" << std::endl;}
-    if(a=="13" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -49" << std::endl;}
-    if(a=="14" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -48" << std::endl;}
-    if(a=="15" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -47" << std::endl;}
-    if(a=="16" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -46" << std::endl;}
-    if(a=="17" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -45" << std::endl;}
-    if(a=="18" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -44" << std::endl;}
-    if(a=="19" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -43" << std::endl;}
-    if(a=="20" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -42" << std::endl;}
-    if(a=="21" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -41" << std::endl;}
-    if(a=="22" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -40" << std::endl;}
-    if(a=="23" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -39" << std::endl;}
-    if(a=="24" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -38" << std::endl;}
-    if(a=="25" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -37" << std::endl;}
-    if(a=="26" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -36" << std::endl;}
-    if(a=="27" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -35" << std::endl;}
-    if(a=="28" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -34" << std::endl;}
-    if(a=="29" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -33" << std::endl;}
-    if(a=="30" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -32" << std::endl;}
-    if(a=="31" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -31" << std::endl;}
-    if(a=="32" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -30" << std::endl;}
-    if(a=="33" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -29" << std::endl;}
-    if(a=="34" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -28" << std::endl;}
-    if(a=="35" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -27" << std::endl;}
-    if(a=="36" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -26" << std::endl;}
-    if(a=="37" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -25" << std::endl;}
-    if(a=="38" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -24" << std::endl;}
-    if(a=="39" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -23" << std::endl;}
-    if(a=="40" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -22" << std::endl;}
-    if(a=="41" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -21" << std::endl;}
-    if(a=="42" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -20" << std::endl;}
-    if(a=="43" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -19" << std::endl;}
-    if(a=="44" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -18" << std::endl;}
-    if(a=="45" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -17" << std::endl;}
-    if(a=="46" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -16" << std::endl;}
-    if(a=="47" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -15" << std::endl;}
-    if(a=="48" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -14" << std::endl;}
-    if(a=="49" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -13" << std::endl;}
-    if(a=="50" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -12" << std::endl;}
-    if(a=="51" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -11" << std::endl;}
-    if(a=="52" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -10" << std::endl;}
-    if(a=="53" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -9" << std::endl;}
-    if(a=="54" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -8" << std::endl;}
-    if(a=="55" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -7" << std::endl;}
-    if(a=="56" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -6" << std::endl;}
-    if(a=="57" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -5" << std::endl;}
-    if(a=="58" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -4" << std::endl;}
-    if(a=="59" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -3" << std::endl;}
-    if(a=="60" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -2" << std::endl;}
-    if(a=="61" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : -1" << std::endl;}
-    if(a=="62" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="63" && o=="-" && b=="62"){std::cout << std::endl << "Answer           : 1" << std::endl;}
-    if(a=="0" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -63" << std::endl;}
-    if(a=="1" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -62" << std::endl;}
-    if(a=="2" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -61" << std::endl;}
-    if(a=="3" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -60" << std::endl;}
-    if(a=="4" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -59" << std::endl;}
-    if(a=="5" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -58" << std::endl;}
-    if(a=="6" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -57" << std::endl;}
-    if(a=="7" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -56" << std::endl;}
-    if(a=="8" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -55" << std::endl;}
-    if(a=="9" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -54" << std::endl;}
-    if(a=="10" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -53" << std::endl;}
-    if(a=="11" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -52" << std::endl;}
-    if(a=="12" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -51" << std::endl;}
-    if(a=="13" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -50" << std::endl;}
-    if(a=="14" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -49" << std::endl;}
-    if(a=="15" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -48" << std::endl;}
-    if(a=="16" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -47" << std::endl;}
-    if(a=="17" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -46" << std::endl;}
-    if(a=="18" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -45" << std::endl;}
-    if(a=="19" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -44" << std::endl;}
-    if(a=="20" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -43" << std::endl;}
-    if(a=="21" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -42" << std::endl;}
-    if(a=="22" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -41" << std::endl;}
-    if(a=="23" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -40" << std::endl;}
-    if(a=="24" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -39" << std::endl;}
-    if(a=="25" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -38" << std::endl;}
-    if(a=="26" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -37" << std::endl;}
-    if(a=="27" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -36" << std::endl;}
-    if(a=="28" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -35" << std::endl;}
-    if(a=="29" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -34" << std::endl;}
-    if(a=="30" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -33" << std::endl;}
-    if(a=="31" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -32" << std::endl;}
-    if(a=="32" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -31" << std::endl;}
-    if(a=="33" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -30" << std::endl;}
-    if(a=="34" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -29" << std::endl;}
-    if(a=="35" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -28" << std::endl;}
-    if(a=="36" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -27" << std::endl;}
-    if(a=="37" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -26" << std::endl;}
-    if(a=="38" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -25" << std::endl;}
-    if(a=="39" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -24" << std::endl;}
-    if(a=="40" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -23" << std::endl;}
-    if(a=="41" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -22" << std::endl;}
-    if(a=="42" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -21" << std::endl;}
-    if(a=="43" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -20" << std::endl;}
-    if(a=="44" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -19" << std::endl;}
-    if(a=="45" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -18" << std::endl;}
-    if(a=="46" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -17" << std::endl;}
-    if(a=="47" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -16" << std::endl;}
-    if(a=="48" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -15" << std::endl;}
-    if(a=="49" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -14" << std::endl;}
-    if(a=="50" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -13" << std::endl;}
-    if(a=="51" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -12" << std::endl;}
-    if(a=="52" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -11" << std::endl;}
-    if(a=="53" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -10" << std::endl;}
-    if(a=="54" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -9" << std::endl;}
-    if(a=="55" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -8" << std::endl;}
-    if(a=="56" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -7" << std::endl;}
-    if(a=="57" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -6" << std::endl;}
-    if(a=="58" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -5" << std::endl;}
-    if(a=="59" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -4" << std::endl;}
-    if(a=="60" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -3" << std::endl;}
-    if(a=="61" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -2" << std::endl;}
-    if(a=="62" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : -1" << std::endl;}
-    if(a=="63" && o=="-" && b=="63"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="0" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="2" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
@@ -8253,19 +5263,6 @@ int main()
     if(a=="48" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="49" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="50" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="51" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="52" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="53" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="54" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="55" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="56" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="57" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="58" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="59" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="60" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="61" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="62" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="63" && o=="*" && b=="0"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="0" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 1" << std::endl;}
     if(a=="2" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 2" << std::endl;}
@@ -8317,19 +5314,6 @@ int main()
     if(a=="48" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 48" << std::endl;}
     if(a=="49" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 49" << std::endl;}
     if(a=="50" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 50" << std::endl;}
-    if(a=="51" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 51" << std::endl;}
-    if(a=="52" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="53" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="54" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="55" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="56" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="57" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="58" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="59" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="60" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="61" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="62" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="63" && o=="*" && b=="1"){std::cout << std::endl << "Answer           : 63" << std::endl;}
     if(a=="0" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 2" << std::endl;}
     if(a=="2" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 4" << std::endl;}
@@ -8381,19 +5365,6 @@ int main()
     if(a=="48" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 96" << std::endl;}
     if(a=="49" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 98" << std::endl;}
     if(a=="50" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 100" << std::endl;}
-    if(a=="51" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="52" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="53" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="54" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="55" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="56" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 112" << std::endl;}
-    if(a=="57" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 114" << std::endl;}
-    if(a=="58" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 116" << std::endl;}
-    if(a=="59" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 118" << std::endl;}
-    if(a=="60" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 120" << std::endl;}
-    if(a=="61" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 122" << std::endl;}
-    if(a=="62" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 124" << std::endl;}
-    if(a=="63" && o=="*" && b=="2"){std::cout << std::endl << "Answer           : 126" << std::endl;}
     if(a=="0" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 3" << std::endl;}
     if(a=="2" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 6" << std::endl;}
@@ -8445,19 +5416,6 @@ int main()
     if(a=="48" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 144" << std::endl;}
     if(a=="49" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 147" << std::endl;}
     if(a=="50" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 150" << std::endl;}
-    if(a=="51" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 153" << std::endl;}
-    if(a=="52" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 156" << std::endl;}
-    if(a=="53" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 159" << std::endl;}
-    if(a=="54" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 162" << std::endl;}
-    if(a=="55" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 165" << std::endl;}
-    if(a=="56" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 168" << std::endl;}
-    if(a=="57" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 171" << std::endl;}
-    if(a=="58" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 174" << std::endl;}
-    if(a=="59" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 177" << std::endl;}
-    if(a=="60" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 180" << std::endl;}
-    if(a=="61" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 183" << std::endl;}
-    if(a=="62" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 186" << std::endl;}
-    if(a=="63" && o=="*" && b=="3"){std::cout << std::endl << "Answer           : 189" << std::endl;}
     if(a=="0" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 4" << std::endl;}
     if(a=="2" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 8" << std::endl;}
@@ -8509,19 +5467,6 @@ int main()
     if(a=="48" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 192" << std::endl;}
     if(a=="49" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 196" << std::endl;}
     if(a=="50" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 200" << std::endl;}
-    if(a=="51" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 204" << std::endl;}
-    if(a=="52" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 208" << std::endl;}
-    if(a=="53" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 212" << std::endl;}
-    if(a=="54" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 216" << std::endl;}
-    if(a=="55" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 220" << std::endl;}
-    if(a=="56" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 224" << std::endl;}
-    if(a=="57" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 228" << std::endl;}
-    if(a=="58" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 232" << std::endl;}
-    if(a=="59" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 236" << std::endl;}
-    if(a=="60" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 240" << std::endl;}
-    if(a=="61" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 244" << std::endl;}
-    if(a=="62" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 248" << std::endl;}
-    if(a=="63" && o=="*" && b=="4"){std::cout << std::endl << "Answer           : 252" << std::endl;}
     if(a=="0" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 5" << std::endl;}
     if(a=="2" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 10" << std::endl;}
@@ -8573,19 +5518,6 @@ int main()
     if(a=="48" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 240" << std::endl;}
     if(a=="49" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 245" << std::endl;}
     if(a=="50" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 250" << std::endl;}
-    if(a=="51" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 255" << std::endl;}
-    if(a=="52" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 260" << std::endl;}
-    if(a=="53" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 265" << std::endl;}
-    if(a=="54" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 270" << std::endl;}
-    if(a=="55" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 275" << std::endl;}
-    if(a=="56" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 280" << std::endl;}
-    if(a=="57" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 285" << std::endl;}
-    if(a=="58" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 290" << std::endl;}
-    if(a=="59" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 295" << std::endl;}
-    if(a=="60" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 300" << std::endl;}
-    if(a=="61" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 305" << std::endl;}
-    if(a=="62" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 310" << std::endl;}
-    if(a=="63" && o=="*" && b=="5"){std::cout << std::endl << "Answer           : 315" << std::endl;}
     if(a=="0" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 6" << std::endl;}
     if(a=="2" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 12" << std::endl;}
@@ -8637,19 +5569,6 @@ int main()
     if(a=="48" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 288" << std::endl;}
     if(a=="49" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 294" << std::endl;}
     if(a=="50" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 300" << std::endl;}
-    if(a=="51" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 306" << std::endl;}
-    if(a=="52" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 312" << std::endl;}
-    if(a=="53" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 318" << std::endl;}
-    if(a=="54" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 324" << std::endl;}
-    if(a=="55" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 330" << std::endl;}
-    if(a=="56" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 336" << std::endl;}
-    if(a=="57" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 342" << std::endl;}
-    if(a=="58" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 348" << std::endl;}
-    if(a=="59" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 354" << std::endl;}
-    if(a=="60" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 360" << std::endl;}
-    if(a=="61" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 366" << std::endl;}
-    if(a=="62" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 372" << std::endl;}
-    if(a=="63" && o=="*" && b=="6"){std::cout << std::endl << "Answer           : 378" << std::endl;}
     if(a=="0" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 7" << std::endl;}
     if(a=="2" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 14" << std::endl;}
@@ -8701,19 +5620,6 @@ int main()
     if(a=="48" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 336" << std::endl;}
     if(a=="49" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 343" << std::endl;}
     if(a=="50" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 350" << std::endl;}
-    if(a=="51" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 357" << std::endl;}
-    if(a=="52" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 364" << std::endl;}
-    if(a=="53" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 371" << std::endl;}
-    if(a=="54" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 378" << std::endl;}
-    if(a=="55" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 385" << std::endl;}
-    if(a=="56" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 392" << std::endl;}
-    if(a=="57" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 399" << std::endl;}
-    if(a=="58" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 406" << std::endl;}
-    if(a=="59" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 413" << std::endl;}
-    if(a=="60" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 420" << std::endl;}
-    if(a=="61" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 427" << std::endl;}
-    if(a=="62" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 434" << std::endl;}
-    if(a=="63" && o=="*" && b=="7"){std::cout << std::endl << "Answer           : 441" << std::endl;}
     if(a=="0" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 8" << std::endl;}
     if(a=="2" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 16" << std::endl;}
@@ -8765,19 +5671,6 @@ int main()
     if(a=="48" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 384" << std::endl;}
     if(a=="49" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 392" << std::endl;}
     if(a=="50" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 400" << std::endl;}
-    if(a=="51" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 408" << std::endl;}
-    if(a=="52" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 416" << std::endl;}
-    if(a=="53" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 424" << std::endl;}
-    if(a=="54" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 432" << std::endl;}
-    if(a=="55" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 440" << std::endl;}
-    if(a=="56" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 448" << std::endl;}
-    if(a=="57" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 456" << std::endl;}
-    if(a=="58" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 464" << std::endl;}
-    if(a=="59" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 472" << std::endl;}
-    if(a=="60" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 480" << std::endl;}
-    if(a=="61" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 488" << std::endl;}
-    if(a=="62" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 496" << std::endl;}
-    if(a=="63" && o=="*" && b=="8"){std::cout << std::endl << "Answer           : 504" << std::endl;}
     if(a=="0" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 9" << std::endl;}
     if(a=="2" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 18" << std::endl;}
@@ -8829,19 +5722,6 @@ int main()
     if(a=="48" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 432" << std::endl;}
     if(a=="49" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 441" << std::endl;}
     if(a=="50" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 450" << std::endl;}
-    if(a=="51" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 459" << std::endl;}
-    if(a=="52" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 468" << std::endl;}
-    if(a=="53" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 477" << std::endl;}
-    if(a=="54" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 486" << std::endl;}
-    if(a=="55" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 495" << std::endl;}
-    if(a=="56" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 504" << std::endl;}
-    if(a=="57" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 513" << std::endl;}
-    if(a=="58" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 522" << std::endl;}
-    if(a=="59" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 531" << std::endl;}
-    if(a=="60" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 540" << std::endl;}
-    if(a=="61" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 549" << std::endl;}
-    if(a=="62" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 558" << std::endl;}
-    if(a=="63" && o=="*" && b=="9"){std::cout << std::endl << "Answer           : 567" << std::endl;}
     if(a=="0" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 10" << std::endl;}
     if(a=="2" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 20" << std::endl;}
@@ -8893,19 +5773,6 @@ int main()
     if(a=="48" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 480" << std::endl;}
     if(a=="49" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 490" << std::endl;}
     if(a=="50" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 500" << std::endl;}
-    if(a=="51" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 510" << std::endl;}
-    if(a=="52" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 520" << std::endl;}
-    if(a=="53" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 530" << std::endl;}
-    if(a=="54" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 540" << std::endl;}
-    if(a=="55" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 550" << std::endl;}
-    if(a=="56" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 560" << std::endl;}
-    if(a=="57" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 570" << std::endl;}
-    if(a=="58" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 580" << std::endl;}
-    if(a=="59" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 590" << std::endl;}
-    if(a=="60" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 600" << std::endl;}
-    if(a=="61" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 610" << std::endl;}
-    if(a=="62" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 620" << std::endl;}
-    if(a=="63" && o=="*" && b=="10"){std::cout << std::endl << "Answer           : 630" << std::endl;}
     if(a=="0" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 11" << std::endl;}
     if(a=="2" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 22" << std::endl;}
@@ -8957,19 +5824,6 @@ int main()
     if(a=="48" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 528" << std::endl;}
     if(a=="49" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 539" << std::endl;}
     if(a=="50" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 550" << std::endl;}
-    if(a=="51" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 561" << std::endl;}
-    if(a=="52" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 572" << std::endl;}
-    if(a=="53" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 583" << std::endl;}
-    if(a=="54" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 594" << std::endl;}
-    if(a=="55" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 605" << std::endl;}
-    if(a=="56" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 616" << std::endl;}
-    if(a=="57" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 627" << std::endl;}
-    if(a=="58" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 638" << std::endl;}
-    if(a=="59" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 649" << std::endl;}
-    if(a=="60" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 660" << std::endl;}
-    if(a=="61" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 671" << std::endl;}
-    if(a=="62" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 682" << std::endl;}
-    if(a=="63" && o=="*" && b=="11"){std::cout << std::endl << "Answer           : 693" << std::endl;}
     if(a=="0" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 12" << std::endl;}
     if(a=="2" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 24" << std::endl;}
@@ -9021,19 +5875,6 @@ int main()
     if(a=="48" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 576" << std::endl;}
     if(a=="49" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 588" << std::endl;}
     if(a=="50" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 600" << std::endl;}
-    if(a=="51" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 612" << std::endl;}
-    if(a=="52" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 624" << std::endl;}
-    if(a=="53" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 636" << std::endl;}
-    if(a=="54" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 648" << std::endl;}
-    if(a=="55" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 660" << std::endl;}
-    if(a=="56" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 672" << std::endl;}
-    if(a=="57" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 684" << std::endl;}
-    if(a=="58" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 696" << std::endl;}
-    if(a=="59" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 708" << std::endl;}
-    if(a=="60" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 720" << std::endl;}
-    if(a=="61" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 732" << std::endl;}
-    if(a=="62" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 744" << std::endl;}
-    if(a=="63" && o=="*" && b=="12"){std::cout << std::endl << "Answer           : 756" << std::endl;}
     if(a=="0" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 13" << std::endl;}
     if(a=="2" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 26" << std::endl;}
@@ -9085,19 +5926,6 @@ int main()
     if(a=="48" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 624" << std::endl;}
     if(a=="49" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 637" << std::endl;}
     if(a=="50" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 650" << std::endl;}
-    if(a=="51" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 663" << std::endl;}
-    if(a=="52" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 676" << std::endl;}
-    if(a=="53" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 689" << std::endl;}
-    if(a=="54" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 702" << std::endl;}
-    if(a=="55" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 715" << std::endl;}
-    if(a=="56" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 728" << std::endl;}
-    if(a=="57" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 741" << std::endl;}
-    if(a=="58" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 754" << std::endl;}
-    if(a=="59" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 767" << std::endl;}
-    if(a=="60" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 780" << std::endl;}
-    if(a=="61" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 793" << std::endl;}
-    if(a=="62" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 806" << std::endl;}
-    if(a=="63" && o=="*" && b=="13"){std::cout << std::endl << "Answer           : 819" << std::endl;}
     if(a=="0" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 14" << std::endl;}
     if(a=="2" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 28" << std::endl;}
@@ -9149,19 +5977,6 @@ int main()
     if(a=="48" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 672" << std::endl;}
     if(a=="49" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 686" << std::endl;}
     if(a=="50" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 700" << std::endl;}
-    if(a=="51" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 714" << std::endl;}
-    if(a=="52" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 728" << std::endl;}
-    if(a=="53" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 742" << std::endl;}
-    if(a=="54" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 756" << std::endl;}
-    if(a=="55" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 770" << std::endl;}
-    if(a=="56" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 784" << std::endl;}
-    if(a=="57" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 798" << std::endl;}
-    if(a=="58" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 812" << std::endl;}
-    if(a=="59" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 826" << std::endl;}
-    if(a=="60" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 840" << std::endl;}
-    if(a=="61" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 854" << std::endl;}
-    if(a=="62" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 868" << std::endl;}
-    if(a=="63" && o=="*" && b=="14"){std::cout << std::endl << "Answer           : 882" << std::endl;}
     if(a=="0" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 15" << std::endl;}
     if(a=="2" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 30" << std::endl;}
@@ -9213,19 +6028,6 @@ int main()
     if(a=="48" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 720" << std::endl;}
     if(a=="49" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 735" << std::endl;}
     if(a=="50" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 750" << std::endl;}
-    if(a=="51" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 765" << std::endl;}
-    if(a=="52" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 780" << std::endl;}
-    if(a=="53" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 795" << std::endl;}
-    if(a=="54" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 810" << std::endl;}
-    if(a=="55" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 825" << std::endl;}
-    if(a=="56" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 840" << std::endl;}
-    if(a=="57" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 855" << std::endl;}
-    if(a=="58" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 870" << std::endl;}
-    if(a=="59" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 885" << std::endl;}
-    if(a=="60" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 900" << std::endl;}
-    if(a=="61" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 915" << std::endl;}
-    if(a=="62" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 930" << std::endl;}
-    if(a=="63" && o=="*" && b=="15"){std::cout << std::endl << "Answer           : 945" << std::endl;}
     if(a=="0" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 16" << std::endl;}
     if(a=="2" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 32" << std::endl;}
@@ -9277,19 +6079,6 @@ int main()
     if(a=="48" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 768" << std::endl;}
     if(a=="49" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 784" << std::endl;}
     if(a=="50" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 800" << std::endl;}
-    if(a=="51" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 816" << std::endl;}
-    if(a=="52" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 832" << std::endl;}
-    if(a=="53" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 848" << std::endl;}
-    if(a=="54" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 864" << std::endl;}
-    if(a=="55" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 880" << std::endl;}
-    if(a=="56" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 896" << std::endl;}
-    if(a=="57" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 912" << std::endl;}
-    if(a=="58" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 928" << std::endl;}
-    if(a=="59" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 944" << std::endl;}
-    if(a=="60" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 960" << std::endl;}
-    if(a=="61" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 976" << std::endl;}
-    if(a=="62" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 992" << std::endl;}
-    if(a=="63" && o=="*" && b=="16"){std::cout << std::endl << "Answer           : 1008" << std::endl;}
     if(a=="0" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 17" << std::endl;}
     if(a=="2" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 34" << std::endl;}
@@ -9341,19 +6130,6 @@ int main()
     if(a=="48" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 816" << std::endl;}
     if(a=="49" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 833" << std::endl;}
     if(a=="50" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 850" << std::endl;}
-    if(a=="51" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 867" << std::endl;}
-    if(a=="52" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 884" << std::endl;}
-    if(a=="53" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 901" << std::endl;}
-    if(a=="54" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 918" << std::endl;}
-    if(a=="55" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 935" << std::endl;}
-    if(a=="56" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 952" << std::endl;}
-    if(a=="57" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 969" << std::endl;}
-    if(a=="58" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 986" << std::endl;}
-    if(a=="59" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 1003" << std::endl;}
-    if(a=="60" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 1020" << std::endl;}
-    if(a=="61" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 1037" << std::endl;}
-    if(a=="62" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 1054" << std::endl;}
-    if(a=="63" && o=="*" && b=="17"){std::cout << std::endl << "Answer           : 1071" << std::endl;}
     if(a=="0" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 18" << std::endl;}
     if(a=="2" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 36" << std::endl;}
@@ -9405,19 +6181,6 @@ int main()
     if(a=="48" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 864" << std::endl;}
     if(a=="49" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 882" << std::endl;}
     if(a=="50" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 900" << std::endl;}
-    if(a=="51" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 918" << std::endl;}
-    if(a=="52" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 936" << std::endl;}
-    if(a=="53" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 954" << std::endl;}
-    if(a=="54" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 972" << std::endl;}
-    if(a=="55" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 990" << std::endl;}
-    if(a=="56" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 1008" << std::endl;}
-    if(a=="57" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 1026" << std::endl;}
-    if(a=="58" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 1044" << std::endl;}
-    if(a=="59" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 1062" << std::endl;}
-    if(a=="60" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 1080" << std::endl;}
-    if(a=="61" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 1098" << std::endl;}
-    if(a=="62" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 1116" << std::endl;}
-    if(a=="63" && o=="*" && b=="18"){std::cout << std::endl << "Answer           : 1134" << std::endl;}
     if(a=="0" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 19" << std::endl;}
     if(a=="2" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 38" << std::endl;}
@@ -9469,19 +6232,6 @@ int main()
     if(a=="48" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 912" << std::endl;}
     if(a=="49" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 931" << std::endl;}
     if(a=="50" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 950" << std::endl;}
-    if(a=="51" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 969" << std::endl;}
-    if(a=="52" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 988" << std::endl;}
-    if(a=="53" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 1007" << std::endl;}
-    if(a=="54" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 1026" << std::endl;}
-    if(a=="55" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 1045" << std::endl;}
-    if(a=="56" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 1064" << std::endl;}
-    if(a=="57" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 1083" << std::endl;}
-    if(a=="58" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 1102" << std::endl;}
-    if(a=="59" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 1121" << std::endl;}
-    if(a=="60" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 1140" << std::endl;}
-    if(a=="61" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 1159" << std::endl;}
-    if(a=="62" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 1178" << std::endl;}
-    if(a=="63" && o=="*" && b=="19"){std::cout << std::endl << "Answer           : 1197" << std::endl;}
     if(a=="0" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 20" << std::endl;}
     if(a=="2" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 40" << std::endl;}
@@ -9533,19 +6283,6 @@ int main()
     if(a=="48" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 960" << std::endl;}
     if(a=="49" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 980" << std::endl;}
     if(a=="50" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 1000" << std::endl;}
-    if(a=="51" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 1020" << std::endl;}
-    if(a=="52" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 1040" << std::endl;}
-    if(a=="53" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 1060" << std::endl;}
-    if(a=="54" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 1080" << std::endl;}
-    if(a=="55" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 1100" << std::endl;}
-    if(a=="56" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 1120" << std::endl;}
-    if(a=="57" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 1140" << std::endl;}
-    if(a=="58" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 1160" << std::endl;}
-    if(a=="59" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 1180" << std::endl;}
-    if(a=="60" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 1200" << std::endl;}
-    if(a=="61" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 1220" << std::endl;}
-    if(a=="62" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 1240" << std::endl;}
-    if(a=="63" && o=="*" && b=="20"){std::cout << std::endl << "Answer           : 1260" << std::endl;}
     if(a=="0" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 21" << std::endl;}
     if(a=="2" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 42" << std::endl;}
@@ -9597,19 +6334,6 @@ int main()
     if(a=="48" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 1008" << std::endl;}
     if(a=="49" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 1029" << std::endl;}
     if(a=="50" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 1050" << std::endl;}
-    if(a=="51" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 1071" << std::endl;}
-    if(a=="52" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 1092" << std::endl;}
-    if(a=="53" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 1113" << std::endl;}
-    if(a=="54" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 1134" << std::endl;}
-    if(a=="55" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 1155" << std::endl;}
-    if(a=="56" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 1176" << std::endl;}
-    if(a=="57" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 1197" << std::endl;}
-    if(a=="58" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 1218" << std::endl;}
-    if(a=="59" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 1239" << std::endl;}
-    if(a=="60" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 1260" << std::endl;}
-    if(a=="61" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 1281" << std::endl;}
-    if(a=="62" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 1302" << std::endl;}
-    if(a=="63" && o=="*" && b=="21"){std::cout << std::endl << "Answer           : 1323" << std::endl;}
     if(a=="0" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 22" << std::endl;}
     if(a=="2" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 44" << std::endl;}
@@ -9661,19 +6385,6 @@ int main()
     if(a=="48" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 1056" << std::endl;}
     if(a=="49" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 1078" << std::endl;}
     if(a=="50" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 1100" << std::endl;}
-    if(a=="51" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 1122" << std::endl;}
-    if(a=="52" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 1144" << std::endl;}
-    if(a=="53" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 1166" << std::endl;}
-    if(a=="54" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 1188" << std::endl;}
-    if(a=="55" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 1210" << std::endl;}
-    if(a=="56" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 1232" << std::endl;}
-    if(a=="57" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 1254" << std::endl;}
-    if(a=="58" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 1276" << std::endl;}
-    if(a=="59" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 1298" << std::endl;}
-    if(a=="60" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 1320" << std::endl;}
-    if(a=="61" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 1342" << std::endl;}
-    if(a=="62" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 1364" << std::endl;}
-    if(a=="63" && o=="*" && b=="22"){std::cout << std::endl << "Answer           : 1386" << std::endl;}
     if(a=="0" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 23" << std::endl;}
     if(a=="2" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 46" << std::endl;}
@@ -9725,19 +6436,6 @@ int main()
     if(a=="48" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 1104" << std::endl;}
     if(a=="49" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 1127" << std::endl;}
     if(a=="50" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 1150" << std::endl;}
-    if(a=="51" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 1173" << std::endl;}
-    if(a=="52" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 1196" << std::endl;}
-    if(a=="53" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 1219" << std::endl;}
-    if(a=="54" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 1242" << std::endl;}
-    if(a=="55" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 1265" << std::endl;}
-    if(a=="56" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 1288" << std::endl;}
-    if(a=="57" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 1311" << std::endl;}
-    if(a=="58" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 1334" << std::endl;}
-    if(a=="59" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 1357" << std::endl;}
-    if(a=="60" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 1380" << std::endl;}
-    if(a=="61" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 1403" << std::endl;}
-    if(a=="62" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 1426" << std::endl;}
-    if(a=="63" && o=="*" && b=="23"){std::cout << std::endl << "Answer           : 1449" << std::endl;}
     if(a=="0" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 24" << std::endl;}
     if(a=="2" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 48" << std::endl;}
@@ -9789,19 +6487,6 @@ int main()
     if(a=="48" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 1152" << std::endl;}
     if(a=="49" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 1176" << std::endl;}
     if(a=="50" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 1200" << std::endl;}
-    if(a=="51" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 1224" << std::endl;}
-    if(a=="52" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 1248" << std::endl;}
-    if(a=="53" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 1272" << std::endl;}
-    if(a=="54" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 1296" << std::endl;}
-    if(a=="55" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 1320" << std::endl;}
-    if(a=="56" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 1344" << std::endl;}
-    if(a=="57" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 1368" << std::endl;}
-    if(a=="58" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 1392" << std::endl;}
-    if(a=="59" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 1416" << std::endl;}
-    if(a=="60" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 1440" << std::endl;}
-    if(a=="61" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 1464" << std::endl;}
-    if(a=="62" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 1488" << std::endl;}
-    if(a=="63" && o=="*" && b=="24"){std::cout << std::endl << "Answer           : 1512" << std::endl;}
     if(a=="0" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 25" << std::endl;}
     if(a=="2" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 50" << std::endl;}
@@ -9853,19 +6538,6 @@ int main()
     if(a=="48" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 1200" << std::endl;}
     if(a=="49" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 1225" << std::endl;}
     if(a=="50" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 1250" << std::endl;}
-    if(a=="51" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 1275" << std::endl;}
-    if(a=="52" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 1300" << std::endl;}
-    if(a=="53" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 1325" << std::endl;}
-    if(a=="54" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 1350" << std::endl;}
-    if(a=="55" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 1375" << std::endl;}
-    if(a=="56" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 1400" << std::endl;}
-    if(a=="57" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 1425" << std::endl;}
-    if(a=="58" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 1450" << std::endl;}
-    if(a=="59" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 1475" << std::endl;}
-    if(a=="60" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 1500" << std::endl;}
-    if(a=="61" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 1525" << std::endl;}
-    if(a=="62" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 1550" << std::endl;}
-    if(a=="63" && o=="*" && b=="25"){std::cout << std::endl << "Answer           : 1575" << std::endl;}
     if(a=="0" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 26" << std::endl;}
     if(a=="2" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 52" << std::endl;}
@@ -9917,19 +6589,6 @@ int main()
     if(a=="48" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 1248" << std::endl;}
     if(a=="49" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 1274" << std::endl;}
     if(a=="50" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 1300" << std::endl;}
-    if(a=="51" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 1326" << std::endl;}
-    if(a=="52" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 1352" << std::endl;}
-    if(a=="53" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 1378" << std::endl;}
-    if(a=="54" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 1404" << std::endl;}
-    if(a=="55" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 1430" << std::endl;}
-    if(a=="56" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 1456" << std::endl;}
-    if(a=="57" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 1482" << std::endl;}
-    if(a=="58" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 1508" << std::endl;}
-    if(a=="59" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 1534" << std::endl;}
-    if(a=="60" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 1560" << std::endl;}
-    if(a=="61" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 1586" << std::endl;}
-    if(a=="62" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 1612" << std::endl;}
-    if(a=="63" && o=="*" && b=="26"){std::cout << std::endl << "Answer           : 1638" << std::endl;}
     if(a=="0" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 27" << std::endl;}
     if(a=="2" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 54" << std::endl;}
@@ -9981,19 +6640,6 @@ int main()
     if(a=="48" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 1296" << std::endl;}
     if(a=="49" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 1323" << std::endl;}
     if(a=="50" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 1350" << std::endl;}
-    if(a=="51" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 1377" << std::endl;}
-    if(a=="52" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 1404" << std::endl;}
-    if(a=="53" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 1431" << std::endl;}
-    if(a=="54" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 1458" << std::endl;}
-    if(a=="55" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 1485" << std::endl;}
-    if(a=="56" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 1512" << std::endl;}
-    if(a=="57" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 1539" << std::endl;}
-    if(a=="58" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 1566" << std::endl;}
-    if(a=="59" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 1593" << std::endl;}
-    if(a=="60" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 1620" << std::endl;}
-    if(a=="61" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 1647" << std::endl;}
-    if(a=="62" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 1674" << std::endl;}
-    if(a=="63" && o=="*" && b=="27"){std::cout << std::endl << "Answer           : 1701" << std::endl;}
     if(a=="0" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 28" << std::endl;}
     if(a=="2" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 56" << std::endl;}
@@ -10045,19 +6691,6 @@ int main()
     if(a=="48" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 1344" << std::endl;}
     if(a=="49" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 1372" << std::endl;}
     if(a=="50" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 1400" << std::endl;}
-    if(a=="51" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 1428" << std::endl;}
-    if(a=="52" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 1456" << std::endl;}
-    if(a=="53" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 1484" << std::endl;}
-    if(a=="54" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 1512" << std::endl;}
-    if(a=="55" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 1540" << std::endl;}
-    if(a=="56" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 1568" << std::endl;}
-    if(a=="57" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 1596" << std::endl;}
-    if(a=="58" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 1624" << std::endl;}
-    if(a=="59" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 1652" << std::endl;}
-    if(a=="60" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 1680" << std::endl;}
-    if(a=="61" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 1708" << std::endl;}
-    if(a=="62" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 1736" << std::endl;}
-    if(a=="63" && o=="*" && b=="28"){std::cout << std::endl << "Answer           : 1764" << std::endl;}
     if(a=="0" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 29" << std::endl;}
     if(a=="2" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 58" << std::endl;}
@@ -10109,19 +6742,6 @@ int main()
     if(a=="48" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 1392" << std::endl;}
     if(a=="49" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 1421" << std::endl;}
     if(a=="50" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 1450" << std::endl;}
-    if(a=="51" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 1479" << std::endl;}
-    if(a=="52" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 1508" << std::endl;}
-    if(a=="53" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 1537" << std::endl;}
-    if(a=="54" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 1566" << std::endl;}
-    if(a=="55" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 1595" << std::endl;}
-    if(a=="56" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 1624" << std::endl;}
-    if(a=="57" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 1653" << std::endl;}
-    if(a=="58" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 1682" << std::endl;}
-    if(a=="59" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 1711" << std::endl;}
-    if(a=="60" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 1740" << std::endl;}
-    if(a=="61" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 1769" << std::endl;}
-    if(a=="62" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 1798" << std::endl;}
-    if(a=="63" && o=="*" && b=="29"){std::cout << std::endl << "Answer           : 1827" << std::endl;}
     if(a=="0" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 30" << std::endl;}
     if(a=="2" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 60" << std::endl;}
@@ -10173,19 +6793,6 @@ int main()
     if(a=="48" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 1440" << std::endl;}
     if(a=="49" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 1470" << std::endl;}
     if(a=="50" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 1500" << std::endl;}
-    if(a=="51" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 1530" << std::endl;}
-    if(a=="52" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 1560" << std::endl;}
-    if(a=="53" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 1590" << std::endl;}
-    if(a=="54" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 1620" << std::endl;}
-    if(a=="55" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 1650" << std::endl;}
-    if(a=="56" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 1680" << std::endl;}
-    if(a=="57" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 1710" << std::endl;}
-    if(a=="58" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 1740" << std::endl;}
-    if(a=="59" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 1770" << std::endl;}
-    if(a=="60" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 1800" << std::endl;}
-    if(a=="61" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 1830" << std::endl;}
-    if(a=="62" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 1860" << std::endl;}
-    if(a=="63" && o=="*" && b=="30"){std::cout << std::endl << "Answer           : 1890" << std::endl;}
     if(a=="0" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 31" << std::endl;}
     if(a=="2" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 62" << std::endl;}
@@ -10237,19 +6844,6 @@ int main()
     if(a=="48" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 1488" << std::endl;}
     if(a=="49" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 1519" << std::endl;}
     if(a=="50" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 1550" << std::endl;}
-    if(a=="51" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 1581" << std::endl;}
-    if(a=="52" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 1612" << std::endl;}
-    if(a=="53" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 1643" << std::endl;}
-    if(a=="54" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 1674" << std::endl;}
-    if(a=="55" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 1705" << std::endl;}
-    if(a=="56" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 1736" << std::endl;}
-    if(a=="57" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 1767" << std::endl;}
-    if(a=="58" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 1798" << std::endl;}
-    if(a=="59" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 1829" << std::endl;}
-    if(a=="60" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 1860" << std::endl;}
-    if(a=="61" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 1891" << std::endl;}
-    if(a=="62" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 1922" << std::endl;}
-    if(a=="63" && o=="*" && b=="31"){std::cout << std::endl << "Answer           : 1953" << std::endl;}
     if(a=="0" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 32" << std::endl;}
     if(a=="2" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 64" << std::endl;}
@@ -10301,19 +6895,6 @@ int main()
     if(a=="48" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 1536" << std::endl;}
     if(a=="49" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 1568" << std::endl;}
     if(a=="50" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 1600" << std::endl;}
-    if(a=="51" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 1632" << std::endl;}
-    if(a=="52" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 1664" << std::endl;}
-    if(a=="53" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 1696" << std::endl;}
-    if(a=="54" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 1728" << std::endl;}
-    if(a=="55" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 1760" << std::endl;}
-    if(a=="56" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 1792" << std::endl;}
-    if(a=="57" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 1824" << std::endl;}
-    if(a=="58" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 1856" << std::endl;}
-    if(a=="59" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 1888" << std::endl;}
-    if(a=="60" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 1920" << std::endl;}
-    if(a=="61" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 1952" << std::endl;}
-    if(a=="62" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 1984" << std::endl;}
-    if(a=="63" && o=="*" && b=="32"){std::cout << std::endl << "Answer           : 2016" << std::endl;}
     if(a=="0" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 33" << std::endl;}
     if(a=="2" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 66" << std::endl;}
@@ -10365,19 +6946,6 @@ int main()
     if(a=="48" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 1584" << std::endl;}
     if(a=="49" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 1617" << std::endl;}
     if(a=="50" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 1650" << std::endl;}
-    if(a=="51" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 1683" << std::endl;}
-    if(a=="52" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 1716" << std::endl;}
-    if(a=="53" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 1749" << std::endl;}
-    if(a=="54" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 1782" << std::endl;}
-    if(a=="55" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 1815" << std::endl;}
-    if(a=="56" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 1848" << std::endl;}
-    if(a=="57" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 1881" << std::endl;}
-    if(a=="58" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 1914" << std::endl;}
-    if(a=="59" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 1947" << std::endl;}
-    if(a=="60" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 1980" << std::endl;}
-    if(a=="61" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 2013" << std::endl;}
-    if(a=="62" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 2046" << std::endl;}
-    if(a=="63" && o=="*" && b=="33"){std::cout << std::endl << "Answer           : 2079" << std::endl;}
     if(a=="0" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 34" << std::endl;}
     if(a=="2" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 68" << std::endl;}
@@ -10429,19 +6997,6 @@ int main()
     if(a=="48" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 1632" << std::endl;}
     if(a=="49" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 1666" << std::endl;}
     if(a=="50" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 1700" << std::endl;}
-    if(a=="51" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 1734" << std::endl;}
-    if(a=="52" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 1768" << std::endl;}
-    if(a=="53" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 1802" << std::endl;}
-    if(a=="54" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 1836" << std::endl;}
-    if(a=="55" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 1870" << std::endl;}
-    if(a=="56" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 1904" << std::endl;}
-    if(a=="57" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 1938" << std::endl;}
-    if(a=="58" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 1972" << std::endl;}
-    if(a=="59" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 2006" << std::endl;}
-    if(a=="60" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 2040" << std::endl;}
-    if(a=="61" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 2074" << std::endl;}
-    if(a=="62" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 2108" << std::endl;}
-    if(a=="63" && o=="*" && b=="34"){std::cout << std::endl << "Answer           : 2142" << std::endl;}
     if(a=="0" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 35" << std::endl;}
     if(a=="2" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 70" << std::endl;}
@@ -10493,19 +7048,6 @@ int main()
     if(a=="48" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 1680" << std::endl;}
     if(a=="49" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 1715" << std::endl;}
     if(a=="50" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 1750" << std::endl;}
-    if(a=="51" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 1785" << std::endl;}
-    if(a=="52" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 1820" << std::endl;}
-    if(a=="53" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 1855" << std::endl;}
-    if(a=="54" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 1890" << std::endl;}
-    if(a=="55" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 1925" << std::endl;}
-    if(a=="56" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 1960" << std::endl;}
-    if(a=="57" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 1995" << std::endl;}
-    if(a=="58" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 2030" << std::endl;}
-    if(a=="59" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 2065" << std::endl;}
-    if(a=="60" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 2100" << std::endl;}
-    if(a=="61" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 2135" << std::endl;}
-    if(a=="62" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 2170" << std::endl;}
-    if(a=="63" && o=="*" && b=="35"){std::cout << std::endl << "Answer           : 2205" << std::endl;}
     if(a=="0" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 36" << std::endl;}
     if(a=="2" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 72" << std::endl;}
@@ -10557,19 +7099,6 @@ int main()
     if(a=="48" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 1728" << std::endl;}
     if(a=="49" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 1764" << std::endl;}
     if(a=="50" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 1800" << std::endl;}
-    if(a=="51" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 1836" << std::endl;}
-    if(a=="52" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 1872" << std::endl;}
-    if(a=="53" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 1908" << std::endl;}
-    if(a=="54" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 1944" << std::endl;}
-    if(a=="55" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 1980" << std::endl;}
-    if(a=="56" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 2016" << std::endl;}
-    if(a=="57" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 2052" << std::endl;}
-    if(a=="58" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 2088" << std::endl;}
-    if(a=="59" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 2124" << std::endl;}
-    if(a=="60" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 2160" << std::endl;}
-    if(a=="61" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 2196" << std::endl;}
-    if(a=="62" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 2232" << std::endl;}
-    if(a=="63" && o=="*" && b=="36"){std::cout << std::endl << "Answer           : 2268" << std::endl;}
     if(a=="0" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 37" << std::endl;}
     if(a=="2" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 74" << std::endl;}
@@ -10621,19 +7150,6 @@ int main()
     if(a=="48" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 1776" << std::endl;}
     if(a=="49" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 1813" << std::endl;}
     if(a=="50" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 1850" << std::endl;}
-    if(a=="51" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 1887" << std::endl;}
-    if(a=="52" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 1924" << std::endl;}
-    if(a=="53" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 1961" << std::endl;}
-    if(a=="54" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 1998" << std::endl;}
-    if(a=="55" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 2035" << std::endl;}
-    if(a=="56" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 2072" << std::endl;}
-    if(a=="57" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 2109" << std::endl;}
-    if(a=="58" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 2146" << std::endl;}
-    if(a=="59" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 2183" << std::endl;}
-    if(a=="60" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 2220" << std::endl;}
-    if(a=="61" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 2257" << std::endl;}
-    if(a=="62" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 2294" << std::endl;}
-    if(a=="63" && o=="*" && b=="37"){std::cout << std::endl << "Answer           : 2331" << std::endl;}
     if(a=="0" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 38" << std::endl;}
     if(a=="2" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 76" << std::endl;}
@@ -10685,19 +7201,6 @@ int main()
     if(a=="48" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 1824" << std::endl;}
     if(a=="49" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 1862" << std::endl;}
     if(a=="50" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 1900" << std::endl;}
-    if(a=="51" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 1938" << std::endl;}
-    if(a=="52" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 1976" << std::endl;}
-    if(a=="53" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 2014" << std::endl;}
-    if(a=="54" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 2052" << std::endl;}
-    if(a=="55" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 2090" << std::endl;}
-    if(a=="56" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 2128" << std::endl;}
-    if(a=="57" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 2166" << std::endl;}
-    if(a=="58" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 2204" << std::endl;}
-    if(a=="59" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 2242" << std::endl;}
-    if(a=="60" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 2280" << std::endl;}
-    if(a=="61" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 2318" << std::endl;}
-    if(a=="62" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 2356" << std::endl;}
-    if(a=="63" && o=="*" && b=="38"){std::cout << std::endl << "Answer           : 2394" << std::endl;}
     if(a=="0" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 39" << std::endl;}
     if(a=="2" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 78" << std::endl;}
@@ -10749,19 +7252,6 @@ int main()
     if(a=="48" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 1872" << std::endl;}
     if(a=="49" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 1911" << std::endl;}
     if(a=="50" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 1950" << std::endl;}
-    if(a=="51" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 1989" << std::endl;}
-    if(a=="52" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 2028" << std::endl;}
-    if(a=="53" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 2067" << std::endl;}
-    if(a=="54" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 2106" << std::endl;}
-    if(a=="55" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 2145" << std::endl;}
-    if(a=="56" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 2184" << std::endl;}
-    if(a=="57" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 2223" << std::endl;}
-    if(a=="58" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 2262" << std::endl;}
-    if(a=="59" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 2301" << std::endl;}
-    if(a=="60" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 2340" << std::endl;}
-    if(a=="61" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 2379" << std::endl;}
-    if(a=="62" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 2418" << std::endl;}
-    if(a=="63" && o=="*" && b=="39"){std::cout << std::endl << "Answer           : 2457" << std::endl;}
     if(a=="0" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 40" << std::endl;}
     if(a=="2" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 80" << std::endl;}
@@ -10813,19 +7303,6 @@ int main()
     if(a=="48" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 1920" << std::endl;}
     if(a=="49" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 1960" << std::endl;}
     if(a=="50" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 2000" << std::endl;}
-    if(a=="51" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 2040" << std::endl;}
-    if(a=="52" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 2080" << std::endl;}
-    if(a=="53" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 2120" << std::endl;}
-    if(a=="54" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 2160" << std::endl;}
-    if(a=="55" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 2200" << std::endl;}
-    if(a=="56" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 2240" << std::endl;}
-    if(a=="57" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 2280" << std::endl;}
-    if(a=="58" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 2320" << std::endl;}
-    if(a=="59" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 2360" << std::endl;}
-    if(a=="60" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 2400" << std::endl;}
-    if(a=="61" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 2440" << std::endl;}
-    if(a=="62" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 2480" << std::endl;}
-    if(a=="63" && o=="*" && b=="40"){std::cout << std::endl << "Answer           : 2520" << std::endl;}
     if(a=="0" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 41" << std::endl;}
     if(a=="2" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 82" << std::endl;}
@@ -10877,19 +7354,6 @@ int main()
     if(a=="48" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 1968" << std::endl;}
     if(a=="49" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 2009" << std::endl;}
     if(a=="50" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 2050" << std::endl;}
-    if(a=="51" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 2091" << std::endl;}
-    if(a=="52" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 2132" << std::endl;}
-    if(a=="53" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 2173" << std::endl;}
-    if(a=="54" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 2214" << std::endl;}
-    if(a=="55" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 2255" << std::endl;}
-    if(a=="56" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 2296" << std::endl;}
-    if(a=="57" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 2337" << std::endl;}
-    if(a=="58" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 2378" << std::endl;}
-    if(a=="59" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 2419" << std::endl;}
-    if(a=="60" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 2460" << std::endl;}
-    if(a=="61" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 2501" << std::endl;}
-    if(a=="62" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 2542" << std::endl;}
-    if(a=="63" && o=="*" && b=="41"){std::cout << std::endl << "Answer           : 2583" << std::endl;}
     if(a=="0" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 42" << std::endl;}
     if(a=="2" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 84" << std::endl;}
@@ -10941,19 +7405,6 @@ int main()
     if(a=="48" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 2016" << std::endl;}
     if(a=="49" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 2058" << std::endl;}
     if(a=="50" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 2100" << std::endl;}
-    if(a=="51" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 2142" << std::endl;}
-    if(a=="52" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 2184" << std::endl;}
-    if(a=="53" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 2226" << std::endl;}
-    if(a=="54" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 2268" << std::endl;}
-    if(a=="55" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 2310" << std::endl;}
-    if(a=="56" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 2352" << std::endl;}
-    if(a=="57" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 2394" << std::endl;}
-    if(a=="58" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 2436" << std::endl;}
-    if(a=="59" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 2478" << std::endl;}
-    if(a=="60" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 2520" << std::endl;}
-    if(a=="61" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 2562" << std::endl;}
-    if(a=="62" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 2604" << std::endl;}
-    if(a=="63" && o=="*" && b=="42"){std::cout << std::endl << "Answer           : 2646" << std::endl;}
     if(a=="0" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 43" << std::endl;}
     if(a=="2" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 86" << std::endl;}
@@ -11005,19 +7456,6 @@ int main()
     if(a=="48" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 2064" << std::endl;}
     if(a=="49" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 2107" << std::endl;}
     if(a=="50" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 2150" << std::endl;}
-    if(a=="51" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 2193" << std::endl;}
-    if(a=="52" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 2236" << std::endl;}
-    if(a=="53" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 2279" << std::endl;}
-    if(a=="54" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 2322" << std::endl;}
-    if(a=="55" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 2365" << std::endl;}
-    if(a=="56" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 2408" << std::endl;}
-    if(a=="57" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 2451" << std::endl;}
-    if(a=="58" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 2494" << std::endl;}
-    if(a=="59" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 2537" << std::endl;}
-    if(a=="60" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 2580" << std::endl;}
-    if(a=="61" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 2623" << std::endl;}
-    if(a=="62" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 2666" << std::endl;}
-    if(a=="63" && o=="*" && b=="43"){std::cout << std::endl << "Answer           : 2709" << std::endl;}
     if(a=="0" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 44" << std::endl;}
     if(a=="2" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 88" << std::endl;}
@@ -11069,19 +7507,6 @@ int main()
     if(a=="48" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 2112" << std::endl;}
     if(a=="49" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 2156" << std::endl;}
     if(a=="50" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 2200" << std::endl;}
-    if(a=="51" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 2244" << std::endl;}
-    if(a=="52" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 2288" << std::endl;}
-    if(a=="53" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 2332" << std::endl;}
-    if(a=="54" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 2376" << std::endl;}
-    if(a=="55" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 2420" << std::endl;}
-    if(a=="56" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 2464" << std::endl;}
-    if(a=="57" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 2508" << std::endl;}
-    if(a=="58" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 2552" << std::endl;}
-    if(a=="59" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 2596" << std::endl;}
-    if(a=="60" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 2640" << std::endl;}
-    if(a=="61" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 2684" << std::endl;}
-    if(a=="62" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 2728" << std::endl;}
-    if(a=="63" && o=="*" && b=="44"){std::cout << std::endl << "Answer           : 2772" << std::endl;}
     if(a=="0" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 45" << std::endl;}
     if(a=="2" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 90" << std::endl;}
@@ -11133,19 +7558,6 @@ int main()
     if(a=="48" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 2160" << std::endl;}
     if(a=="49" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 2205" << std::endl;}
     if(a=="50" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 2250" << std::endl;}
-    if(a=="51" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 2295" << std::endl;}
-    if(a=="52" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 2340" << std::endl;}
-    if(a=="53" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 2385" << std::endl;}
-    if(a=="54" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 2430" << std::endl;}
-    if(a=="55" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 2475" << std::endl;}
-    if(a=="56" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 2520" << std::endl;}
-    if(a=="57" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 2565" << std::endl;}
-    if(a=="58" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 2610" << std::endl;}
-    if(a=="59" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 2655" << std::endl;}
-    if(a=="60" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 2700" << std::endl;}
-    if(a=="61" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 2745" << std::endl;}
-    if(a=="62" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 2790" << std::endl;}
-    if(a=="63" && o=="*" && b=="45"){std::cout << std::endl << "Answer           : 2835" << std::endl;}
     if(a=="0" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 46" << std::endl;}
     if(a=="2" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 92" << std::endl;}
@@ -11197,19 +7609,6 @@ int main()
     if(a=="48" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 2208" << std::endl;}
     if(a=="49" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 2254" << std::endl;}
     if(a=="50" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 2300" << std::endl;}
-    if(a=="51" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 2346" << std::endl;}
-    if(a=="52" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 2392" << std::endl;}
-    if(a=="53" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 2438" << std::endl;}
-    if(a=="54" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 2484" << std::endl;}
-    if(a=="55" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 2530" << std::endl;}
-    if(a=="56" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 2576" << std::endl;}
-    if(a=="57" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 2622" << std::endl;}
-    if(a=="58" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 2668" << std::endl;}
-    if(a=="59" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 2714" << std::endl;}
-    if(a=="60" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 2760" << std::endl;}
-    if(a=="61" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 2806" << std::endl;}
-    if(a=="62" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 2852" << std::endl;}
-    if(a=="63" && o=="*" && b=="46"){std::cout << std::endl << "Answer           : 2898" << std::endl;}
     if(a=="0" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 47" << std::endl;}
     if(a=="2" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 94" << std::endl;}
@@ -11261,19 +7660,6 @@ int main()
     if(a=="48" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 2256" << std::endl;}
     if(a=="49" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 2303" << std::endl;}
     if(a=="50" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 2350" << std::endl;}
-    if(a=="51" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 2397" << std::endl;}
-    if(a=="52" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 2444" << std::endl;}
-    if(a=="53" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 2491" << std::endl;}
-    if(a=="54" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 2538" << std::endl;}
-    if(a=="55" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 2585" << std::endl;}
-    if(a=="56" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 2632" << std::endl;}
-    if(a=="57" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 2679" << std::endl;}
-    if(a=="58" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 2726" << std::endl;}
-    if(a=="59" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 2773" << std::endl;}
-    if(a=="60" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 2820" << std::endl;}
-    if(a=="61" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 2867" << std::endl;}
-    if(a=="62" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 2914" << std::endl;}
-    if(a=="63" && o=="*" && b=="47"){std::cout << std::endl << "Answer           : 2961" << std::endl;}
     if(a=="0" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 48" << std::endl;}
     if(a=="2" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 96" << std::endl;}
@@ -11325,19 +7711,6 @@ int main()
     if(a=="48" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 2304" << std::endl;}
     if(a=="49" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 2352" << std::endl;}
     if(a=="50" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 2400" << std::endl;}
-    if(a=="51" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 2448" << std::endl;}
-    if(a=="52" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 2496" << std::endl;}
-    if(a=="53" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 2544" << std::endl;}
-    if(a=="54" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 2592" << std::endl;}
-    if(a=="55" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 2640" << std::endl;}
-    if(a=="56" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 2688" << std::endl;}
-    if(a=="57" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 2736" << std::endl;}
-    if(a=="58" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 2784" << std::endl;}
-    if(a=="59" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 2832" << std::endl;}
-    if(a=="60" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 2880" << std::endl;}
-    if(a=="61" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 2928" << std::endl;}
-    if(a=="62" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 2976" << std::endl;}
-    if(a=="63" && o=="*" && b=="48"){std::cout << std::endl << "Answer           : 3024" << std::endl;}
     if(a=="0" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 49" << std::endl;}
     if(a=="2" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 98" << std::endl;}
@@ -11389,19 +7762,6 @@ int main()
     if(a=="48" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 2352" << std::endl;}
     if(a=="49" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 2401" << std::endl;}
     if(a=="50" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 2450" << std::endl;}
-    if(a=="51" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 2499" << std::endl;}
-    if(a=="52" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 2548" << std::endl;}
-    if(a=="53" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 2597" << std::endl;}
-    if(a=="54" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 2646" << std::endl;}
-    if(a=="55" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 2695" << std::endl;}
-    if(a=="56" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 2744" << std::endl;}
-    if(a=="57" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 2793" << std::endl;}
-    if(a=="58" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 2842" << std::endl;}
-    if(a=="59" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 2891" << std::endl;}
-    if(a=="60" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 2940" << std::endl;}
-    if(a=="61" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 2989" << std::endl;}
-    if(a=="62" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 3038" << std::endl;}
-    if(a=="63" && o=="*" && b=="49"){std::cout << std::endl << "Answer           : 3087" << std::endl;}
     if(a=="0" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 0" << std::endl;}
     if(a=="1" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 50" << std::endl;}
     if(a=="2" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 100" << std::endl;}
@@ -11453,849 +7813,4 @@ int main()
     if(a=="48" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 2400" << std::endl;}
     if(a=="49" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 2450" << std::endl;}
     if(a=="50" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 2500" << std::endl;}
-    if(a=="51" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 2550" << std::endl;}
-    if(a=="52" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 2600" << std::endl;}
-    if(a=="53" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 2650" << std::endl;}
-    if(a=="54" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 2700" << std::endl;}
-    if(a=="55" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 2750" << std::endl;}
-    if(a=="56" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 2800" << std::endl;}
-    if(a=="57" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 2850" << std::endl;}
-    if(a=="58" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 2900" << std::endl;}
-    if(a=="59" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 2950" << std::endl;}
-    if(a=="60" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 3000" << std::endl;}
-    if(a=="61" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 3050" << std::endl;}
-    if(a=="62" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 3100" << std::endl;}
-    if(a=="63" && o=="*" && b=="50"){std::cout << std::endl << "Answer           : 3150" << std::endl;}
-    if(a=="0" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="1" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 51" << std::endl;}
-    if(a=="2" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 102" << std::endl;}
-    if(a=="3" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 153" << std::endl;}
-    if(a=="4" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 204" << std::endl;}
-    if(a=="5" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 255" << std::endl;}
-    if(a=="6" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 306" << std::endl;}
-    if(a=="7" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 357" << std::endl;}
-    if(a=="8" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 408" << std::endl;}
-    if(a=="9" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 459" << std::endl;}
-    if(a=="10" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 510" << std::endl;}
-    if(a=="11" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 561" << std::endl;}
-    if(a=="12" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 612" << std::endl;}
-    if(a=="13" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 663" << std::endl;}
-    if(a=="14" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 714" << std::endl;}
-    if(a=="15" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 765" << std::endl;}
-    if(a=="16" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 816" << std::endl;}
-    if(a=="17" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 867" << std::endl;}
-    if(a=="18" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 918" << std::endl;}
-    if(a=="19" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 969" << std::endl;}
-    if(a=="20" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1020" << std::endl;}
-    if(a=="21" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1071" << std::endl;}
-    if(a=="22" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1122" << std::endl;}
-    if(a=="23" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1173" << std::endl;}
-    if(a=="24" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1224" << std::endl;}
-    if(a=="25" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1275" << std::endl;}
-    if(a=="26" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1326" << std::endl;}
-    if(a=="27" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1377" << std::endl;}
-    if(a=="28" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1428" << std::endl;}
-    if(a=="29" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1479" << std::endl;}
-    if(a=="30" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1530" << std::endl;}
-    if(a=="31" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1581" << std::endl;}
-    if(a=="32" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1632" << std::endl;}
-    if(a=="33" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1683" << std::endl;}
-    if(a=="34" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1734" << std::endl;}
-    if(a=="35" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1785" << std::endl;}
-    if(a=="36" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1836" << std::endl;}
-    if(a=="37" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1887" << std::endl;}
-    if(a=="38" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1938" << std::endl;}
-    if(a=="39" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 1989" << std::endl;}
-    if(a=="40" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2040" << std::endl;}
-    if(a=="41" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2091" << std::endl;}
-    if(a=="42" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2142" << std::endl;}
-    if(a=="43" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2193" << std::endl;}
-    if(a=="44" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2244" << std::endl;}
-    if(a=="45" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2295" << std::endl;}
-    if(a=="46" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2346" << std::endl;}
-    if(a=="47" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2397" << std::endl;}
-    if(a=="48" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2448" << std::endl;}
-    if(a=="49" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2499" << std::endl;}
-    if(a=="50" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2550" << std::endl;}
-    if(a=="51" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2601" << std::endl;}
-    if(a=="52" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2652" << std::endl;}
-    if(a=="53" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2703" << std::endl;}
-    if(a=="54" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2754" << std::endl;}
-    if(a=="55" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2805" << std::endl;}
-    if(a=="56" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2856" << std::endl;}
-    if(a=="57" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2907" << std::endl;}
-    if(a=="58" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 2958" << std::endl;}
-    if(a=="59" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 3009" << std::endl;}
-    if(a=="60" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 3060" << std::endl;}
-    if(a=="61" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 3111" << std::endl;}
-    if(a=="62" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 3162" << std::endl;}
-    if(a=="63" && o=="*" && b=="51"){std::cout << std::endl << "Answer           : 3213" << std::endl;}
-    if(a=="0" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="1" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 52" << std::endl;}
-    if(a=="2" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 104" << std::endl;}
-    if(a=="3" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 156" << std::endl;}
-    if(a=="4" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 208" << std::endl;}
-    if(a=="5" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 260" << std::endl;}
-    if(a=="6" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 312" << std::endl;}
-    if(a=="7" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 364" << std::endl;}
-    if(a=="8" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 416" << std::endl;}
-    if(a=="9" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 468" << std::endl;}
-    if(a=="10" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 520" << std::endl;}
-    if(a=="11" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 572" << std::endl;}
-    if(a=="12" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 624" << std::endl;}
-    if(a=="13" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 676" << std::endl;}
-    if(a=="14" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 728" << std::endl;}
-    if(a=="15" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 780" << std::endl;}
-    if(a=="16" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 832" << std::endl;}
-    if(a=="17" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 884" << std::endl;}
-    if(a=="18" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 936" << std::endl;}
-    if(a=="19" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 988" << std::endl;}
-    if(a=="20" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1040" << std::endl;}
-    if(a=="21" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1092" << std::endl;}
-    if(a=="22" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1144" << std::endl;}
-    if(a=="23" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1196" << std::endl;}
-    if(a=="24" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1248" << std::endl;}
-    if(a=="25" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1300" << std::endl;}
-    if(a=="26" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1352" << std::endl;}
-    if(a=="27" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1404" << std::endl;}
-    if(a=="28" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1456" << std::endl;}
-    if(a=="29" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1508" << std::endl;}
-    if(a=="30" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1560" << std::endl;}
-    if(a=="31" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1612" << std::endl;}
-    if(a=="32" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1664" << std::endl;}
-    if(a=="33" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1716" << std::endl;}
-    if(a=="34" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1768" << std::endl;}
-    if(a=="35" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1820" << std::endl;}
-    if(a=="36" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1872" << std::endl;}
-    if(a=="37" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1924" << std::endl;}
-    if(a=="38" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 1976" << std::endl;}
-    if(a=="39" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2028" << std::endl;}
-    if(a=="40" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2080" << std::endl;}
-    if(a=="41" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2132" << std::endl;}
-    if(a=="42" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2184" << std::endl;}
-    if(a=="43" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2236" << std::endl;}
-    if(a=="44" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2288" << std::endl;}
-    if(a=="45" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2340" << std::endl;}
-    if(a=="46" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2392" << std::endl;}
-    if(a=="47" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2444" << std::endl;}
-    if(a=="48" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2496" << std::endl;}
-    if(a=="49" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2548" << std::endl;}
-    if(a=="50" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2600" << std::endl;}
-    if(a=="51" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2652" << std::endl;}
-    if(a=="52" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2704" << std::endl;}
-    if(a=="53" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2756" << std::endl;}
-    if(a=="54" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2808" << std::endl;}
-    if(a=="55" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2860" << std::endl;}
-    if(a=="56" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2912" << std::endl;}
-    if(a=="57" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 2964" << std::endl;}
-    if(a=="58" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 3016" << std::endl;}
-    if(a=="59" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 3068" << std::endl;}
-    if(a=="60" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 3120" << std::endl;}
-    if(a=="61" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 3172" << std::endl;}
-    if(a=="62" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 3224" << std::endl;}
-    if(a=="63" && o=="*" && b=="52"){std::cout << std::endl << "Answer           : 3276" << std::endl;}
-    if(a=="0" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="1" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 53" << std::endl;}
-    if(a=="2" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 106" << std::endl;}
-    if(a=="3" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 159" << std::endl;}
-    if(a=="4" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 212" << std::endl;}
-    if(a=="5" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 265" << std::endl;}
-    if(a=="6" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 318" << std::endl;}
-    if(a=="7" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 371" << std::endl;}
-    if(a=="8" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 424" << std::endl;}
-    if(a=="9" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 477" << std::endl;}
-    if(a=="10" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 530" << std::endl;}
-    if(a=="11" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 583" << std::endl;}
-    if(a=="12" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 636" << std::endl;}
-    if(a=="13" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 689" << std::endl;}
-    if(a=="14" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 742" << std::endl;}
-    if(a=="15" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 795" << std::endl;}
-    if(a=="16" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 848" << std::endl;}
-    if(a=="17" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 901" << std::endl;}
-    if(a=="18" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 954" << std::endl;}
-    if(a=="19" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1007" << std::endl;}
-    if(a=="20" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1060" << std::endl;}
-    if(a=="21" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1113" << std::endl;}
-    if(a=="22" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1166" << std::endl;}
-    if(a=="23" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1219" << std::endl;}
-    if(a=="24" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1272" << std::endl;}
-    if(a=="25" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1325" << std::endl;}
-    if(a=="26" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1378" << std::endl;}
-    if(a=="27" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1431" << std::endl;}
-    if(a=="28" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1484" << std::endl;}
-    if(a=="29" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1537" << std::endl;}
-    if(a=="30" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1590" << std::endl;}
-    if(a=="31" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1643" << std::endl;}
-    if(a=="32" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1696" << std::endl;}
-    if(a=="33" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1749" << std::endl;}
-    if(a=="34" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1802" << std::endl;}
-    if(a=="35" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1855" << std::endl;}
-    if(a=="36" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1908" << std::endl;}
-    if(a=="37" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 1961" << std::endl;}
-    if(a=="38" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2014" << std::endl;}
-    if(a=="39" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2067" << std::endl;}
-    if(a=="40" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2120" << std::endl;}
-    if(a=="41" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2173" << std::endl;}
-    if(a=="42" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2226" << std::endl;}
-    if(a=="43" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2279" << std::endl;}
-    if(a=="44" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2332" << std::endl;}
-    if(a=="45" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2385" << std::endl;}
-    if(a=="46" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2438" << std::endl;}
-    if(a=="47" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2491" << std::endl;}
-    if(a=="48" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2544" << std::endl;}
-    if(a=="49" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2597" << std::endl;}
-    if(a=="50" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2650" << std::endl;}
-    if(a=="51" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2703" << std::endl;}
-    if(a=="52" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2756" << std::endl;}
-    if(a=="53" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2809" << std::endl;}
-    if(a=="54" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2862" << std::endl;}
-    if(a=="55" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2915" << std::endl;}
-    if(a=="56" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 2968" << std::endl;}
-    if(a=="57" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 3021" << std::endl;}
-    if(a=="58" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 3074" << std::endl;}
-    if(a=="59" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 3127" << std::endl;}
-    if(a=="60" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 3180" << std::endl;}
-    if(a=="61" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 3233" << std::endl;}
-    if(a=="62" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 3286" << std::endl;}
-    if(a=="63" && o=="*" && b=="53"){std::cout << std::endl << "Answer           : 3339" << std::endl;}
-    if(a=="0" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="1" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 54" << std::endl;}
-    if(a=="2" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 108" << std::endl;}
-    if(a=="3" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 162" << std::endl;}
-    if(a=="4" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 216" << std::endl;}
-    if(a=="5" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 270" << std::endl;}
-    if(a=="6" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 324" << std::endl;}
-    if(a=="7" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 378" << std::endl;}
-    if(a=="8" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 432" << std::endl;}
-    if(a=="9" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 486" << std::endl;}
-    if(a=="10" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 540" << std::endl;}
-    if(a=="11" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 594" << std::endl;}
-    if(a=="12" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 648" << std::endl;}
-    if(a=="13" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 702" << std::endl;}
-    if(a=="14" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 756" << std::endl;}
-    if(a=="15" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 810" << std::endl;}
-    if(a=="16" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 864" << std::endl;}
-    if(a=="17" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 918" << std::endl;}
-    if(a=="18" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 972" << std::endl;}
-    if(a=="19" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1026" << std::endl;}
-    if(a=="20" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1080" << std::endl;}
-    if(a=="21" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1134" << std::endl;}
-    if(a=="22" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1188" << std::endl;}
-    if(a=="23" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1242" << std::endl;}
-    if(a=="24" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1296" << std::endl;}
-    if(a=="25" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1350" << std::endl;}
-    if(a=="26" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1404" << std::endl;}
-    if(a=="27" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1458" << std::endl;}
-    if(a=="28" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1512" << std::endl;}
-    if(a=="29" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1566" << std::endl;}
-    if(a=="30" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1620" << std::endl;}
-    if(a=="31" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1674" << std::endl;}
-    if(a=="32" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1728" << std::endl;}
-    if(a=="33" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1782" << std::endl;}
-    if(a=="34" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1836" << std::endl;}
-    if(a=="35" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1890" << std::endl;}
-    if(a=="36" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1944" << std::endl;}
-    if(a=="37" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 1998" << std::endl;}
-    if(a=="38" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2052" << std::endl;}
-    if(a=="39" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2106" << std::endl;}
-    if(a=="40" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2160" << std::endl;}
-    if(a=="41" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2214" << std::endl;}
-    if(a=="42" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2268" << std::endl;}
-    if(a=="43" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2322" << std::endl;}
-    if(a=="44" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2376" << std::endl;}
-    if(a=="45" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2430" << std::endl;}
-    if(a=="46" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2484" << std::endl;}
-    if(a=="47" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2538" << std::endl;}
-    if(a=="48" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2592" << std::endl;}
-    if(a=="49" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2646" << std::endl;}
-    if(a=="50" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2700" << std::endl;}
-    if(a=="51" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2754" << std::endl;}
-    if(a=="52" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2808" << std::endl;}
-    if(a=="53" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2862" << std::endl;}
-    if(a=="54" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2916" << std::endl;}
-    if(a=="55" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 2970" << std::endl;}
-    if(a=="56" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 3024" << std::endl;}
-    if(a=="57" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 3078" << std::endl;}
-    if(a=="58" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 3132" << std::endl;}
-    if(a=="59" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 3186" << std::endl;}
-    if(a=="60" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 3240" << std::endl;}
-    if(a=="61" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 3294" << std::endl;}
-    if(a=="62" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 3348" << std::endl;}
-    if(a=="63" && o=="*" && b=="54"){std::cout << std::endl << "Answer           : 3402" << std::endl;}
-    if(a=="0" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="1" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 55" << std::endl;}
-    if(a=="2" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 110" << std::endl;}
-    if(a=="3" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 165" << std::endl;}
-    if(a=="4" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 220" << std::endl;}
-    if(a=="5" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 275" << std::endl;}
-    if(a=="6" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 330" << std::endl;}
-    if(a=="7" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 385" << std::endl;}
-    if(a=="8" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 440" << std::endl;}
-    if(a=="9" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 495" << std::endl;}
-    if(a=="10" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 550" << std::endl;}
-    if(a=="11" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 605" << std::endl;}
-    if(a=="12" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 660" << std::endl;}
-    if(a=="13" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 715" << std::endl;}
-    if(a=="14" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 770" << std::endl;}
-    if(a=="15" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 825" << std::endl;}
-    if(a=="16" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 880" << std::endl;}
-    if(a=="17" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 935" << std::endl;}
-    if(a=="18" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 990" << std::endl;}
-    if(a=="19" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1045" << std::endl;}
-    if(a=="20" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1100" << std::endl;}
-    if(a=="21" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1155" << std::endl;}
-    if(a=="22" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1210" << std::endl;}
-    if(a=="23" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1265" << std::endl;}
-    if(a=="24" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1320" << std::endl;}
-    if(a=="25" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1375" << std::endl;}
-    if(a=="26" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1430" << std::endl;}
-    if(a=="27" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1485" << std::endl;}
-    if(a=="28" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1540" << std::endl;}
-    if(a=="29" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1595" << std::endl;}
-    if(a=="30" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1650" << std::endl;}
-    if(a=="31" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1705" << std::endl;}
-    if(a=="32" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1760" << std::endl;}
-    if(a=="33" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1815" << std::endl;}
-    if(a=="34" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1870" << std::endl;}
-    if(a=="35" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1925" << std::endl;}
-    if(a=="36" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 1980" << std::endl;}
-    if(a=="37" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2035" << std::endl;}
-    if(a=="38" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2090" << std::endl;}
-    if(a=="39" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2145" << std::endl;}
-    if(a=="40" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2200" << std::endl;}
-    if(a=="41" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2255" << std::endl;}
-    if(a=="42" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2310" << std::endl;}
-    if(a=="43" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2365" << std::endl;}
-    if(a=="44" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2420" << std::endl;}
-    if(a=="45" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2475" << std::endl;}
-    if(a=="46" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2530" << std::endl;}
-    if(a=="47" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2585" << std::endl;}
-    if(a=="48" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2640" << std::endl;}
-    if(a=="49" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2695" << std::endl;}
-    if(a=="50" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2750" << std::endl;}
-    if(a=="51" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2805" << std::endl;}
-    if(a=="52" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2860" << std::endl;}
-    if(a=="53" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2915" << std::endl;}
-    if(a=="54" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 2970" << std::endl;}
-    if(a=="55" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 3025" << std::endl;}
-    if(a=="56" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 3080" << std::endl;}
-    if(a=="57" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 3135" << std::endl;}
-    if(a=="58" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 3190" << std::endl;}
-    if(a=="59" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 3245" << std::endl;}
-    if(a=="60" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 3300" << std::endl;}
-    if(a=="61" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 3355" << std::endl;}
-    if(a=="62" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 3410" << std::endl;}
-    if(a=="63" && o=="*" && b=="55"){std::cout << std::endl << "Answer           : 3465" << std::endl;}
-    if(a=="0" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="1" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 56" << std::endl;}
-    if(a=="2" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 112" << std::endl;}
-    if(a=="3" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 168" << std::endl;}
-    if(a=="4" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 224" << std::endl;}
-    if(a=="5" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 280" << std::endl;}
-    if(a=="6" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 336" << std::endl;}
-    if(a=="7" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 392" << std::endl;}
-    if(a=="8" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 448" << std::endl;}
-    if(a=="9" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 504" << std::endl;}
-    if(a=="10" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 560" << std::endl;}
-    if(a=="11" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 616" << std::endl;}
-    if(a=="12" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 672" << std::endl;}
-    if(a=="13" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 728" << std::endl;}
-    if(a=="14" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 784" << std::endl;}
-    if(a=="15" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 840" << std::endl;}
-    if(a=="16" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 896" << std::endl;}
-    if(a=="17" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 952" << std::endl;}
-    if(a=="18" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1008" << std::endl;}
-    if(a=="19" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1064" << std::endl;}
-    if(a=="20" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1120" << std::endl;}
-    if(a=="21" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1176" << std::endl;}
-    if(a=="22" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1232" << std::endl;}
-    if(a=="23" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1288" << std::endl;}
-    if(a=="24" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1344" << std::endl;}
-    if(a=="25" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1400" << std::endl;}
-    if(a=="26" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1456" << std::endl;}
-    if(a=="27" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1512" << std::endl;}
-    if(a=="28" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1568" << std::endl;}
-    if(a=="29" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1624" << std::endl;}
-    if(a=="30" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1680" << std::endl;}
-    if(a=="31" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1736" << std::endl;}
-    if(a=="32" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1792" << std::endl;}
-    if(a=="33" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1848" << std::endl;}
-    if(a=="34" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1904" << std::endl;}
-    if(a=="35" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 1960" << std::endl;}
-    if(a=="36" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2016" << std::endl;}
-    if(a=="37" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2072" << std::endl;}
-    if(a=="38" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2128" << std::endl;}
-    if(a=="39" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2184" << std::endl;}
-    if(a=="40" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2240" << std::endl;}
-    if(a=="41" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2296" << std::endl;}
-    if(a=="42" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2352" << std::endl;}
-    if(a=="43" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2408" << std::endl;}
-    if(a=="44" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2464" << std::endl;}
-    if(a=="45" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2520" << std::endl;}
-    if(a=="46" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2576" << std::endl;}
-    if(a=="47" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2632" << std::endl;}
-    if(a=="48" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2688" << std::endl;}
-    if(a=="49" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2744" << std::endl;}
-    if(a=="50" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2800" << std::endl;}
-    if(a=="51" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2856" << std::endl;}
-    if(a=="52" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2912" << std::endl;}
-    if(a=="53" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 2968" << std::endl;}
-    if(a=="54" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 3024" << std::endl;}
-    if(a=="55" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 3080" << std::endl;}
-    if(a=="56" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 3136" << std::endl;}
-    if(a=="57" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 3192" << std::endl;}
-    if(a=="58" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 3248" << std::endl;}
-    if(a=="59" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 3304" << std::endl;}
-    if(a=="60" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 3360" << std::endl;}
-    if(a=="61" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 3416" << std::endl;}
-    if(a=="62" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 3472" << std::endl;}
-    if(a=="63" && o=="*" && b=="56"){std::cout << std::endl << "Answer           : 3528" << std::endl;}
-    if(a=="0" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="1" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 57" << std::endl;}
-    if(a=="2" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 114" << std::endl;}
-    if(a=="3" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 171" << std::endl;}
-    if(a=="4" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 228" << std::endl;}
-    if(a=="5" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 285" << std::endl;}
-    if(a=="6" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 342" << std::endl;}
-    if(a=="7" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 399" << std::endl;}
-    if(a=="8" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 456" << std::endl;}
-    if(a=="9" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 513" << std::endl;}
-    if(a=="10" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 570" << std::endl;}
-    if(a=="11" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 627" << std::endl;}
-    if(a=="12" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 684" << std::endl;}
-    if(a=="13" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 741" << std::endl;}
-    if(a=="14" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 798" << std::endl;}
-    if(a=="15" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 855" << std::endl;}
-    if(a=="16" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 912" << std::endl;}
-    if(a=="17" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 969" << std::endl;}
-    if(a=="18" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1026" << std::endl;}
-    if(a=="19" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1083" << std::endl;}
-    if(a=="20" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1140" << std::endl;}
-    if(a=="21" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1197" << std::endl;}
-    if(a=="22" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1254" << std::endl;}
-    if(a=="23" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1311" << std::endl;}
-    if(a=="24" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1368" << std::endl;}
-    if(a=="25" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1425" << std::endl;}
-    if(a=="26" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1482" << std::endl;}
-    if(a=="27" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1539" << std::endl;}
-    if(a=="28" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1596" << std::endl;}
-    if(a=="29" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1653" << std::endl;}
-    if(a=="30" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1710" << std::endl;}
-    if(a=="31" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1767" << std::endl;}
-    if(a=="32" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1824" << std::endl;}
-    if(a=="33" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1881" << std::endl;}
-    if(a=="34" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1938" << std::endl;}
-    if(a=="35" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 1995" << std::endl;}
-    if(a=="36" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 2052" << std::endl;}
-    if(a=="37" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 2109" << std::endl;}
-    if(a=="38" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 2166" << std::endl;}
-    if(a=="39" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 2223" << std::endl;}
-    if(a=="40" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 2280" << std::endl;}
-    if(a=="41" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 2337" << std::endl;}
-    if(a=="42" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 2394" << std::endl;}
-    if(a=="43" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 2451" << std::endl;}
-    if(a=="44" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 2508" << std::endl;}
-    if(a=="45" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 2565" << std::endl;}
-    if(a=="46" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 2622" << std::endl;}
-    if(a=="47" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 2679" << std::endl;}
-    if(a=="48" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 2736" << std::endl;}
-    if(a=="49" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 2793" << std::endl;}
-    if(a=="50" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 2850" << std::endl;}
-    if(a=="51" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 2907" << std::endl;}
-    if(a=="52" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 2964" << std::endl;}
-    if(a=="53" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 3021" << std::endl;}
-    if(a=="54" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 3078" << std::endl;}
-    if(a=="55" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 3135" << std::endl;}
-    if(a=="56" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 3192" << std::endl;}
-    if(a=="57" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 3249" << std::endl;}
-    if(a=="58" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 3306" << std::endl;}
-    if(a=="59" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 3363" << std::endl;}
-    if(a=="60" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 3420" << std::endl;}
-    if(a=="61" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 3477" << std::endl;}
-    if(a=="62" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 3534" << std::endl;}
-    if(a=="63" && o=="*" && b=="57"){std::cout << std::endl << "Answer           : 3591" << std::endl;}
-    if(a=="0" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="1" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 58" << std::endl;}
-    if(a=="2" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 116" << std::endl;}
-    if(a=="3" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 174" << std::endl;}
-    if(a=="4" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 232" << std::endl;}
-    if(a=="5" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 290" << std::endl;}
-    if(a=="6" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 348" << std::endl;}
-    if(a=="7" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 406" << std::endl;}
-    if(a=="8" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 464" << std::endl;}
-    if(a=="9" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 522" << std::endl;}
-    if(a=="10" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 580" << std::endl;}
-    if(a=="11" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 638" << std::endl;}
-    if(a=="12" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 696" << std::endl;}
-    if(a=="13" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 754" << std::endl;}
-    if(a=="14" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 812" << std::endl;}
-    if(a=="15" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 870" << std::endl;}
-    if(a=="16" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 928" << std::endl;}
-    if(a=="17" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 986" << std::endl;}
-    if(a=="18" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 1044" << std::endl;}
-    if(a=="19" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 1102" << std::endl;}
-    if(a=="20" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 1160" << std::endl;}
-    if(a=="21" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 1218" << std::endl;}
-    if(a=="22" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 1276" << std::endl;}
-    if(a=="23" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 1334" << std::endl;}
-    if(a=="24" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 1392" << std::endl;}
-    if(a=="25" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 1450" << std::endl;}
-    if(a=="26" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 1508" << std::endl;}
-    if(a=="27" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 1566" << std::endl;}
-    if(a=="28" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 1624" << std::endl;}
-    if(a=="29" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 1682" << std::endl;}
-    if(a=="30" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 1740" << std::endl;}
-    if(a=="31" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 1798" << std::endl;}
-    if(a=="32" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 1856" << std::endl;}
-    if(a=="33" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 1914" << std::endl;}
-    if(a=="34" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 1972" << std::endl;}
-    if(a=="35" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 2030" << std::endl;}
-    if(a=="36" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 2088" << std::endl;}
-    if(a=="37" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 2146" << std::endl;}
-    if(a=="38" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 2204" << std::endl;}
-    if(a=="39" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 2262" << std::endl;}
-    if(a=="40" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 2320" << std::endl;}
-    if(a=="41" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 2378" << std::endl;}
-    if(a=="42" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 2436" << std::endl;}
-    if(a=="43" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 2494" << std::endl;}
-    if(a=="44" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 2552" << std::endl;}
-    if(a=="45" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 2610" << std::endl;}
-    if(a=="46" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 2668" << std::endl;}
-    if(a=="47" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 2726" << std::endl;}
-    if(a=="48" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 2784" << std::endl;}
-    if(a=="49" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 2842" << std::endl;}
-    if(a=="50" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 2900" << std::endl;}
-    if(a=="51" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 2958" << std::endl;}
-    if(a=="52" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 3016" << std::endl;}
-    if(a=="53" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 3074" << std::endl;}
-    if(a=="54" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 3132" << std::endl;}
-    if(a=="55" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 3190" << std::endl;}
-    if(a=="56" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 3248" << std::endl;}
-    if(a=="57" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 3306" << std::endl;}
-    if(a=="58" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 3364" << std::endl;}
-    if(a=="59" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 3422" << std::endl;}
-    if(a=="60" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 3480" << std::endl;}
-    if(a=="61" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 3538" << std::endl;}
-    if(a=="62" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 3596" << std::endl;}
-    if(a=="63" && o=="*" && b=="58"){std::cout << std::endl << "Answer           : 3654" << std::endl;}
-    if(a=="0" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="1" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 59" << std::endl;}
-    if(a=="2" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 118" << std::endl;}
-    if(a=="3" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 177" << std::endl;}
-    if(a=="4" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 236" << std::endl;}
-    if(a=="5" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 295" << std::endl;}
-    if(a=="6" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 354" << std::endl;}
-    if(a=="7" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 413" << std::endl;}
-    if(a=="8" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 472" << std::endl;}
-    if(a=="9" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 531" << std::endl;}
-    if(a=="10" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 590" << std::endl;}
-    if(a=="11" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 649" << std::endl;}
-    if(a=="12" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 708" << std::endl;}
-    if(a=="13" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 767" << std::endl;}
-    if(a=="14" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 826" << std::endl;}
-    if(a=="15" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 885" << std::endl;}
-    if(a=="16" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 944" << std::endl;}
-    if(a=="17" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 1003" << std::endl;}
-    if(a=="18" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 1062" << std::endl;}
-    if(a=="19" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 1121" << std::endl;}
-    if(a=="20" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 1180" << std::endl;}
-    if(a=="21" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 1239" << std::endl;}
-    if(a=="22" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 1298" << std::endl;}
-    if(a=="23" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 1357" << std::endl;}
-    if(a=="24" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 1416" << std::endl;}
-    if(a=="25" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 1475" << std::endl;}
-    if(a=="26" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 1534" << std::endl;}
-    if(a=="27" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 1593" << std::endl;}
-    if(a=="28" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 1652" << std::endl;}
-    if(a=="29" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 1711" << std::endl;}
-    if(a=="30" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 1770" << std::endl;}
-    if(a=="31" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 1829" << std::endl;}
-    if(a=="32" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 1888" << std::endl;}
-    if(a=="33" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 1947" << std::endl;}
-    if(a=="34" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 2006" << std::endl;}
-    if(a=="35" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 2065" << std::endl;}
-    if(a=="36" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 2124" << std::endl;}
-    if(a=="37" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 2183" << std::endl;}
-    if(a=="38" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 2242" << std::endl;}
-    if(a=="39" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 2301" << std::endl;}
-    if(a=="40" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 2360" << std::endl;}
-    if(a=="41" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 2419" << std::endl;}
-    if(a=="42" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 2478" << std::endl;}
-    if(a=="43" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 2537" << std::endl;}
-    if(a=="44" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 2596" << std::endl;}
-    if(a=="45" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 2655" << std::endl;}
-    if(a=="46" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 2714" << std::endl;}
-    if(a=="47" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 2773" << std::endl;}
-    if(a=="48" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 2832" << std::endl;}
-    if(a=="49" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 2891" << std::endl;}
-    if(a=="50" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 2950" << std::endl;}
-    if(a=="51" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 3009" << std::endl;}
-    if(a=="52" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 3068" << std::endl;}
-    if(a=="53" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 3127" << std::endl;}
-    if(a=="54" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 3186" << std::endl;}
-    if(a=="55" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 3245" << std::endl;}
-    if(a=="56" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 3304" << std::endl;}
-    if(a=="57" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 3363" << std::endl;}
-    if(a=="58" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 3422" << std::endl;}
-    if(a=="59" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 3481" << std::endl;}
-    if(a=="60" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 3540" << std::endl;}
-    if(a=="61" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 3599" << std::endl;}
-    if(a=="62" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 3658" << std::endl;}
-    if(a=="63" && o=="*" && b=="59"){std::cout << std::endl << "Answer           : 3717" << std::endl;}
-    if(a=="0" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="1" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 60" << std::endl;}
-    if(a=="2" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 120" << std::endl;}
-    if(a=="3" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 180" << std::endl;}
-    if(a=="4" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 240" << std::endl;}
-    if(a=="5" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 300" << std::endl;}
-    if(a=="6" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 360" << std::endl;}
-    if(a=="7" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 420" << std::endl;}
-    if(a=="8" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 480" << std::endl;}
-    if(a=="9" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 540" << std::endl;}
-    if(a=="10" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 600" << std::endl;}
-    if(a=="11" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 660" << std::endl;}
-    if(a=="12" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 720" << std::endl;}
-    if(a=="13" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 780" << std::endl;}
-    if(a=="14" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 840" << std::endl;}
-    if(a=="15" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 900" << std::endl;}
-    if(a=="16" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 960" << std::endl;}
-    if(a=="17" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 1020" << std::endl;}
-    if(a=="18" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 1080" << std::endl;}
-    if(a=="19" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 1140" << std::endl;}
-    if(a=="20" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 1200" << std::endl;}
-    if(a=="21" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 1260" << std::endl;}
-    if(a=="22" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 1320" << std::endl;}
-    if(a=="23" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 1380" << std::endl;}
-    if(a=="24" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 1440" << std::endl;}
-    if(a=="25" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 1500" << std::endl;}
-    if(a=="26" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 1560" << std::endl;}
-    if(a=="27" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 1620" << std::endl;}
-    if(a=="28" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 1680" << std::endl;}
-    if(a=="29" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 1740" << std::endl;}
-    if(a=="30" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 1800" << std::endl;}
-    if(a=="31" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 1860" << std::endl;}
-    if(a=="32" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 1920" << std::endl;}
-    if(a=="33" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 1980" << std::endl;}
-    if(a=="34" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 2040" << std::endl;}
-    if(a=="35" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 2100" << std::endl;}
-    if(a=="36" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 2160" << std::endl;}
-    if(a=="37" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 2220" << std::endl;}
-    if(a=="38" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 2280" << std::endl;}
-    if(a=="39" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 2340" << std::endl;}
-    if(a=="40" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 2400" << std::endl;}
-    if(a=="41" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 2460" << std::endl;}
-    if(a=="42" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 2520" << std::endl;}
-    if(a=="43" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 2580" << std::endl;}
-    if(a=="44" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 2640" << std::endl;}
-    if(a=="45" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 2700" << std::endl;}
-    if(a=="46" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 2760" << std::endl;}
-    if(a=="47" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 2820" << std::endl;}
-    if(a=="48" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 2880" << std::endl;}
-    if(a=="49" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 2940" << std::endl;}
-    if(a=="50" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 3000" << std::endl;}
-    if(a=="51" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 3060" << std::endl;}
-    if(a=="52" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 3120" << std::endl;}
-    if(a=="53" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 3180" << std::endl;}
-    if(a=="54" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 3240" << std::endl;}
-    if(a=="55" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 3300" << std::endl;}
-    if(a=="56" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 3360" << std::endl;}
-    if(a=="57" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 3420" << std::endl;}
-    if(a=="58" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 3480" << std::endl;}
-    if(a=="59" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 3540" << std::endl;}
-    if(a=="60" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 3600" << std::endl;}
-    if(a=="61" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 3660" << std::endl;}
-    if(a=="62" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 3720" << std::endl;}
-    if(a=="63" && o=="*" && b=="60"){std::cout << std::endl << "Answer           : 3780" << std::endl;}
-    if(a=="0" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="1" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 61" << std::endl;}
-    if(a=="2" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 122" << std::endl;}
-    if(a=="3" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 183" << std::endl;}
-    if(a=="4" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 244" << std::endl;}
-    if(a=="5" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 305" << std::endl;}
-    if(a=="6" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 366" << std::endl;}
-    if(a=="7" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 427" << std::endl;}
-    if(a=="8" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 488" << std::endl;}
-    if(a=="9" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 549" << std::endl;}
-    if(a=="10" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 610" << std::endl;}
-    if(a=="11" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 671" << std::endl;}
-    if(a=="12" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 732" << std::endl;}
-    if(a=="13" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 793" << std::endl;}
-    if(a=="14" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 854" << std::endl;}
-    if(a=="15" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 915" << std::endl;}
-    if(a=="16" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 976" << std::endl;}
-    if(a=="17" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 1037" << std::endl;}
-    if(a=="18" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 1098" << std::endl;}
-    if(a=="19" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 1159" << std::endl;}
-    if(a=="20" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 1220" << std::endl;}
-    if(a=="21" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 1281" << std::endl;}
-    if(a=="22" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 1342" << std::endl;}
-    if(a=="23" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 1403" << std::endl;}
-    if(a=="24" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 1464" << std::endl;}
-    if(a=="25" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 1525" << std::endl;}
-    if(a=="26" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 1586" << std::endl;}
-    if(a=="27" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 1647" << std::endl;}
-    if(a=="28" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 1708" << std::endl;}
-    if(a=="29" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 1769" << std::endl;}
-    if(a=="30" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 1830" << std::endl;}
-    if(a=="31" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 1891" << std::endl;}
-    if(a=="32" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 1952" << std::endl;}
-    if(a=="33" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 2013" << std::endl;}
-    if(a=="34" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 2074" << std::endl;}
-    if(a=="35" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 2135" << std::endl;}
-    if(a=="36" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 2196" << std::endl;}
-    if(a=="37" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 2257" << std::endl;}
-    if(a=="38" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 2318" << std::endl;}
-    if(a=="39" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 2379" << std::endl;}
-    if(a=="40" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 2440" << std::endl;}
-    if(a=="41" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 2501" << std::endl;}
-    if(a=="42" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 2562" << std::endl;}
-    if(a=="43" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 2623" << std::endl;}
-    if(a=="44" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 2684" << std::endl;}
-    if(a=="45" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 2745" << std::endl;}
-    if(a=="46" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 2806" << std::endl;}
-    if(a=="47" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 2867" << std::endl;}
-    if(a=="48" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 2928" << std::endl;}
-    if(a=="49" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 2989" << std::endl;}
-    if(a=="50" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 3050" << std::endl;}
-    if(a=="51" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 3111" << std::endl;}
-    if(a=="52" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 3172" << std::endl;}
-    if(a=="53" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 3233" << std::endl;}
-    if(a=="54" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 3294" << std::endl;}
-    if(a=="55" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 3355" << std::endl;}
-    if(a=="56" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 3416" << std::endl;}
-    if(a=="57" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 3477" << std::endl;}
-    if(a=="58" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 3538" << std::endl;}
-    if(a=="59" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 3599" << std::endl;}
-    if(a=="60" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 3660" << std::endl;}
-    if(a=="61" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 3721" << std::endl;}
-    if(a=="62" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 3782" << std::endl;}
-    if(a=="63" && o=="*" && b=="61"){std::cout << std::endl << "Answer           : 3843" << std::endl;}
-    if(a=="0" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="1" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 62" << std::endl;}
-    if(a=="2" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 124" << std::endl;}
-    if(a=="3" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 186" << std::endl;}
-    if(a=="4" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 248" << std::endl;}
-    if(a=="5" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 310" << std::endl;}
-    if(a=="6" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 372" << std::endl;}
-    if(a=="7" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 434" << std::endl;}
-    if(a=="8" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 496" << std::endl;}
-    if(a=="9" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 558" << std::endl;}
-    if(a=="10" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 620" << std::endl;}
-    if(a=="11" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 682" << std::endl;}
-    if(a=="12" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 744" << std::endl;}
-    if(a=="13" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 806" << std::endl;}
-    if(a=="14" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 868" << std::endl;}
-    if(a=="15" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 930" << std::endl;}
-    if(a=="16" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 992" << std::endl;}
-    if(a=="17" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 1054" << std::endl;}
-    if(a=="18" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 1116" << std::endl;}
-    if(a=="19" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 1178" << std::endl;}
-    if(a=="20" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 1240" << std::endl;}
-    if(a=="21" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 1302" << std::endl;}
-    if(a=="22" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 1364" << std::endl;}
-    if(a=="23" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 1426" << std::endl;}
-    if(a=="24" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 1488" << std::endl;}
-    if(a=="25" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 1550" << std::endl;}
-    if(a=="26" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 1612" << std::endl;}
-    if(a=="27" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 1674" << std::endl;}
-    if(a=="28" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 1736" << std::endl;}
-    if(a=="29" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 1798" << std::endl;}
-    if(a=="30" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 1860" << std::endl;}
-    if(a=="31" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 1922" << std::endl;}
-    if(a=="32" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 1984" << std::endl;}
-    if(a=="33" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 2046" << std::endl;}
-    if(a=="34" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 2108" << std::endl;}
-    if(a=="35" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 2170" << std::endl;}
-    if(a=="36" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 2232" << std::endl;}
-    if(a=="37" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 2294" << std::endl;}
-    if(a=="38" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 2356" << std::endl;}
-    if(a=="39" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 2418" << std::endl;}
-    if(a=="40" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 2480" << std::endl;}
-    if(a=="41" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 2542" << std::endl;}
-    if(a=="42" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 2604" << std::endl;}
-    if(a=="43" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 2666" << std::endl;}
-    if(a=="44" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 2728" << std::endl;}
-    if(a=="45" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 2790" << std::endl;}
-    if(a=="46" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 2852" << std::endl;}
-    if(a=="47" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 2914" << std::endl;}
-    if(a=="48" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 2976" << std::endl;}
-    if(a=="49" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 3038" << std::endl;}
-    if(a=="50" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 3100" << std::endl;}
-    if(a=="51" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 3162" << std::endl;}
-    if(a=="52" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 3224" << std::endl;}
-    if(a=="53" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 3286" << std::endl;}
-    if(a=="54" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 3348" << std::endl;}
-    if(a=="55" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 3410" << std::endl;}
-    if(a=="56" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 3472" << std::endl;}
-    if(a=="57" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 3534" << std::endl;}
-    if(a=="58" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 3596" << std::endl;}
-    if(a=="59" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 3658" << std::endl;}
-    if(a=="60" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 3720" << std::endl;}
-    if(a=="61" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 3782" << std::endl;}
-    if(a=="62" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 3844" << std::endl;}
-    if(a=="63" && o=="*" && b=="62"){std::cout << std::endl << "Answer           : 3906" << std::endl;}
-    if(a=="0" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 0" << std::endl;}
-    if(a=="1" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 63" << std::endl;}
-    if(a=="2" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 126" << std::endl;}
-    if(a=="3" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 189" << std::endl;}
-    if(a=="4" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 252" << std::endl;}
-    if(a=="5" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 315" << std::endl;}
-    if(a=="6" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 378" << std::endl;}
-    if(a=="7" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 441" << std::endl;}
-    if(a=="8" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 504" << std::endl;}
-    if(a=="9" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 567" << std::endl;}
-    if(a=="10" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 630" << std::endl;}
-    if(a=="11" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 693" << std::endl;}
-    if(a=="12" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 756" << std::endl;}
-    if(a=="13" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 819" << std::endl;}
-    if(a=="14" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 882" << std::endl;}
-    if(a=="15" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 945" << std::endl;}
-    if(a=="16" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 1008" << std::endl;}
-    if(a=="17" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 1071" << std::endl;}
-    if(a=="18" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 1134" << std::endl;}
-    if(a=="19" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 1197" << std::endl;}
-    if(a=="20" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 1260" << std::endl;}
-    if(a=="21" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 1323" << std::endl;}
-    if(a=="22" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 1386" << std::endl;}
-    if(a=="23" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 1449" << std::endl;}
-    if(a=="24" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 1512" << std::endl;}
-    if(a=="25" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 1575" << std::endl;}
-    if(a=="26" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 1638" << std::endl;}
-    if(a=="27" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 1701" << std::endl;}
-    if(a=="28" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 1764" << std::endl;}
-    if(a=="29" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 1827" << std::endl;}
-    if(a=="30" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 1890" << std::endl;}
-    if(a=="31" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 1953" << std::endl;}
-    if(a=="32" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 2016" << std::endl;}
-    if(a=="33" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 2079" << std::endl;}
-    if(a=="34" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 2142" << std::endl;}
-    if(a=="35" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 2205" << std::endl;}
-    if(a=="36" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 2268" << std::endl;}
-    if(a=="37" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 2331" << std::endl;}
-    if(a=="38" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 2394" << std::endl;}
-    if(a=="39" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 2457" << std::endl;}
-    if(a=="40" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 2520" << std::endl;}
-    if(a=="41" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 2583" << std::endl;}
-    if(a=="42" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 2646" << std::endl;}
-    if(a=="43" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 2709" << std::endl;}
-    if(a=="44" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 2772" << std::endl;}
-    if(a=="45" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 2835" << std::endl;}
-    if(a=="46" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 2898" << std::endl;}
-    if(a=="47" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 2961" << std::endl;}
-    if(a=="48" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 3024" << std::endl;}
-    if(a=="49" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 3087" << std::endl;}
-    if(a=="50" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 3150" << std::endl;}
-    if(a=="51" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 3213" << std::endl;}
-    if(a=="52" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 3276" << std::endl;}
-    if(a=="53" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 3339" << std::endl;}
-    if(a=="54" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 3402" << std::endl;}
-    if(a=="55" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 3465" << std::endl;}
-    if(a=="56" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 3528" << std::endl;}
-    if(a=="57" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 3591" << std::endl;}
-    if(a=="58" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 3654" << std::endl;}
-    if(a=="59" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 3717" << std::endl;}
-    if(a=="60" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 3780" << std::endl;}
-    if(a=="61" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 3843" << std::endl;}
-    if(a=="62" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 3906" << std::endl;}
-    if(a=="63" && o=="*" && b=="63"){std::cout << std::endl << "Answer           : 3969" << std::endl;}
 }
